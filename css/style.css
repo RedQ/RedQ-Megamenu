@@ -7,25 +7,42 @@ body {
   font-family: 'Lato';
   font-size: 14px; }
 
-/* line 14, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
+.pixx a {
+  color: #8C8C8C; }
+/* line 18, ../sass/style.scss */
 .pixx .dropdown.pixx-fullwidth {
   position: static; }
-  /* line 17, ../sass/style.scss */
+  /* line 21, ../sass/style.scss */
   .pixx .dropdown.pixx-fullwidth .dropdown-menu {
     width: 100%;
     left: 0;
     right: 0; }
-/* line 24, ../sass/style.scss */
+    /* line 28, ../sass/style.scss */
+    .pixx .dropdown.pixx-fullwidth .dropdown-menu .columns {
+      width: 20%;
+      float: left; }
+  /* line 34, ../sass/style.scss */
+  .pixx .dropdown.pixx-fullwidth .columns {
+    border-right: 1px solid #EBEBEB; }
+    /* line 37, ../sass/style.scss */
+    .pixx .dropdown.pixx-fullwidth .columns li {
+      border-bottom: 1px solid #EBEBEB; }
+    /* line 40, ../sass/style.scss */
+    .pixx .dropdown.pixx-fullwidth .columns a {
+      padding: 20px 30px;
+      display: inline-block; }
+/* line 47, ../sass/style.scss */
 .pixx .menu-content {
   padding: 20px 30px; }
-  /* line 28, ../sass/style.scss */
+  /* line 51, ../sass/style.scss */
   .pixx .menu-content:before, .pixx .menu-content:after {
     display: table;
     content: "";
     line-height: 0; }
-  /* line 34, ../sass/style.scss */
+  /* line 57, ../sass/style.scss */
   .pixx .menu-content:after {
     clear: both; }
-/* line 38, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .pixx .thumbnails {
   list-style: none; }

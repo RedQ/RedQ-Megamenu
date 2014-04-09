@@ -10,6 +10,10 @@ body {
 	font-size: 14px;
 }
 .pixx {
+	a {
+		color: #8C8C8C;
+	}
+	
 	.dropdown {
 		&.pixx-fullwidth {
 			position: static;
@@ -18,6 +22,25 @@ body {
 				width: 100%;
 			    left: 0;
 			    right: 0;
+			    ul {
+			    	
+			    }
+			    .columns {
+			    	width: 20%;
+			    	float: left;
+			    }
+			}
+
+			.columns {
+				border-right: 1px solid #EBEBEB;
+				
+				li {
+					border-bottom: 1px solid #EBEBEB;
+				}
+				a {
+					padding: 20px 30px;
+					display: inline-block;
+				}
 			}
 		}
 	}
