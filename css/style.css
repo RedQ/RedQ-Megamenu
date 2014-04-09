@@ -1,0 +1,47 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/sstyle.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../sass/style.scss */
+body {
+  font-family: 'Lato';
+  font-size: 14px; }
+
+/* line 17, ../sass/style.scss */
+.pixx a {
+  color: #8c8c8c; }
+  /* line 20, ../sass/style.scss */
+  .pixx a:hover {
+    color: #5baadf; }
+/* line 26, ../sass/style.scss */
+.pixx .dropdown.pixx-fullwidth {
+  position: static; }
+  /* line 29, ../sass/style.scss */
+  .pixx .dropdown.pixx-fullwidth .dropdown-menu {
+    width: 100%;
+    left: 0;
+    right: 0; }
+    /* line 36, ../sass/style.scss */
+    .pixx .dropdown.pixx-fullwidth .dropdown-menu .columns {
+      width: 20%;
+      float: left; }
+  /* line 48, ../sass/style.scss */
+  .pixx .dropdown.pixx-fullwidth .columns a {
+    border-bottom: 1px solid #EBEBEB;
+    border-right: 1px solid #EBEBEB;
+    padding: 20px 30px;
+    display: inline-block; }
+/* line 57, ../sass/style.scss */
+.pixx .menu-content {
+  padding: 20px 30px; }
+  /* line 61, ../sass/style.scss */
+  .pixx .menu-content:before, .pixx .menu-content:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  /* line 67, ../sass/style.scss */
+  .pixx .menu-content:after {
+    clear: both; }
+/* line 71, ../sass/style.scss */
+.pixx .thumbnails {
+  list-style: none; }
