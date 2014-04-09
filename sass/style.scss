@@ -1,0 +1,41 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/sstyle.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+
+body {
+	font-family: 'Lato';
+	font-size: 14px;
+}
+.pixx {
+	.dropdown {
+		&.pixx-fullwidth {
+			position: static;
+
+			.dropdown-menu {
+				width: 100%;
+			    left: 0;
+			    right: 0;
+			}
+		}
+	}
+	.menu-content {
+		padding: 20px 30px;
+
+		&:before,
+		&:after {
+			display: table;
+			content: "";
+			line-height: 0;		
+		}
+
+		&:after {
+			clear: both;
+		}
+	}
+	.thumbnails {
+		list-style: none;
+	}
+}
