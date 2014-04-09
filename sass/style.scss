@@ -21,8 +21,18 @@ body {
 			color: $link-hover-color;
 		}
 	}
-	
+	.dropdown-menu {
+		padding: 0;
+
+		&.spacing {
+			padding: 20px 30px;
+		}
+		&.spacing10 {
+			padding: 10px 0;
+		}
+	}
 	.dropdown {
+		
 		&.pixx-fullwidth {
 			position: static;
 

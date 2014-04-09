@@ -13,35 +13,44 @@ body {
   /* line 20, ../sass/style.scss */
   .pixx a:hover {
     color: #5baadf; }
-/* line 26, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
+.pixx .dropdown-menu {
+  padding: 0; }
+  /* line 27, ../sass/style.scss */
+  .pixx .dropdown-menu.spacing {
+    padding: 20px 30px; }
+  /* line 30, ../sass/style.scss */
+  .pixx .dropdown-menu.spacing10 {
+    padding: 10px 0; }
+/* line 36, ../sass/style.scss */
 .pixx .dropdown.pixx-fullwidth {
   position: static; }
-  /* line 29, ../sass/style.scss */
+  /* line 39, ../sass/style.scss */
   .pixx .dropdown.pixx-fullwidth .dropdown-menu {
     width: 100%;
     left: 0;
     right: 0; }
-    /* line 36, ../sass/style.scss */
+    /* line 46, ../sass/style.scss */
     .pixx .dropdown.pixx-fullwidth .dropdown-menu .columns {
       width: 20%;
       float: left; }
-  /* line 48, ../sass/style.scss */
+  /* line 58, ../sass/style.scss */
   .pixx .dropdown.pixx-fullwidth .columns a {
     border-bottom: 1px solid #EBEBEB;
     border-right: 1px solid #EBEBEB;
     padding: 20px 30px;
     display: inline-block; }
-/* line 57, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .pixx .menu-content {
   padding: 20px 30px; }
-  /* line 61, ../sass/style.scss */
+  /* line 71, ../sass/style.scss */
   .pixx .menu-content:before, .pixx .menu-content:after {
     display: table;
     content: "";
     line-height: 0; }
-  /* line 67, ../sass/style.scss */
+  /* line 77, ../sass/style.scss */
   .pixx .menu-content:after {
     clear: both; }
-/* line 71, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .pixx .thumbnails {
   list-style: none; }
