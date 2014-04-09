@@ -22,27 +22,23 @@ body {
     .pixx .dropdown.pixx-fullwidth .dropdown-menu .columns {
       width: 20%;
       float: left; }
-  /* line 34, ../sass/style.scss */
-  .pixx .dropdown.pixx-fullwidth .columns {
-    border-right: 1px solid #EBEBEB; }
-    /* line 37, ../sass/style.scss */
-    .pixx .dropdown.pixx-fullwidth .columns li {
-      border-bottom: 1px solid #EBEBEB; }
-    /* line 40, ../sass/style.scss */
-    .pixx .dropdown.pixx-fullwidth .columns a {
-      padding: 20px 30px;
-      display: inline-block; }
-/* line 47, ../sass/style.scss */
+  /* line 40, ../sass/style.scss */
+  .pixx .dropdown.pixx-fullwidth .columns a {
+    border-bottom: 1px solid #EBEBEB;
+    border-right: 1px solid #EBEBEB;
+    padding: 20px 30px;
+    display: inline-block; }
+/* line 49, ../sass/style.scss */
 .pixx .menu-content {
   padding: 20px 30px; }
-  /* line 51, ../sass/style.scss */
+  /* line 53, ../sass/style.scss */
   .pixx .menu-content:before, .pixx .menu-content:after {
     display: table;
     content: "";
     line-height: 0; }
-  /* line 57, ../sass/style.scss */
+  /* line 59, ../sass/style.scss */
   .pixx .menu-content:after {
     clear: both; }
-/* line 61, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .pixx .thumbnails {
   list-style: none; }

@@ -32,12 +32,14 @@ body {
 			}
 
 			.columns {
-				border-right: 1px solid #EBEBEB;
 				
+
 				li {
-					border-bottom: 1px solid #EBEBEB;
+					
 				}
 				a {
+					border-bottom: 1px solid #EBEBEB;
+					border-right: 1px solid #EBEBEB;
 					padding: 20px 30px;
 					display: inline-block;
 				}
