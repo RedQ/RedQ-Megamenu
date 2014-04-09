@@ -68,4 +68,8 @@ body {
     clear: both; }
 /* line 105, ../sass/style.scss */
 .pixx .thumbnails {
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
+/* line 110, ../sass/style.scss */
+.pixx .thumbnail {
+  margin-bottom: 0; }
