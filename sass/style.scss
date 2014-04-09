@@ -11,8 +11,32 @@ body {
 	font-size: 14px;
 }
 .navbar-default {
+	.navbar-nav {
+		> li {
+		 	> a {
+				color: $link-color;
 
+				&:hover {
+					color: $link-hover-color;
+				}
+			}
+		}
+
+		> .open {
+			> a {
+				color: $link-color;
+				background-color: $bg-color;
+
+				&:hover,
+				&:focus {
+					color: $link-color;
+					background-color: $bg-color;
+				}
+			}
+		}
+	}
 }
+
 .pixx {
 	a {
 		color: $link-color;
@@ -56,8 +80,8 @@ body {
 					
 				}
 				a {
-					border-bottom: 1px solid #EBEBEB;
-					border-right: 1px solid #EBEBEB;
+					border-bottom: 1px solid $border-color;
+					border-right: 1px solid $border-color;
 					padding: 20px 30px;
 					display: inline-block;
 				}
