@@ -68,8 +68,10 @@ body {
 			    	
 			    }
 			    .columns {
-			    	width: 20%;
-			    	float: left;
+			    	padding-left: 0;
+			    	padding-right: 0;
+			    	// width: 20%;
+			    	// float: left;
 			    }
 			}
 
@@ -77,12 +79,14 @@ body {
 				
 
 				li {
-					
-				}
-				a {
+					padding: 5% 20.674%;
 					border-bottom: 1px solid $border-color;
 					border-right: 1px solid $border-color;
-					padding: 20px 30px;
+				}
+				a {
+					// border-bottom: 1px solid $border-color;
+					// border-right: 1px solid $border-color;
+					// padding: 5% 20.674%;
 					display: inline-block;
 				}
 			}
@@ -112,4 +116,13 @@ body {
 	}
 }
 
+
+
+.show-grid [class^=col-] {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	// background-color: #EEE;
+	border: 1px solid $border-color;
+	text-align: center;
+}
 
