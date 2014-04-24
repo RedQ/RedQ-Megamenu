@@ -79,15 +79,15 @@ body {
 				
 
 				li {
-					padding: 5% 20.674%;
+					// padding: 5% 20.674%;
 					border-bottom: 1px solid $border-color;
 					border-right: 1px solid $border-color;
 				}
 				a {
 					// border-bottom: 1px solid $border-color;
 					// border-right: 1px solid $border-color;
-					// padding: 5% 20.674%;
-					display: inline-block;
+					padding: 5% 20.674%;
+					display: block;
 				}
 			}
 		}
@@ -116,7 +116,39 @@ body {
 	}
 }
 
+.widget-list {
+	list-style: none;
+	padding-left: 0;
+	li {
+		margin-bottom: 5%;
+		figure {
+			float: left;
+			width: 6.5em;
+			margin-bottom: 2px;
+		}
 
+		.product-details {
+			margin-left: 7.5em;
+		}
+	}
+}
+.dropdown-submenu {
+	list-style: none;
+	padding: 5% 20% 5% 5%;
+
+	li {
+		// margin: 7%;
+	}
+	a {
+		padding: 5%;
+		display: block;
+
+		&:hover {
+			background: $hover-link-bg;
+			text-decoration: none;
+		}
+	}
+}
 
 .show-grid [class^=col-] {
 	padding-top: 10px;
