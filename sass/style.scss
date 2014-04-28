@@ -1,0 +1,236 @@
+/* Name: RedQ-Megamnu
+ * Author: Faysal Ul Haque
+ * Author Email: faysal.haque@gmail.com
+ * Descriotion: Responsive Megamenu on top of twitter bootstrap 3 */
+
+@import "compass";
+@import "variable";
+
+body {
+	font-family: 'Lato';
+	font-size: 14px;
+}
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
+.navbar-default {
+	background-color: $navbar-bg;
+	border-color: $navbar-bg-border;
+
+	span.redq-link-title {
+		display: block;
+		line-height: 1.4em;
+		color: inherit;
+		font-weight: bold;
+		// text-transform: uppercase;
+	}
+
+	span.redq-item-description {
+		font-size: 9px;
+		color: #BBB;
+		text-transform: uppercase;
+	}
+
+	.navbar-nav {
+		> li {
+		 	> a {
+				color: $link-color;
+
+				&:hover {
+					color: $link-hover-color;
+				}
+			}
+		}
+
+		> .open {
+			> a {
+				color: $link-color;
+				background-color: $bg-color;
+
+				&:hover,
+				&:focus {
+					color: $link-color;
+					background-color: $bg-color;
+				}
+			}
+		}
+	}
+}
+
+.redq {
+	a {
+		color: $link-color;
+
+		&:hover{
+			color: $link-hover-color;
+		}
+	}
+	.dropdown-menu {
+		padding: 0;
+
+		&.spacing {
+			padding: 20px 30px;
+		}
+		&.spacing10 {
+			padding: 10px 0;
+		}
+	}
+	.dropdown {
+		
+		&.redq-fullwidth {
+			position: static;
+
+			.dropdown-menu {
+				width: 100%;
+			    left: 0;
+			    right: 0;
+			    ul {
+			    	
+			    }
+			    .columns {
+			    	padding-left: 0;
+			    	padding-right: 0;
+			    	// width: 20%;
+			    	// float: left;
+			    }
+			}
+
+			.columns {
+				
+
+				li {
+					// padding: 5% 20.674%;
+					border-bottom: 1px solid $border-color;
+					border-right: 1px solid $border-color;
+				}
+				a {
+					// border-bottom: 1px solid $border-color;
+					// border-right: 1px solid $border-color;
+					padding: 5% 20.674%;
+					display: block;
+				}
+			}
+		}
+	}
+	.menu-content {
+		padding: 20px 30px;
+
+		&:before,
+		&:after {
+			display: table;
+			content: "";
+			line-height: 0;		
+		}
+
+		&:after {
+			clear: both;
+		}
+	}
+	.thumbnails {
+		list-style: none;
+		padding: 0;
+	}
+
+	.thumbnail {
+		margin-bottom: 0;
+	}
+}
+
+.widget-list {
+	list-style: none;
+	padding-left: 0;
+	li {
+		margin-bottom: 5%;
+		figure {
+			float: left;
+			width: 6.5em;
+			margin-bottom: 2px;
+		}
+
+		.product-details {
+			margin-left: 7.5em;
+		}
+
+		.product-cats {
+			display: block;
+			margin-bottom: 3px;
+		}
+	}
+}
+.dropdown-submenu {
+	list-style: none;
+	padding: 5% 20% 5% 5%;
+
+	li {
+		// margin: 7%;
+	}
+	a {
+		padding: 5%;
+		display: block;
+
+		&:hover {
+			background: $hover-link-bg;
+			text-decoration: none;
+		}
+	}
+}
+
+.show-grid [class^=col-] {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	// background-color: #EEE;
+	border: 1px solid $border-color;
+	text-align: center;
+}
+ul.nav .dropdown:hover > .sub-menu,
+ul.nav .dropdown:hover > .dropdown-menu {
+	display: block;
+}
+ul.nav .dropdown {
+	position: relative;
+	z-index: 999999;
+}
+ul.sub-menu {
+	list-style: none;
+	padding-left: 0;
+	position: absolute;
+	width: 10em;
+	display: none;
+	background: $inverse-bg;
+	border: 1px solid $border-color;
+
+	a {
+		padding: 5%;
+		display: block;
+
+		&:hover {
+			background: $hover-link-bg;
+			text-decoration: none;
+		}
+	}
+}
+ ul.sub-menu  ul.sub-menu {
+ 	// position: absolute;
+ 	left: 100%;
+ 	top: 0;
+ }
+ ul.sub-menu > li.menu-item > ul.sub-menu {
+	display: none;
+	left: 100%;
+}
+
+
+@media (max-width: 767px) {
+	.nav .sub-menu,
+	.nav .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: rgba(0, 0, 0, 0);
+		border: 0;
+		box-shadow: none;
+	}
+}
