@@ -19,10 +19,61 @@ a {
 .header {
 	background: $inverse-bg;
 	border-bottom: 1px solid $border-color;
+	
+	.navbar {
+		margin-bottom: 0;
+	}
+	
+	&.icons-top {
+		.nav {
+			li {
+				a {
+					text-align: center;
+					i {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	&.icons-left {
+		.nav {
+			li {
+				a {
+					i {
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+
+	&.icons-right {
+		.nav {
+			li {
+
+				
+			
+				a {
+					i {	
+						// float: right;
+						margin-left: 5px;
+					}
+
+					.link-item {
+						// display: block;
+						// float: left;
+						// padding: 0px;
+						// position: static;
+						// border: 0px none
+					}
+				}
+			}
+		}
+	}
 }
-.navbar {
-	margin-bottom: 0;
-}
+
 .navbar-default {
 	background-color: $inverse-bg;
 	border: 0;
@@ -44,7 +95,8 @@ a {
 	.navbar-nav {
 		> li {
 		 	> a {
-				color: $link-color;
+				
+					color: $link-color;
 
 				&:hover {
 					color: $link-hover-color;
