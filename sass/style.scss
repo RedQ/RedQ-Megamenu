@@ -165,7 +165,9 @@ a {
 
 				li {
 					// padding: 5% 20.674%;
+					margin-left: -1px;
 					border-bottom: 1px solid $border-color;
+					border-left: 1px solid $border-color;
 					border-right: 1px solid $border-color;
 				}
 				a {
