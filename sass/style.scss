@@ -173,7 +173,44 @@ a {
 				a {
 					// border-bottom: 1px solid $border-color;
 					// border-right: 1px solid $border-color;
-					padding: 5% 20.674%;
+					padding: 10px 25px;
+					display: block;
+				}
+			}
+		}
+
+		&.redq-halfwidth {
+			position: relative;
+
+			.dropdown-menu {
+				width: 585px;
+			    left: 0;
+			    // right: 0;
+			    ul {
+			    	
+			    }
+			    .columns {
+			    	padding-left: 0;
+			    	padding-right: 0;
+			    	// width: 20%;
+			    	// float: left;
+			    }
+			}
+
+			.columns {
+				
+
+				li {
+					// padding: 5% 20.674%;
+					margin-left: -1px;
+					border-bottom: 1px solid $border-color;
+					border-left: 1px solid $border-color;
+					border-right: 1px solid $border-color;
+				}
+				a {
+					// border-bottom: 1px solid $border-color;
+					// border-right: 1px solid $border-color;
+					padding: 10px 25px;
 					display: block;
 				}
 			}
