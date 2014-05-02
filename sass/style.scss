@@ -1,7 +1,7 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/css/sstyle.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Name: RedQ-Megamnu
+ * Author: Faysal Ul Haque
+ * Author Email: faysal.haque@gmail.com
+ * Descriotion: Responsive Megamenu on top of twitter bootstrap 3 */
 
 @import "compass";
 @import "variable";
@@ -10,7 +10,37 @@ body {
 	font-family: 'Lato';
 	font-size: 14px;
 }
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.header {
+	background: $inverse-bg;
+	border-bottom: 1px solid $border-color;
+}
+.navbar {
+	margin-bottom: 0;
+}
 .navbar-default {
+	background-color: $inverse-bg;
+	border: 0;
+
+	span.redq-link-title {
+		display: block;
+		line-height: 1.4em;
+		color: inherit;
+		font-weight: bold;
+		// text-transform: uppercase;
+	}
+
+	span.redq-item-description {
+		font-size: 9px;
+		color: #BBB;
+		text-transform: uppercase;
+	}
+
 	.navbar-nav {
 		> li {
 		 	> a {
@@ -37,7 +67,7 @@ body {
 	}
 }
 
-.pixx {
+.redq {
 	a {
 		color: $link-color;
 
@@ -47,6 +77,7 @@ body {
 	}
 	.dropdown-menu {
 		padding: 0;
+		box-shadow: none;
 
 		&.spacing {
 			padding: 20px 30px;
@@ -57,7 +88,7 @@ body {
 	}
 	.dropdown {
 		
-		&.pixx-fullwidth {
+		&.redq-fullwidth {
 			position: static;
 
 			.dropdown-menu {
@@ -130,6 +161,11 @@ body {
 		.product-details {
 			margin-left: 7.5em;
 		}
+
+		.product-cats {
+			display: block;
+			margin-bottom: 3px;
+		}
 	}
 }
 .dropdown-submenu {
@@ -157,4 +193,53 @@ body {
 	border: 1px solid $border-color;
 	text-align: center;
 }
+ul.nav .dropdown:hover > .sub-menu,
+ul.nav .dropdown:hover > .dropdown-menu {
+	display: block;
+}
+ul.nav .dropdown {
+	position: relative;
+	z-index: 999999;
+}
+ul.sub-menu {
+	list-style: none;
+	padding-left: 0;
+	position: absolute;
+	width: 10em;
+	display: none;
+	background: $inverse-bg;
+	border: 1px solid $border-color;
 
+	a {
+		padding: 5%;
+		display: block;
+
+		&:hover {
+			background: $hover-link-bg;
+			text-decoration: none;
+		}
+	}
+}
+ ul.sub-menu  ul.sub-menu {
+ 	// position: absolute;
+ 	left: 100%;
+ 	top: 0;
+ }
+ ul.sub-menu > li.menu-item > ul.sub-menu {
+	display: none;
+	left: 100%;
+}
+
+
+@media (max-width: 767px) {
+	.nav .sub-menu,
+	.nav .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: rgba(0, 0, 0, 0);
+		border: 0;
+		box-shadow: none;
+	}
+}
