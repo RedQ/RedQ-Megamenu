@@ -43,9 +43,26 @@
 	background-color: #FFF;
 	border-color: #FFF;
 }
-
-
-
+.bs-docs-featurette {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #555;
+	text-align: center;
+	background-color: #FFF;
+	border-bottom: 1px solid #E5E5E5;
+}
+.btn-outline {
+	color: #563D7C;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: #563D7C;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+	color: #FFF;
+	background-color: #563D7C;
+	border-color: #563D7C;
+}
 @media (min-width: 480px) {
 	.bs-docs-masthead .btn {
 		width: auto;
