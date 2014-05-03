@@ -127,12 +127,18 @@ a {
 			color: $link-hover-color;
 		}
 	}
+	.thumbnails {
+		padding: 20px !important;
 
+		ul {
+			list-style: none;
+			padding-left: 0;
+		}
+	}
 	.columns {
 		ul {
 			list-style: none;
 			padding-left: 0;
-
 			
 			li {
 				// padding: 5% 20.674%;
