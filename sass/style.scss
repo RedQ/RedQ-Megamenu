@@ -319,10 +319,7 @@ a {
 	border: 1px solid $border-color;
 	text-align: center;
 }
-ul.nav .dropdown:hover > .sub-menu,
-ul.nav .dropdown:hover > .dropdown-menu {
-	display: block;
-}
+
 ul.nav .dropdown {
 	position: relative;
 	z-index: 999999;
@@ -367,5 +364,12 @@ ul.sub-menu {
 		background-color: rgba(0, 0, 0, 0);
 		border: 0;
 		box-shadow: none;
+	}
+}
+
+@media (min-width: 768px) {
+	ul.nav .dropdown:hover > .sub-menu,
+	ul.nav .dropdown:hover > .dropdown-menu {
+		display: block;
 	}
 }

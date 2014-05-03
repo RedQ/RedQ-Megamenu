@@ -182,16 +182,11 @@ a:hover {
   text-align: center; }
 
 /* line 323, ../sass/style.scss */
-ul.nav .dropdown:hover > .sub-menu,
-ul.nav .dropdown:hover > .dropdown-menu {
-  display: block; }
-
-/* line 326, ../sass/style.scss */
 ul.nav .dropdown {
   position: relative;
   z-index: 999999; }
 
-/* line 330, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 ul.sub-menu {
   list-style: none;
   padding-left: 0;
@@ -200,27 +195,27 @@ ul.sub-menu {
   display: none;
   background: white;
   border: 1px solid #ebebeb; }
-  /* line 339, ../sass/style.scss */
+  /* line 336, ../sass/style.scss */
   ul.sub-menu a {
     padding: 5%;
     display: block; }
-    /* line 343, ../sass/style.scss */
+    /* line 340, ../sass/style.scss */
     ul.sub-menu a:hover {
       background: #f7f7f7;
       text-decoration: none; }
 
-/* line 349, ../sass/style.scss */
+/* line 346, ../sass/style.scss */
 ul.sub-menu ul.sub-menu {
   left: 100%;
   top: 0; }
 
-/* line 354, ../sass/style.scss */
+/* line 351, ../sass/style.scss */
 ul.sub-menu > li.menu-item > ul.sub-menu {
   display: none;
   left: 100%; }
 
 @media (max-width: 767px) {
-  /* line 362, ../sass/style.scss */
+  /* line 359, ../sass/style.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;
@@ -230,3 +225,8 @@ ul.sub-menu > li.menu-item > ul.sub-menu {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     box-shadow: none; } }
+@media (min-width: 768px) {
+  /* line 372, ../sass/style.scss */
+  ul.nav .dropdown:hover > .sub-menu,
+  ul.nav .dropdown:hover > .dropdown-menu {
+    display: block; } }
