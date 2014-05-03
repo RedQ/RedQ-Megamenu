@@ -15,9 +15,68 @@ a {
 		text-decoration: none;
 	}
 }
+
+.header {
+	background: $inverse-bg;
+	border-bottom: 1px solid $border-color;
+	
+	.navbar {
+		margin-bottom: 0;
+	}
+	
+	&.icons-top {
+		.nav {
+			li {
+				a {
+					text-align: center;
+					i {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	&.icons-left {
+		.nav {
+			li {
+				a {
+					i {
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+
+	&.icons-right {
+		.nav {
+			li {
+
+				
+			
+				a {
+					i {	
+						// float: right;
+						margin-left: 5px;
+					}
+
+					.link-item {
+						// display: block;
+						// float: left;
+						// padding: 0px;
+						// position: static;
+						// border: 0px none
+					}
+				}
+			}
+		}
+	}
+}
+
 .navbar-default {
-	background-color: $navbar-bg;
-	border-color: $navbar-bg-border;
+	background-color: $inverse-bg;
+	border: 0;
 
 	span.redq-link-title {
 		display: block;
@@ -36,7 +95,8 @@ a {
 	.navbar-nav {
 		> li {
 		 	> a {
-				color: $link-color;
+				
+					color: $link-color;
 
 				&:hover {
 					color: $link-hover-color;
@@ -67,8 +127,48 @@ a {
 			color: $link-hover-color;
 		}
 	}
+	.thumbnails {
+		padding: 20px !important;
+
+		ul {
+			list-style: none;
+			padding-left: 0;
+		}
+	}
+	.columns {
+		ul {
+			list-style: none;
+			padding-left: 0;
+			
+			li {
+				// padding: 5% 20.674%;
+				// margin-left: -1px;
+				// border-bottom: 1px solid $border-color;
+				// border-left: 1px solid $border-color;
+				// border-right: 1px solid $border-color;
+				border: 1px solid $border-color;
+			}
+
+			a {
+				// border-bottom: 1px solid $border-color;
+				// border-right: 1px solid $border-color;
+				padding: 10px 25px;
+				display: block;
+			}
+		}		
+		
+		&:last-child {
+			li {
+				border-right: 0;
+			}
+		}
+		
+	}
 	.dropdown-menu {
 		padding: 0;
+		box-shadow: none;
+		border: 1px solid $border-color;
+
 
 		&.spacing {
 			padding: 20px 30px;
@@ -94,24 +194,59 @@ a {
 			    	padding-right: 0;
 			    	// width: 20%;
 			    	// float: left;
+			    	// 
+			    	
+			    	// li {
+			    	// 	ul {
+			    	// 		list-style-type: none;
+			    	// 	}
+			    	// }
 			    }
 			}
 
-			.columns {
+			// .columns {
 				
 
-				li {
-					// padding: 5% 20.674%;
-					border-bottom: 1px solid $border-color;
-					border-right: 1px solid $border-color;
-				}
-				a {
-					// border-bottom: 1px solid $border-color;
-					// border-right: 1px solid $border-color;
-					padding: 5% 20.674%;
-					display: block;
-				}
+			// 	ul {
+			// 		// list-style: none;
+			// 		// padding-left: 0;
+
+			// 		li {
+			// 			// padding: 5% 20.674%;
+			// 			margin-left: -1px;
+			// 			border-bottom: 1px solid $border-color;
+			// 			border-left: 1px solid $border-color;
+			// 			border-right: 1px solid $border-color;
+			// 		}
+			// 		a {
+			// 			// border-bottom: 1px solid $border-color;
+			// 			// border-right: 1px solid $border-color;
+			// 			padding: 10px 25px;
+			// 			display: block;
+			// 		}
+			// 	}
+				
+			// }
+		}
+
+		&.redq-halfwidth {
+			position: relative;
+
+			.dropdown-menu {
+				width: 585px;
+			    left: 0;
+			    // right: 0;
+			    ul {
+			    	
+			    }
+			    .columns {
+			    	padding-left: 0;
+			    	padding-right: 0;
+			    	// width: 20%;
+			    	// float: left;
+			    }
 			}
+
 		}
 	}
 	.menu-content {
