@@ -127,6 +127,36 @@ a {
 			color: $link-hover-color;
 		}
 	}
+
+	.columns {
+		ul {
+			list-style: none;
+			padding-left: 0;
+
+			
+			li {
+				// padding: 5% 20.674%;
+				margin-left: -1px;
+				border-bottom: 1px solid $border-color;
+				border-left: 1px solid $border-color;
+				border-right: 1px solid $border-color;
+			}
+
+			a {
+				// border-bottom: 1px solid $border-color;
+				// border-right: 1px solid $border-color;
+				padding: 10px 25px;
+				display: block;
+			}
+		}		
+		
+		&:last-child {
+			li {
+				border-right: 0;
+			}
+		}
+		
+	}
 	.dropdown-menu {
 		padding: 0;
 		box-shadow: none;
@@ -157,29 +187,39 @@ a {
 			    	padding-right: 0;
 			    	// width: 20%;
 			    	// float: left;
+			    	// 
+			    	
+			    	// li {
+			    	// 	ul {
+			    	// 		list-style-type: none;
+			    	// 	}
+			    	// }
 			    }
 			}
 
-			.columns {
+			// .columns {
 				
 
-				ul {
-					li {
-						// padding: 5% 20.674%;
-						margin-left: -1px;
-						border-bottom: 1px solid $border-color;
-						border-left: 1px solid $border-color;
-						border-right: 1px solid $border-color;
-					}
-					a {
-						// border-bottom: 1px solid $border-color;
-						// border-right: 1px solid $border-color;
-						padding: 10px 25px;
-						display: block;
-					}
-				}
+			// 	ul {
+			// 		// list-style: none;
+			// 		// padding-left: 0;
+
+			// 		li {
+			// 			// padding: 5% 20.674%;
+			// 			margin-left: -1px;
+			// 			border-bottom: 1px solid $border-color;
+			// 			border-left: 1px solid $border-color;
+			// 			border-right: 1px solid $border-color;
+			// 		}
+			// 		a {
+			// 			// border-bottom: 1px solid $border-color;
+			// 			// border-right: 1px solid $border-color;
+			// 			padding: 10px 25px;
+			// 			display: block;
+			// 		}
+			// 	}
 				
-			}
+			// }
 		}
 
 		&.redq-halfwidth {
@@ -200,23 +240,6 @@ a {
 			    }
 			}
 
-			.columns {
-				
-
-				li {
-					// padding: 5% 20.674%;
-					margin-left: -1px;
-					border-bottom: 1px solid $border-color;
-					border-left: 1px solid $border-color;
-					border-right: 1px solid $border-color;
-				}
-				a {
-					// border-bottom: 1px solid $border-color;
-					// border-right: 1px solid $border-color;
-					padding: 10px 25px;
-					display: block;
-				}
-			}
 		}
 	}
 	.menu-content {

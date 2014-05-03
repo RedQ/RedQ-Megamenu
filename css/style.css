@@ -67,130 +67,127 @@ a:hover {
   /* line 126, ../sass/style.scss */
   .redq a:hover {
     color: #5baadf; }
-/* line 130, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
+.redq .columns ul {
+  list-style: none;
+  padding-left: 0; }
+  /* line 137, ../sass/style.scss */
+  .redq .columns ul li {
+    margin-left: -1px;
+    border-bottom: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb; }
+  /* line 145, ../sass/style.scss */
+  .redq .columns ul a {
+    padding: 10px 25px;
+    display: block; }
+/* line 154, ../sass/style.scss */
+.redq .columns:last-child li {
+  border-right: 0; }
+/* line 160, ../sass/style.scss */
 .redq .dropdown-menu {
   padding: 0;
   box-shadow: none;
   border: 1px solid #ebebeb; }
-  /* line 136, ../sass/style.scss */
+  /* line 166, ../sass/style.scss */
   .redq .dropdown-menu.spacing {
     padding: 20px 30px; }
-  /* line 139, ../sass/style.scss */
+  /* line 169, ../sass/style.scss */
   .redq .dropdown-menu.spacing10 {
     padding: 10px 0; }
-/* line 145, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 .redq .dropdown.redq-fullwidth {
   position: static; }
-  /* line 148, ../sass/style.scss */
+  /* line 178, ../sass/style.scss */
   .redq .dropdown.redq-fullwidth .dropdown-menu {
     width: 100%;
     left: 0;
     right: 0; }
-    /* line 155, ../sass/style.scss */
+    /* line 185, ../sass/style.scss */
     .redq .dropdown.redq-fullwidth .dropdown-menu .columns {
       padding-left: 0;
       padding-right: 0; }
-  /* line 167, ../sass/style.scss */
-  .redq .dropdown.redq-fullwidth .columns ul li {
-    margin-left: -1px;
-    border-bottom: 1px solid #ebebeb;
-    border-left: 1px solid #ebebeb;
-    border-right: 1px solid #ebebeb; }
-  /* line 174, ../sass/style.scss */
-  .redq .dropdown.redq-fullwidth .columns ul a {
-    padding: 10px 25px;
-    display: block; }
-/* line 185, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .redq .dropdown.redq-halfwidth {
   position: relative; }
-  /* line 188, ../sass/style.scss */
+  /* line 228, ../sass/style.scss */
   .redq .dropdown.redq-halfwidth .dropdown-menu {
     width: 585px;
     left: 0; }
-    /* line 195, ../sass/style.scss */
+    /* line 235, ../sass/style.scss */
     .redq .dropdown.redq-halfwidth .dropdown-menu .columns {
       padding-left: 0;
       padding-right: 0; }
-  /* line 206, ../sass/style.scss */
-  .redq .dropdown.redq-halfwidth .columns li {
-    margin-left: -1px;
-    border-bottom: 1px solid #ebebeb;
-    border-left: 1px solid #ebebeb;
-    border-right: 1px solid #ebebeb; }
-  /* line 213, ../sass/style.scss */
-  .redq .dropdown.redq-halfwidth .columns a {
-    padding: 10px 25px;
-    display: block; }
-/* line 222, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 .redq .menu-content {
   padding: 20px 30px; }
-  /* line 226, ../sass/style.scss */
+  /* line 249, ../sass/style.scss */
   .redq .menu-content:before, .redq .menu-content:after {
     display: table;
     content: "";
     line-height: 0; }
-  /* line 232, ../sass/style.scss */
+  /* line 255, ../sass/style.scss */
   .redq .menu-content:after {
     clear: both; }
-/* line 236, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .redq .thumbnails {
   list-style: none;
   padding: 0; }
-/* line 241, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 .redq .thumbnail {
   margin-bottom: 0; }
 
-/* line 246, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .widget-list {
   list-style: none;
   padding-left: 0; }
-  /* line 249, ../sass/style.scss */
+  /* line 272, ../sass/style.scss */
   .widget-list li {
     margin-bottom: 5%; }
-    /* line 251, ../sass/style.scss */
+    /* line 274, ../sass/style.scss */
     .widget-list li figure {
       float: left;
       width: 6.5em;
       margin-bottom: 2px; }
-    /* line 257, ../sass/style.scss */
+    /* line 280, ../sass/style.scss */
     .widget-list li .product-details {
       margin-left: 7.5em; }
-    /* line 261, ../sass/style.scss */
+    /* line 284, ../sass/style.scss */
     .widget-list li .product-cats {
       display: block;
       margin-bottom: 3px; }
 
-/* line 267, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .dropdown-submenu {
   list-style: none;
   padding: 5% 20% 5% 5%; }
-  /* line 274, ../sass/style.scss */
+  /* line 297, ../sass/style.scss */
   .dropdown-submenu a {
     padding: 5%;
     display: block; }
-    /* line 278, ../sass/style.scss */
+    /* line 301, ../sass/style.scss */
     .dropdown-submenu a:hover {
       background: #f7f7f7;
       text-decoration: none; }
 
-/* line 285, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .show-grid [class^=col-] {
   padding-top: 10px;
   padding-bottom: 10px;
   border: 1px solid #ebebeb;
   text-align: center; }
 
-/* line 293, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 ul.nav .dropdown:hover > .sub-menu,
 ul.nav .dropdown:hover > .dropdown-menu {
   display: block; }
 
-/* line 296, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 ul.nav .dropdown {
   position: relative;
   z-index: 999999; }
 
-/* line 300, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 ul.sub-menu {
   list-style: none;
   padding-left: 0;
@@ -199,27 +196,27 @@ ul.sub-menu {
   display: none;
   background: white;
   border: 1px solid #ebebeb; }
-  /* line 309, ../sass/style.scss */
+  /* line 332, ../sass/style.scss */
   ul.sub-menu a {
     padding: 5%;
     display: block; }
-    /* line 313, ../sass/style.scss */
+    /* line 336, ../sass/style.scss */
     ul.sub-menu a:hover {
       background: #f7f7f7;
       text-decoration: none; }
 
-/* line 319, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 ul.sub-menu ul.sub-menu {
   left: 100%;
   top: 0; }
 
-/* line 324, ../sass/style.scss */
+/* line 347, ../sass/style.scss */
 ul.sub-menu > li.menu-item > ul.sub-menu {
   display: none;
   left: 100%; }
 
 @media (max-width: 767px) {
-  /* line 332, ../sass/style.scss */
+  /* line 355, ../sass/style.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;
