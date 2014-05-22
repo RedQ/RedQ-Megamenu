@@ -74,35 +74,37 @@
   background-color: #563D7C;
   border-color: #563D7C; }
 
+/* line 67, ../sass/theme.scss */
+.showcase {
+  background: url("../images/MacBook-Pro-mockup.png") no-repeat;
+  width: 720px;
+  height: 680px;
+  margin: 0 auto; }
+
 @media (min-width: 480px) {
-  /* line 67, ../sass/theme.scss */
+  /* line 75, ../sass/theme.scss */
   .bs-docs-masthead .btn {
     width: auto; } }
 @media (min-width: 768px) {
-  /* line 74, ../sass/theme.scss */
+  /* line 82, ../sass/theme.scss */
   .bs-docs-masthead .lead {
     font-size: 24px; }
 
-  /* line 77, ../sass/theme.scss */
+  /* line 85, ../sass/theme.scss */
   .bs-docs-masthead {
     padding-top: 80px;
     padding-bottom: 80px; }
 
-  /* line 82, ../sass/theme.scss */
+  /* line 90, ../sass/theme.scss */
   .bs-docs-masthead,
   .bs-docs-header {
     position: relative;
     padding: 30px 15px;
     color: #CDBFE3;
     text-align: center;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    background-color: #6F5499;
-    background-image: -webkit-linear-gradient(top, #563d7c 0, #6f5499 100%);
-    background-image: linear-gradient(to bottom, #563d7c 0%, #6f5499 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0); } }
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); } }
 @media (min-width: 992px) {
-  /* line 97, ../sass/theme.scss */
+  /* line 105, ../sass/theme.scss */
   .bs-docs-masthead .lead {
     width: 80%;
     font-size: 30px; } }

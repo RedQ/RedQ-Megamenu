@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+  /* line 4, ../sass/responsive.scss */
+  .navbar > .container .navbar-brand {
+    margin-left: -15px;
+    margin-top: 20px; } }
