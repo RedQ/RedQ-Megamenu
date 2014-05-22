@@ -96,12 +96,18 @@ a {
 	}
 	.navbar-nav {
 		> li {
-		 	> a {
-					padding: 37px 15px;
-					color: $link-color;
+			padding: 33px 15px;
 
-				&:hover {
+		 	> a {
+					// padding: 37px 15px;
+					padding: 0 0 10px;
+					color: $link-color;
+					border-bottom: 2px solid transparent;
+
+				&:hover,
+				&:focus {
 					color: $link-hover-color;
+					border-bottom: 2px solid #5BAADF;
 				}
 			}
 		}
@@ -123,6 +129,11 @@ a {
 			a {
 				border-bottom: 2px solid #5BAADF;
 				background: transparent;
+
+				&:hover,
+				&:focus {
+					background: transparent;
+				}
 			}
 		}
 	}
@@ -339,7 +350,7 @@ ul.sub-menu {
 	padding-left: 0;
 	position: absolute;
 	width: 10em;
-	// top: 100%;
+	top: 100%;
 	// padding: 10px 15px;
 	display: none;
 	background: $inverse-bg;
