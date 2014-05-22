@@ -177,6 +177,7 @@ a {
 		padding: 0;
 		box-shadow: none;
 		border: 1px solid $border-color;
+		border-top: 2px solid $link-hover-color;
 
 
 		&.spacing {
@@ -338,11 +339,12 @@ ul.sub-menu {
 	padding-left: 0;
 	position: absolute;
 	width: 10em;
-	top: 102%;
+	// top: 100%;
 	// padding: 10px 15px;
 	display: none;
 	background: $inverse-bg;
 	border: 1px solid $border-color;
+	border-top: 2px solid $link-hover-color;
 
 	a {
 		padding: 5% 15%;
