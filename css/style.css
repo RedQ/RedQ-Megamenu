@@ -57,8 +57,7 @@ a:hover {
       border-bottom: 2px solid transparent; }
       /* line 108, ../sass/style.scss */
       .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-        color: #5baadf;
-        border-bottom: 2px solid #5BAADF; }
+        color: #5baadf; }
   /* line 116, ../sass/style.scss */
   .navbar-default .navbar-nav > .open > a {
     color: #404040;
