@@ -231,19 +231,8 @@ ul.sub-menu > li.menu-item > ul.sub-menu {
   display: none;
   left: 100%; }
 
-@media (max-width: 767px) {
-  /* line 384, ../sass/style.scss */
-  .nav .sub-menu,
-  .nav .dropdown-menu {
-    position: static;
-    float: none;
-    width: auto;
-    margin-top: 0;
-    background-color: rgba(0, 0, 0, 0);
-    border: 0;
-    box-shadow: none; } }
-@media (min-width: 768px) {
-  /* line 397, ../sass/style.scss */
-  ul.nav .dropdown:hover > .sub-menu,
-  ul.nav .dropdown:hover > .dropdown-menu {
-    display: block; } }
+/* line 382, ../sass/style.scss */
+.desc {
+  display: block;
+  font-weight: 300;
+  font-size: 11px; }

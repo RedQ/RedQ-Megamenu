@@ -11,4 +11,21 @@
 	.navbar-nav {
 		float: right;
 	}
+	ul.nav .dropdown:hover > .sub-menu,
+	ul.nav .dropdown:hover > .dropdown-menu {
+		display: block;
+	}
+}
+
+@media (max-width: 767px) {
+	.nav .sub-menu,
+	.nav .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: rgba(0, 0, 0, 0);
+		border: 0;
+		box-shadow: none;
+	}
 }
