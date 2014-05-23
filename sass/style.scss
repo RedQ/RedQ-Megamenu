@@ -127,7 +127,7 @@ a {
 
 		> .active {
 			a {
-				border-bottom: 2px solid #5BAADF;
+				// border-bottom: 2px solid #5BAADF;
 				background: transparent;
 
 				&:hover,
@@ -337,7 +337,8 @@ a {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	// background-color: #EEE;
-	border: 1px solid $border-color;
+	border-right: 1px solid $border-color;
+	border-bottom: 1px solid $border-color;
 	text-align: center;
 }
 

@@ -1,5 +1,9 @@
 @media (min-width: 768px) {
-  /* line 4, ../sass/responsive.scss */
+  /* line 5, ../sass/responsive.scss */
   .navbar > .container .navbar-brand {
     margin-left: -15px;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+
+  /* line 11, ../sass/responsive.scss */
+  .navbar-nav {
+    float: right; } }

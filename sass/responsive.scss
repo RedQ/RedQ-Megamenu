@@ -1,10 +1,14 @@
 @media (min-width: 768px) {
 	.navbar {
+
 		> .container {
 			.navbar-brand {
 				margin-left: -15px;
 				margin-top: 20px;
 			}
 		}
+	}
+	.navbar-nav {
+		float: right;
 	}
 }
