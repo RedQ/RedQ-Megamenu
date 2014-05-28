@@ -15,13 +15,29 @@ a {
 		text-decoration: none;
 	}
 }
-
+.navbar-brand {
+	padding: 0;
+}
 .header {
-	// height: 100px;
 	background: $inverse-bg;
 	border-bottom: 1px solid $border-color;
 	border-top: 4px solid $link-hover-color;
-	// padding-top: 23px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	height: 103px;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+	text-align: center;
+	line-height: 80px;
+
+	&.shrink {
+		height: 60px;
+		line-height: 50px;
+	}
 
 	.navbar {
 		margin-bottom: 0;
@@ -96,7 +112,8 @@ a {
 	}
 	.navbar-nav {
 		> li {
-			padding: 33px 15px;
+			// padding: 33px 15px;
+			padding: 10px 15px;
 
 		 	> a {
 					// padding: 37px 15px;
