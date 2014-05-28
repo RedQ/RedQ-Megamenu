@@ -6,12 +6,7 @@
 
   /* line 11, ../sass/responsive.scss */
   .navbar-nav {
-    float: right; }
-
-  /* line 15, ../sass/responsive.scss */
-  ul.nav .dropdown:hover > .sub-menu,
-  ul.nav .dropdown:hover > .dropdown-menu {
-    display: block; } }
+    float: right; } }
 @media (max-width: 767px) {
   /* line 22, ../sass/responsive.scss */
   .nav .sub-menu,
