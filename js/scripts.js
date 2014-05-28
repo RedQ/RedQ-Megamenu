@@ -1,11 +1,21 @@
 (function($) {
     var shrinkHeader = 300;
+
+
+    // $('#header').next().html('<div style="height: 103px"></div>');
+    var shrink = $('#header').next();
+
+    	shrink.css('margin-top', 103);
+
+    // $('.shrinkHeader').css('margin-top', 103);
+
     $(window).scroll(function() {
         var scroll = getCurrentScroll();
         if (scroll >= shrinkHeader) {
             $('.header').addClass('shrink');
         } else {
             $('.header').removeClass('shrink');
+
         }
     });
 
