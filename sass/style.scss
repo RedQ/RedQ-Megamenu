@@ -99,11 +99,21 @@ a {
 	background-color: $inverse-bg;
 	border: 0;
 
-	span.redq-link-title {
+	.redq-menu-title {
 		display: block;
 		line-height: 1.4em;
 		color: inherit;
 		font-weight: bold;
+		font-size: 14px;
+		padding-left: 15px;
+		// text-transform: uppercase;
+	}
+	.redq-link-title {
+		display: block;
+		line-height: 1.4em;
+		color: inherit;
+		font-weight: bold;
+		// font-size: 14px;
 		// text-transform: uppercase;
 	}
 
@@ -327,12 +337,20 @@ a {
 .widget-list {
 	list-style: none;
 	padding-left: 0;
+
 	li {
-		margin-bottom: 5%;
+		// margin-bottom: 5%;
+		padding: 10px 15px;
+
 		figure {
 			float: left;
 			width: 6.5em;
 			margin-bottom: 2px;
+
+			img {
+				width: 90px;
+				height: 90px;
+			}
 		}
 
 		.product-details {
@@ -347,13 +365,13 @@ a {
 }
 .dropdown-submenu {
 	list-style: none;
-	padding: 5% 20% 5% 5%;
+	padding: 0;
 
 	li {
 		// margin: 7%;
 	}
 	a {
-		padding: 5%;
+		padding: 10px 15px;
 		display: block;
 
 		&:hover {
