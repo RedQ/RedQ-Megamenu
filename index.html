@@ -8,6 +8,7 @@
 
         <!-- Google Fonts API -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -16,6 +17,7 @@
         <link href="css/font-awesome.css" rel="stylesheet">
 
         <!-- MAIN STYLE -->
+        <link href="css/animate.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/theme.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
@@ -50,9 +52,19 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
-                                        <li class="active">
-                                            <a href="#"> <i class="fa fa-flask"></i><span class="link-item">Link</span></a>
 
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Home</span></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Home One: Landing</a></li>
+                                                <li><a href="#">Home Two: Eyegasm</a></li>
+                                                <li><a href="#">Home Three: Agency</a></li>
+                                                <li><a href="#">Home Four: Corporate</a></li>
+                                                <li><a href="#">Home Five: One Page Wonder</a></li>
+                                                <li><a href="#">Home Six: Classic</a></li>
+                                                <li><a href="#">Home Seven: Shop</a></li>
+                                                <li><a href="#">Home Eight: Naked</a></li>
+                                            </ul>
                                         </li>
 
 
@@ -65,7 +77,7 @@
 
 
                                         <li class="dropdown redq-halfwidth">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list-alt"></i> <span> List </span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="link-item"> List </span></a>
                                         <ul class="dropdown-menu">
                                             <li>
                                                 <!-- Content container to add padding -->
@@ -145,7 +157,7 @@
 
 
                                         <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span class="link-item">Dropdown</span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Dropdown</span></a>
                                             <ul class="sub-menu">
                                                 <li><a href="#">Menu Item 1</a></li>
                                                 <li><a href="#">Menu Item 2</a></li>
@@ -179,7 +191,7 @@
 
 
                                         <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-coffee"></i> <span class="link-item">Dropdown</span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Dropdown</span></a>
                                             <ul class="dropdown-menu spacing10">
                                                 <li>
                                                     <a href="#">Action</a>
@@ -210,7 +222,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span class="link-item">Dropdown + Description</span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Dropdown + Description</span></a>
                                             <ul class="dropdown-menu">
 
                                                <!--  <div class="redq-content"> -->
@@ -335,7 +347,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span> List </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> List </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
@@ -437,7 +449,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i> <span> Grid </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Grid </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <div class="container">
@@ -556,7 +568,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i> <span class="link-item"> Shop </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Shop </span></a>
                                             <ul class="dropdown-menu">
                                                 <div class="container">
                                                     <div class="row">
@@ -777,7 +789,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span> List </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> List </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
@@ -834,7 +846,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-camera"></i> <span> Picture </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Picture </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
@@ -958,21 +970,10 @@
                     <!-- <h1>Bootstrap</h1> -->
                     <p class="lead">The most popular front-end framework for developing responsive, mobile first projects on the web.</p>
                     <p class="lead">
-                        <a href="https://github.com/RedQ/RedQ-Megamenu/archive/master.zip" class="btn btn-outline-inverse btn-lg" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download 3.1.1']);">Download Megamenu</a>
+                        <a href="https://github.com/RedQ/RedQ-Megamenu/archive/master.zip" class="btn btn-outline-inverse btn-lg">Download Megamenu</a>
                     </p>
                     <p class="version">Currently v0.0.1</p>
-                    <div id="carbonads-container">
-                        <div class="carbonad">
-                            <div id="azcarbon"></div>
-                            <script>
-                            var z = document.createElement("script");
-                            z.async = true;
-                            z.src = "http://engine.carbonads.com/z/32341/azcarbon_2_1_0_HORIZ";
-                            var s = document.getElementsByTagName("script")[0];
-                            s.parentNode.insertBefore(z, s);
-                            </script>
-                        </div>
-                    </div>
+
 
                 </div>
 

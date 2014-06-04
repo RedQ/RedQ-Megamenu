@@ -1,5 +1,7 @@
 @media (min-width: 768px) {
 	.navbar {
+		line-height: 1.6;
+		font-size: 12px;
 
 		> .container {
 			.navbar-brand {
@@ -23,6 +25,41 @@
 
 	.shrink .navbar-default .navbar-nav > li {
 		padding: 15px 15px;
+	}
+
+	.nav{
+		&.navbar-nav {
+			> li{
+				&:hover {
+					> ul {
+						&.dropdown-menu, &.sub-menu {
+						    display: block;
+
+						    -webkit-animation: fadeInUp 500ms;
+						    -moz-animation: fadeInUp 500ms;
+						    -ms-animation: fadeInUp 500ms;
+						    -o-animation: fadeInUp 500ms;
+						    animation: fadeInUp 500ms;
+						}
+					}
+				}
+			}
+		}
+		.sub-menu {
+			.dropdown {
+				&:hover {
+					> .sub-menu {
+						display: block;
+
+						-webkit-animation: fadeInUp 500ms;
+					    -moz-animation: fadeInUp 500ms;
+					    -ms-animation: fadeInUp 500ms;
+					    -o-animation: fadeInUp 500ms;
+					    animation: fadeInUp 500ms;
+					}
+				}
+			}
+		}
 	}
 }
 

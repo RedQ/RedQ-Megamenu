@@ -1,23 +1,44 @@
 @media (min-width: 768px) {
-  /* line 5, ../sass/responsive.scss */
-  .navbar > .container .navbar-brand {
-    display: block;
-    margin-left: -15px;
-    margin-top: 15px; }
+  /* line 2, ../sass/responsive.scss */
+  .navbar {
+    line-height: 1.6;
+    font-size: 12px; }
+    /* line 7, ../sass/responsive.scss */
+    .navbar > .container .navbar-brand {
+      display: block;
+      margin-left: -15px;
+      margin-top: 15px; }
 
-  /* line 12, ../sass/responsive.scss */
+  /* line 14, ../sass/responsive.scss */
   .navbar-nav {
     float: right; }
 
-  /* line 20, ../sass/responsive.scss */
+  /* line 22, ../sass/responsive.scss */
   .navbar-default .navbar-nav > li {
     padding: 33px 15px; }
 
-  /* line 24, ../sass/responsive.scss */
+  /* line 26, ../sass/responsive.scss */
   .shrink .navbar-default .navbar-nav > li {
-    padding: 15px 15px; } }
+    padding: 15px 15px; }
+
+  /* line 35, ../sass/responsive.scss */
+  .nav.navbar-nav > li:hover > ul.dropdown-menu, .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: fadeInUp 500ms;
+    -moz-animation: fadeInUp 500ms;
+    -ms-animation: fadeInUp 500ms;
+    -o-animation: fadeInUp 500ms;
+    animation: fadeInUp 500ms; }
+  /* line 51, ../sass/responsive.scss */
+  .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: fadeInUp 500ms;
+    -moz-animation: fadeInUp 500ms;
+    -ms-animation: fadeInUp 500ms;
+    -o-animation: fadeInUp 500ms;
+    animation: fadeInUp 500ms; } }
 @media (max-width: 767px) {
-  /* line 31, ../sass/responsive.scss */
+  /* line 68, ../sass/responsive.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;

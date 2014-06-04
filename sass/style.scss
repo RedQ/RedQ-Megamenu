@@ -7,8 +7,10 @@
 @import "variable";
 
 body {
-	font-family: 'Lato';
+	// font-family: 'Lato';
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
+	line-height: 22px;
 }
 a {
 	&:hover {
@@ -31,7 +33,7 @@ a {
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
-	text-align: center;
+	// text-align: center;
 	line-height: 80px;
 
 	&.shrink {
@@ -116,6 +118,7 @@ a {
 			padding: 10px 15px;
 
 		 	> a {
+		 			font-size: 16px;
 					// padding: 37px 15px;
 					padding: 0 0 10px;
 					color: $link-color;
@@ -156,6 +159,10 @@ a {
 	}
 }
 
+.link-item {
+	font-size: 14px;
+	line-height: 1;
+}
 .redq {
 	a {
 		color: $link-color;
@@ -368,16 +375,21 @@ ul.sub-menu {
 	list-style: none;
 	padding-left: 0;
 	position: absolute;
-	width: 10em;
+	min-width: 18.3em;
 	top: 100%;
+	line-height: 24px;
 	// padding: 10px 15px;
 	display: none;
 	background: $inverse-bg;
 	border: 1px solid $border-color;
 	border-top: 2px solid $link-hover-color;
 
+	li {
+		border-bottom: 1px solid $border-color-alt;
+	}
+
 	a {
-		padding: 5% 15%;
+		padding: 10px 15px;
 		display: block;
 
 		&:hover {
@@ -402,3 +414,4 @@ ul.sub-menu {
 	font-weight: 300;
 	font-size: 11px;
 }
+
