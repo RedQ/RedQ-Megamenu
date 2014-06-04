@@ -24,15 +24,15 @@ a {
 	background: $inverse-bg;
 	border-bottom: 1px solid $border-color;
 	border-top: 4px solid $link-hover-color;
-	position: fixed;
+	// position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 1000;
 	height: 103px;
-	-webkit-transition: height 0.3s;
-	-moz-transition: height 0.3s;
-	transition: height 0.3s;
+	// -webkit-transition: height 0.3s;
+	// -moz-transition: height 0.3s;
+	// transition: height 0.3s;
 	// text-align: center;
 	line-height: 80px;
 
@@ -197,7 +197,12 @@ a {
 				// border-bottom: 1px solid $border-color;
 				// border-right: 1px solid $border-color;
 				padding: 10px 25px;
+				font-size: 12px;
 				display: block;
+
+				&:hover {
+					background: $hover-link-bg;
+				}
 			}
 		}
 

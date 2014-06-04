@@ -21,15 +21,11 @@ a:hover {
   background: white;
   border-bottom: 1px solid #ebebeb;
   border-top: 4px solid #5baadf;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
   height: 103px;
-  -webkit-transition: height 0.3s;
-  -moz-transition: height 0.3s;
-  transition: height 0.3s;
   line-height: 80px; }
   /* line 39, ../sass/style.scss */
   .header.shrink {
@@ -122,99 +118,103 @@ a:hover {
   /* line 196, ../sass/style.scss */
   .redq .columns ul a {
     padding: 10px 25px;
+    font-size: 12px;
     display: block; }
-/* line 205, ../sass/style.scss */
+    /* line 203, ../sass/style.scss */
+    .redq .columns ul a:hover {
+      background: #f7f7f7; }
+/* line 210, ../sass/style.scss */
 .redq .columns:last-child li {
   border-right: 0; }
-/* line 211, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 .redq .dropdown-menu {
   padding: 0;
   box-shadow: none;
   border: 1px solid #ebebeb;
   border-top: 2px solid #5baadf;
   line-height: 24px; }
-  /* line 219, ../sass/style.scss */
+  /* line 224, ../sass/style.scss */
   .redq .dropdown-menu.spacing {
     padding: 20px 30px; }
-  /* line 222, ../sass/style.scss */
+  /* line 227, ../sass/style.scss */
   .redq .dropdown-menu.spacing10 {
     padding: 10px 0; }
-/* line 228, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .redq .dropdown.redq-fullwidth {
   position: static; }
-  /* line 231, ../sass/style.scss */
+  /* line 236, ../sass/style.scss */
   .redq .dropdown.redq-fullwidth .dropdown-menu {
     width: 100%;
     left: 0;
     right: 0; }
-    /* line 238, ../sass/style.scss */
+    /* line 243, ../sass/style.scss */
     .redq .dropdown.redq-fullwidth .dropdown-menu .columns {
       padding-left: 0;
       padding-right: 0; }
-/* line 278, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 .redq .dropdown.redq-halfwidth {
   position: relative; }
-  /* line 281, ../sass/style.scss */
+  /* line 286, ../sass/style.scss */
   .redq .dropdown.redq-halfwidth .dropdown-menu {
     width: 585px;
     left: 0; }
-    /* line 288, ../sass/style.scss */
+    /* line 293, ../sass/style.scss */
     .redq .dropdown.redq-halfwidth .dropdown-menu .columns {
       padding-left: 0;
       padding-right: 0; }
-/* line 298, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .redq .menu-content {
   padding: 20px 30px; }
-  /* line 302, ../sass/style.scss */
+  /* line 307, ../sass/style.scss */
   .redq .menu-content:before, .redq .menu-content:after {
     display: table;
     content: "";
     line-height: 0; }
-  /* line 308, ../sass/style.scss */
+  /* line 313, ../sass/style.scss */
   .redq .menu-content:after {
     clear: both; }
-/* line 312, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 .redq .thumbnails {
   list-style: none;
   padding: 0; }
-/* line 317, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .redq .thumbnail {
   margin-bottom: 0; }
 
-/* line 322, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 .widget-list {
   list-style: none;
   padding-left: 0; }
-  /* line 325, ../sass/style.scss */
+  /* line 330, ../sass/style.scss */
   .widget-list li {
     margin-bottom: 5%; }
-    /* line 327, ../sass/style.scss */
+    /* line 332, ../sass/style.scss */
     .widget-list li figure {
       float: left;
       width: 6.5em;
       margin-bottom: 2px; }
-    /* line 333, ../sass/style.scss */
+    /* line 338, ../sass/style.scss */
     .widget-list li .product-details {
       margin-left: 7.5em; }
-    /* line 337, ../sass/style.scss */
+    /* line 342, ../sass/style.scss */
     .widget-list li .product-cats {
       display: block;
       margin-bottom: 3px; }
 
-/* line 343, ../sass/style.scss */
+/* line 348, ../sass/style.scss */
 .dropdown-submenu {
   list-style: none;
   padding: 5% 20% 5% 5%; }
-  /* line 350, ../sass/style.scss */
+  /* line 355, ../sass/style.scss */
   .dropdown-submenu a {
     padding: 5%;
     display: block; }
-    /* line 354, ../sass/style.scss */
+    /* line 359, ../sass/style.scss */
     .dropdown-submenu a:hover {
       background: #f7f7f7;
       text-decoration: none; }
 
-/* line 361, ../sass/style.scss */
+/* line 366, ../sass/style.scss */
 .show-grid [class^=col-] {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -222,12 +222,12 @@ a:hover {
   border-bottom: 1px solid #ebebeb;
   text-align: center; }
 
-/* line 370, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 ul.nav .dropdown {
   position: relative;
   z-index: 999999; }
 
-/* line 374, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 ul.sub-menu {
   list-style: none;
   padding-left: 0;
@@ -239,29 +239,29 @@ ul.sub-menu {
   background: white;
   border: 1px solid #ebebeb;
   border-top: 2px solid #5baadf; }
-  /* line 387, ../sass/style.scss */
+  /* line 392, ../sass/style.scss */
   ul.sub-menu li {
     border-bottom: 1px solid #e4e4e4; }
-  /* line 391, ../sass/style.scss */
+  /* line 396, ../sass/style.scss */
   ul.sub-menu a {
     padding: 10px 15px;
     display: block; }
-    /* line 395, ../sass/style.scss */
+    /* line 400, ../sass/style.scss */
     ul.sub-menu a:hover {
       background: #f7f7f7;
       text-decoration: none; }
 
-/* line 401, ../sass/style.scss */
+/* line 406, ../sass/style.scss */
 ul.sub-menu ul.sub-menu {
   left: 100%;
   top: 0; }
 
-/* line 406, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 ul.sub-menu > li.menu-item > ul.sub-menu {
   display: none;
   left: 100%; }
 
-/* line 412, ../sass/style.scss */
+/* line 417, ../sass/style.scss */
 .desc {
   display: block;
   font-weight: 300;

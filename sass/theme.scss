@@ -71,6 +71,19 @@
 	margin: 0 auto;
 }
 
+.navbar-brand {
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 60px;
+}
+.navbar-default .navbar-brand {
+	color: #484848;
+}
+.logo-style {
+	font-weight: 400;
+
+}
+
 @media (min-width: 480px) {
 	.bs-docs-masthead .btn {
 		width: auto;
