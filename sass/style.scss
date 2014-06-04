@@ -18,23 +18,27 @@ a {
 	}
 }
 .navbar-brand {
-	padding: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar-toggle {
+	margin-top: 15px;
 }
 .header {
 	background: $inverse-bg;
 	border-bottom: 1px solid $border-color;
 	border-top: 4px solid $link-hover-color;
-	// position: fixed;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 1000;
-	height: 103px;
+	// height: 103px;
 	// -webkit-transition: height 0.3s;
 	// -moz-transition: height 0.3s;
 	// transition: height 0.3s;
 	// text-align: center;
-	line-height: 80px;
+	// line-height: 80px;
 
 	&.shrink {
 		height: 60px;
@@ -43,6 +47,7 @@ a {
 
 	.navbar {
 		margin-bottom: 0;
+		min-height: 65px;
 	}
 
 	&.icons-top {
@@ -99,6 +104,19 @@ a {
 	background-color: $inverse-bg;
 	border: 0;
 
+	.navbar-toggle {
+		background: $light-gray;
+		border-color: $light-gray-border;
+
+		&:hover, &:focus {
+			background: $hover-link-bg;
+		}
+
+		.icon-bar {
+			background: $dark-bg;
+		}
+	}
+
 	.redq-menu-title {
 		display: block;
 		line-height: 1.4em;
@@ -125,7 +143,7 @@ a {
 	.navbar-nav {
 		> li {
 			// padding: 33px 15px;
-			padding: 10px 15px;
+			padding: 0px 15px;
 
 		 	> a {
 		 			font-size: 16px;
@@ -294,7 +312,7 @@ a {
 			position: relative;
 
 			.dropdown-menu {
-				width: 585px;
+				// width: 585px;
 			    left: 0;
 			    // right: 0;
 			    ul {

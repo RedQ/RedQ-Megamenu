@@ -1,27 +1,31 @@
 @media (min-width: 768px) {
-  /* line 2, ../sass/responsive.scss */
+  /* line 4, ../sass/responsive.scss */
   .navbar {
     line-height: 1.6;
     font-size: 12px; }
-    /* line 7, ../sass/responsive.scss */
+    /* line 9, ../sass/responsive.scss */
     .navbar > .container .navbar-brand {
       display: block;
       margin-left: -15px;
       margin-top: 15px; }
 
-  /* line 14, ../sass/responsive.scss */
+  /* line 16, ../sass/responsive.scss */
   .navbar-nav {
     float: right; }
 
-  /* line 22, ../sass/responsive.scss */
+  /* line 24, ../sass/responsive.scss */
   .navbar-default .navbar-nav > li {
     padding: 33px 15px; }
 
-  /* line 26, ../sass/responsive.scss */
+  /* line 28, ../sass/responsive.scss */
+  .redq .dropdown.redq-halfwidth .dropdown-menu {
+    width: 585px; }
+
+  /* line 31, ../sass/responsive.scss */
   .shrink .navbar-default .navbar-nav > li {
     padding: 15px 15px; }
 
-  /* line 35, ../sass/responsive.scss */
+  /* line 40, ../sass/responsive.scss */
   .nav.navbar-nav > li:hover > ul.dropdown-menu, .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -29,7 +33,7 @@
     -ms-animation: fadeInUp 500ms;
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; }
-  /* line 51, ../sass/responsive.scss */
+  /* line 56, ../sass/responsive.scss */
   .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -38,7 +42,7 @@
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; } }
 @media (max-width: 767px) {
-  /* line 68, ../sass/responsive.scss */
+  /* line 73, ../sass/responsive.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;
@@ -47,4 +51,8 @@
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0);
     border: 0;
-    box-shadow: none; } }
+    box-shadow: none; }
+
+  /* line 82, ../sass/responsive.scss */
+  .navbar-nav .open .dropdown-menu {
+    border-left: 1px solid #ebebeb; } }

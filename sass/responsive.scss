@@ -1,3 +1,5 @@
+@import "variable";
+
 @media (min-width: 768px) {
 	.navbar {
 		line-height: 1.6;
@@ -23,6 +25,9 @@
 		padding: 33px 15px;
 	}
 
+	.redq .dropdown.redq-halfwidth .dropdown-menu {
+		width: 585px;
+	}
 	.shrink .navbar-default .navbar-nav > li {
 		padding: 15px 15px;
 	}
@@ -73,5 +78,8 @@
 		background-color: rgba(0, 0, 0, 0);
 		border: 0;
 		box-shadow: none;
+	}
+	.navbar-nav .open .dropdown-menu {
+		border-left: 1px solid $border-color;
 	}
 }
