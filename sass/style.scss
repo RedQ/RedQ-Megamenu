@@ -27,6 +27,7 @@ a {
 .navbar-collapse {
 	margin-top: 8px;
 }
+
 .header {
 	background: $inverse-bg;
 	border-bottom: 1px solid $border-color;
@@ -46,11 +47,26 @@ a {
 	&.shrink {
 		height: 75px;
 		line-height: 50px;
+		// position: fixed;
+		.navbar {
+			margin-bottom: 0;
+			// min-height: 65px;
+			// background: green;
+			-webkit-transition: height 0.3s;
+			-moz-transition: height 0.3s;
+			transition: height 0.3s;
+			height: 70px;
+		}
 	}
 
 	.navbar {
 		margin-bottom: 0;
-		min-height: 65px;
+		// min-height: 65px;
+		// background: red;
+		-webkit-transition: height 0.3s;
+		-moz-transition: height 0.3s;
+		transition: height 0.3s;
+		height: 106px;
 	}
 
 	&.icons-top {

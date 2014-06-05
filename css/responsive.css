@@ -12,27 +12,33 @@
   /* line 17, ../sass/responsive.scss */
   .header {
     height: 111px; }
-    /* line 24, ../sass/responsive.scss */
+    /* line 42, ../sass/responsive.scss */
     .header.shrink .navbar > .container .navbar-brand {
       margin-top: 0; }
 
-  /* line 33, ../sass/responsive.scss */
+  /* line 51, ../sass/responsive.scss */
   .navbar-nav {
     float: right; }
 
-  /* line 41, ../sass/responsive.scss */
+  /* line 59, ../sass/responsive.scss */
+  .navbar-default .navbar-collapse {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+
+  /* line 65, ../sass/responsive.scss */
   .navbar-default .navbar-nav > li {
     padding: 33px 15px; }
 
-  /* line 45, ../sass/responsive.scss */
+  /* line 69, ../sass/responsive.scss */
   .redq .dropdown.redq-halfwidth .dropdown-menu {
     width: 585px; }
 
-  /* line 48, ../sass/responsive.scss */
+  /* line 72, ../sass/responsive.scss */
   .shrink .navbar-default .navbar-nav > li {
     padding: 15px 15px; }
 
-  /* line 57, ../sass/responsive.scss */
+  /* line 81, ../sass/responsive.scss */
   .nav.navbar-nav > li:hover > ul.dropdown-menu, .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -40,7 +46,7 @@
     -ms-animation: fadeInUp 500ms;
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; }
-  /* line 73, ../sass/responsive.scss */
+  /* line 97, ../sass/responsive.scss */
   .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -49,7 +55,7 @@
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; } }
 @media (max-width: 767px) {
-  /* line 91, ../sass/responsive.scss */
+  /* line 115, ../sass/responsive.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;
@@ -60,7 +66,7 @@
     border: 0;
     box-shadow: none; }
 
-  /* line 100, ../sass/responsive.scss */
+  /* line 124, ../sass/responsive.scss */
   .navbar-nav .open .dropdown-menu {
     border-width: 0 1px 1px;
     border-style: solid;

@@ -17,7 +17,25 @@
 	.header{
 		height: 111px;
 
+		.navbar-default {
+			// .navbar-collapse {
+			// 	-webkit-transition: height 0.3s;
+			// 	-moz-transition: height 0.3s;
+			// 	transition: height 0.3s;
+
+			// 	height: 98px !important;
+			// }
+		}
 		&.shrink {
+			.navbar-default {
+				// .navbar-collapse {
+				// 	-webkit-transition: height 0.3s;
+				// 	-moz-transition: height 0.3s;
+				// 	transition: height 0.3s;
+
+				// 	height: 62px !important;
+				// }
+			}
 			.navbar {
 
 				> .container {
@@ -36,6 +54,12 @@
 	ul.nav .dropdown:hover > .sub-menu,
 	ul.nav .dropdown:hover > .dropdown-menu {
 		// display: block;
+	}
+
+	.navbar-default .navbar-collapse {
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
 	}
 
 	.navbar-default .navbar-nav > li {
