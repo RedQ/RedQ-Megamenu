@@ -9,10 +9,27 @@
 			.navbar-brand {
 				display: block;
 				margin-left: -15px;
-				margin-top: 15px;
+				margin-top: 21px;
 			}
 		}
 	}
+
+	.header{
+		height: 111px;
+
+		&.shrink {
+			.navbar {
+
+				> .container {
+					.navbar-brand {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+	}
+
+
 	.navbar-nav {
 		float: right;
 	}
@@ -67,6 +84,7 @@
 		}
 	}
 }
+
 
 @media (max-width: 767px) {
 	.nav .sub-menu,

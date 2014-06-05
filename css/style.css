@@ -34,10 +34,13 @@ a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; }
+  z-index: 1000;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s; }
   /* line 46, ../sass/style.scss */
   .header.shrink {
-    height: 60px;
+    height: 75px;
     line-height: 50px; }
   /* line 51, ../sass/style.scss */
   .header .navbar {
