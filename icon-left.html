@@ -4,10 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ReqQ| Mega Menu</title>
+        <title>ReqQ | Mega Menu</title>
 
         <!-- Google Fonts API -->
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -16,6 +17,7 @@
         <link href="css/font-awesome.css" rel="stylesheet">
 
         <!-- MAIN STYLE -->
+        <link href="css/animate.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/theme.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
@@ -30,7 +32,7 @@
     <body>
 
         <!-- HEADER -->
-        <header>
+        <header id="header">
             <div class="header icons-left">
                 <div class="container">
                     <div class="row">
@@ -44,15 +46,25 @@
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                    <a class="navbar-brand" href="#">RedQ</a>
+                                    <a class="navbar-brand" href="#"><i class="fa fa-send"></i> Red<span class="logo-style">Q</span></a>
                                 </div>
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
-                                        <li class="active">
-                                            <a href="#"> <i class="fa fa-flask"></i><span class="link-item">Link</span></a>
 
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Home</span></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Home One: Landing</a></li>
+                                                <li><a href="#">Home Two: Eyegasm</a></li>
+                                                <li><a href="#">Home Three: Agency</a></li>
+                                                <li><a href="#">Home Four: Corporate</a></li>
+                                                <li><a href="#">Home Five: One Page Wonder</a></li>
+                                                <li><a href="#">Home Six: Classic</a></li>
+                                                <li><a href="#">Home Seven: Shop</a></li>
+                                                <li><a href="#">Home Eight: Naked</a></li>
+                                            </ul>
                                         </li>
 
 
@@ -65,70 +77,64 @@
 
 
                                         <li class="dropdown redq-halfwidth">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list-alt"></i> <span> List </span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="link-item"> Portfolio </span></a>
                                         <ul class="dropdown-menu">
                                             <li>
                                                 <!-- Content container to add padding -->
                                                 <!-- <div class="redq-content"> -->
-                                                <ul class="columns col-lg-4 col-sm-4 list-unstyled">
+                                                <ul class="columns col-lg-6 col-sm-6 list-unstyled">
                                                     <li>
                                                         <ul>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Two Column: Standard</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Two Column: Gallery</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Three Column: Standard</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Three Column: Gallery</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Four Column: Standard</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Four Column: Gallery</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Masonry: Standard</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">Masonry: Gallery</a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                 </ul>
-                                                <ul class="columns col-lg-4 col-sm-4 list-unstyled">
+                                                <ul class="columns col-lg-6 col-sm-6 list-unstyled">
                                                     <li>
                                                         <ul>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Full Width: Standard</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Full Width: Gallery</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Single: Standard Full Width</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Single: Standard Full</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                                <ul class="columns col-lg-4 col-sm-4 list-unstyled">
-                                                    <li>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Single: Standard Split</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Single: Standard Slideshow</a>
                                                             </li>
                                                             <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
+                                                                <a href="#">Single: Page Builder</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -145,7 +151,7 @@
 
 
                                         <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span class="link-item">Dropdown</span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Dropdown</span></a>
                                             <ul class="sub-menu">
                                                 <li><a href="#">Menu Item 1</a></li>
                                                 <li><a href="#">Menu Item 2</a></li>
@@ -153,16 +159,16 @@
                                                     <a href="#">Menu Item 3</a>
 
                                                     <ul class="sub-menu">
+                                                        <li><a href="#">Menu Item 1</a></li>
+                                                        <li><a href="#">Menu Item 2</a></li>
                                                         <li class="dropdown">
-                                                            <a href="#">Menu Item 1</a>
+                                                            <a href="#">Menu Item 3</a>
                                                             <ul class="sub-menu">
                                                                 <li><a href="#">Menu Item 1</a></li>
                                                                 <li><a href="#">Menu Item 2</a></li>
                                                                 <li><a href="#">Menu Item 3</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="#">Menu Item 2</a></li>
-                                                        <li><a href="#">Menu Item 3</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -176,30 +182,6 @@
 
 
 
-
-
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-coffee"></i> <span class="link-item">Dropdown</span></a>
-                                            <ul class="dropdown-menu spacing10">
-                                                <li>
-                                                    <a href="#">Action</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Another action</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Something else here</a>
-                                                </li>
-                                                <li class="divider"></li>
-                                                <li>
-                                                    <a href="#">Separated link</a>
-                                                </li>
-                                                <li class="divider"></li>
-                                                <li>
-                                                    <a href="#">One more separated link</a>
-                                                </li>
-                                            </ul>
-                                        </li>
 
 
 
@@ -210,11 +192,11 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span class="link-item">Dropdown + Description</span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Dropdown + Description</span></a>
                                             <ul class="dropdown-menu">
 
                                                <!--  <div class="redq-content"> -->
-                                                    <ul class="columns col-lg-3 list-unstyled">
+                                                    <ul class="columns col-lg-4 list-unstyled">
                                                         <li>
                                                             <ul>
                                                                 <li>
@@ -268,13 +250,15 @@
                                                     </ul>
 
 
-                                                    <ul class="columns col-lg-3 list-unstyled">
+
+
+                                                    <ul class="columns col-lg-4 list-unstyled">
                                                         <li>
                                                             <ul>
                                                                 <li>
                                                                     <a href="#">
-                                                                        <span class="redq-icon fa fa-mobile"></span>
-                                                                        Menu Item
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -283,8 +267,8 @@
                                                             <ul>
                                                                 <li>
                                                                     <a href="#">
-                                                                        <span class="redq-icon fa fa-mobile"></span>
-                                                                        Menu Item
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -293,8 +277,8 @@
                                                             <ul>
                                                                 <li>
                                                                     <a href="#">
-                                                                        <span class="redq-icon fa fa-mobile"></span>
-                                                                        Menu Item
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -303,8 +287,8 @@
                                                             <ul>
                                                                 <li>
                                                                     <a href="#">
-                                                                        <span class="redq-icon fa fa-mobile"></span>
-                                                                        Menu Item
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -313,14 +297,70 @@
                                                             <ul>
                                                                 <li>
                                                                     <a href="#">
-                                                                        <span class="redq-icon fa fa-mobile"></span>
-                                                                        Menu Item
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                     </ul>
 
+
+
+
+
+                                                    <ul class="columns col-lg-4 list-unstyled">
+                                                        <li>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span class="redq-link-title">Tuesday</span>
+                                                                        <span class="redq-item-description">A little bit of everything.</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
                                                 <!-- </div> --><!-- end .redq-content -->
                                             </ul>
                                         </li>
@@ -335,7 +375,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span> List </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> List </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
@@ -437,7 +477,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i> <span> Grid </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Grid </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <div class="container">
@@ -556,219 +596,225 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i> <span class="link-item"> Shop </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Shop </span></a>
                                             <ul class="dropdown-menu">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-lg-3">
-                                                            <ul class="dropdown-submenu">
-                                                                <li>
-                                                                    <a href="#">
-                                                                        <span class="redq-link-title">
-                                                                            Shop Page
-                                                                        </span>
-                                                                    </a>
+                                                <li>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <!-- <h3>
+                                                                    <span class="redq-link-title">Shop Page</span>
+                                                                </h3> -->
+                                                                <h3 class="redq-menu-title">
+                                                                    <span>Shop Page</span>
+                                                                </h3>
+
+                                                                <ul class="dropdown-submenu">
+                                                                    <li><a href="#">Shop with left sidebar</a></li>
+                                                                    <li><a href="#">Shop with right sidebar</a></li>
+                                                                    <li><a href="#">Shop with no sidebar</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <h3 class="redq-menu-title">
+                                                                    <span>Best Sellers</span>
+                                                                </h3>
+
+                                                                <ul class="widget-list widget-best-sellers">
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/IMG_6593.jpg" alt="sneakers">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">Jeans Cap</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#" >Cap</a>, <a href="#" >Jeans</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <ins>
+                                                                                    <span class="amount">£90.00</span>
+                                                                                </ins>
+                                                                            </span>
+                                                                        </div>
                                                                     </li>
-                                                                <li><a href="#">Shop with left sidebar</a></li>
-                                                                <li><a href="#">Shop with right sidebar</a></li>
-                                                                <li><a href="#">Shop with no sidebar</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <h3>Best Sellers</h3>
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/1-3166.jpg" alt="Hoodie">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">Cotton Hoodie</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#">Women</a>, <a href="#">Hoddie</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <span class="amount">£260.00</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/20110115-futb.jpg" alt="T Shirt Men">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">T-Shirt Men</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#">T-Shirt</a>, <a href="#">Men</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <del>
+                                                                                    <span class="amount">£460.00</span>
+                                                                                </del>
+                                                                                <ins>
+                                                                                    <span class="amount">£395.00</span>
+                                                                                </ins>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul><!-- end .widget-list -->
 
-                                                            <ul class="widget-list widget-best-sellers">
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/cd-flat.jpg" alt="cd flat">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">CD Flat</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#" >Cd</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <del>
-                                                                                <span class="amount">£110.00</span>
-                                                                            </del>
-                                                                            <ins>
-                                                                                <span class="amount">£90.00</span>
-                                                                            </ins>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/hoodie-front.jpg" alt="Hoodie Front">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">Hoodie - Front</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#">Jackets</a>, <a href="#">Hoddie</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <span class="amount">£260.00</span>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/poster-up.jpg" alt="Poster up">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">Poster</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#">Poster</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <del>
-                                                                                <span class="amount">£460.00</span>
-                                                                            </del>
-                                                                            <ins>
-                                                                                <span class="amount">£395.00</span>
-                                                                            </ins>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                            </ul><!-- end .widget-list -->
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <h3 class="redq-menu-title">
+                                                                    <span>Top Rated</span>
+                                                                </h3>
 
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <h3>Top Rated</h3>
 
-                                                            <ul class="widget-list widget-best-sellers">
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/cd-flat.jpg" alt="cd flat">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">CD Flat</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#" >Cd</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <del>
-                                                                                <span class="amount">£110.00</span>
-                                                                            </del>
-                                                                            <ins>
-                                                                                <span class="amount">£90.00</span>
-                                                                            </ins>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/hoodie-front.jpg" alt="Hoodie Front">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">Hoodie - Front</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#">Jackets</a>, <a href="#">Hoddie</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <span class="amount">£260.00</span>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/poster-up.jpg" alt="Poster up">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">Poster</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#">Poster</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <del>
-                                                                                <span class="amount">£460.00</span>
-                                                                            </del>
-                                                                            <ins>
-                                                                                <span class="amount">£395.00</span>
-                                                                            </ins>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                            </ul><!-- end .widget-list -->
-                                                        </div>
-                                                        <div class="col-lg-3">
-                                                            <h3>Sale Products</h3>
+                                                                <ul class="widget-list widget-best-sellers">
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/IMG_5144-1.jpg" alt="cd flat">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">Diamond Necklace</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#" >Necklace</a>, <a href="#" >Ornaments</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <del>
+                                                                                    <span class="amount">£800.00</span>
+                                                                                </del>
+                                                                                <ins>
+                                                                                    <span class="amount">£690.00</span>
+                                                                                </ins>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/2012-10-19__skr_4085.jpg" alt="Hoodie Front">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">Cotton T-Shorts</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#">Cotton</a>, <a href="#">T-Shirts</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <span class="amount">£260.00</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/PEO_266-6931.jpg" alt="Poster up">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">Business Suit</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#">Suit</a>, <a href="#">Men</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <del>
+                                                                                    <span class="amount">£460.00</span>
+                                                                                </del>
+                                                                                <ins>
+                                                                                    <span class="amount">£395.00</span>
+                                                                                </ins>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul><!-- end .widget-list -->
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <h3 class="redq-menu-title">
+                                                                    <span>Sale Products</span>
+                                                                </h3>
 
-                                                            <ul class="widget-list widget-best-sellers">
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/cd-flat.jpg" alt="cd flat">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">CD Flat</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#" >Cd</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <del>
-                                                                                <span class="amount">£110.00</span>
-                                                                            </del>
-                                                                            <ins>
-                                                                                <span class="amount">£90.00</span>
-                                                                            </ins>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/hoodie-front.jpg" alt="Hoodie Front">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">Hoodie - Front</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#">Jackets</a>, <a href="#">Hoddie</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <span class="amount">£260.00</span>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="clearfix">
-                                                                    <figure>
-                                                                        <a href="#">
-                                                                            <img src="images/poster-up.jpg" alt="Poster up">
-                                                                        </a>
-                                                                    </figure>
-                                                                    <div class="product-details">
-                                                                        <h5><a href="#">Poster</a>
-                                                                        </h5>
-                                                                        <span class="product-cats"> <a href="#">Poster</a>
-                                                                        </span>
-                                                                        <span class="price">
-                                                                            <del>
-                                                                                <span class="amount">£460.00</span>
-                                                                            </del>
-                                                                            <ins>
-                                                                                <span class="amount">£395.00</span>
-                                                                            </ins>
-                                                                        </span>
-                                                                    </div>
-                                                                </li>
-                                                            </ul><!-- end .widget-list -->
-                                                        </div>
-                                                    </div><!-- end .row -->
-                                                </div><!-- end .container -->
+                                                                <ul class="widget-list widget-best-sellers">
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/TL101146.jpg" alt="cd flat">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">Business Suit</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#" >Suit</a>, <a href="#">Women</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <del>
+                                                                                    <span class="amount">£110.00</span>
+                                                                                </del>
+                                                                                <ins>
+                                                                                    <span class="amount">£90.00</span>
+                                                                                </ins>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/DSC_7489.jpg" alt="Hoodie Front">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">Hoodie - Front</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#">Jackets</a>, <a href="#">Hoddie</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <span class="amount">£260.00</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <figure>
+                                                                            <a href="#">
+                                                                                <img src="images/swatch.jpg" alt="Poster up">
+                                                                            </a>
+                                                                        </figure>
+                                                                        <div class="product-details">
+                                                                            <h5><a href="#">Poster</a>
+                                                                            </h5>
+                                                                            <span class="product-cats"> <a href="#">Poster</a>
+                                                                            </span>
+                                                                            <span class="price">
+                                                                                <del>
+                                                                                    <span class="amount">£460.00</span>
+                                                                                </del>
+                                                                                <ins>
+                                                                                    <span class="amount">£395.00</span>
+                                                                                </ins>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul><!-- end .widget-list -->
+                                                            </div>
+                                                        </div><!-- end .row -->
+                                                    </div><!-- end .container -->
+                                                </li>
                                             </ul><!-- end .dropdown-menu -->
                                         </li><!-- end .dropdown -->
 
@@ -777,49 +823,70 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span> List </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Icon </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
                                                     <!-- <div class="redq-content"> -->
-                                                    <ul class="columns col-lg-6 col-sm-6 list-unstyled">
+                                                    <ul class="columns col-lg-4 col-sm-4 list-unstyled">
                                                         <li>
                                                             <ul>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-life-ring"></i> Lorem Ipsum</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-university"></i> Lorem Ipsum</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-cubes"></i> Lorem Ipsum</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-tasks"></i> Lorem Ipsum</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-briefcase"></i> Lorem Ipsum</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                     </ul>
-                                                    <ul class="columns col-lg-6 col-sm-6 list-unstyled">
+                                                    <ul class="columns col-lg-4 col-sm-4 list-unstyled">
                                                         <li>
                                                             <ul>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-globe"></i> Lorem Ipsum</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-database"></i> Lorem Ipsum</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-codepen"></i> Lorem Ipsum</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-bar-chart-o"></i> Lorem Ipsum</a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="#">Lorem Ipsum</a>
+                                                                    <a href="#"><i class="fa fa-sliders"></i> Lorem Ipsum</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="columns col-lg-4 col-sm-4 list-unstyled">
+                                                        <li>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#"><i class="fa fa-cloud"></i> Lorem Ipsum</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"><i class="fa fa-pencil-square-o"></i> Lorem Ipsum</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"><i class="fa fa-paper-plane-o"></i> Lorem Ipsum</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"><i class="fa fa-picture-o"></i> Lorem Ipsum</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"><i class="fa fa-calendar"></i> Lorem Ipsum</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
@@ -834,7 +901,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-camera"></i> <span> Picture </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Picture </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
@@ -909,90 +976,6 @@
                                                 </li>
                                             </ul>
                                         </li>
-
-
-
-
-
-
-
-
-
-
-
-                                        <li class="dropdown redq-fullwidth">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-flask"></i> <span> List </span></a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <!-- Content container to add padding -->
-                                                <!-- <div class="redq-content"> -->
-                                                <ul class="columns col-lg-4 col-sm-4 list-unstyled">
-                                                    <li>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                                <ul class="columns col-lg-4 col-sm-4 list-unstyled">
-                                                    <li>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                                <ul class="columns col-lg-4 col-sm-4 list-unstyled">
-                                                    <li>
-                                                        <ul>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">Lorem Ipsum</a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                                <!-- </div> -->
-                                            </li>
-                                        </ul>
-                                    </li>
 
 
 
@@ -1038,29 +1021,14 @@
             <main class="bs-docs-masthead" id="content" role="main">
                 <div class="container">
 
-                    <div class="showcase">
-
-                    </div><!-- end .showcase -->
-
                     <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">RedQ</span>
                     <!-- <h1>Bootstrap</h1> -->
                     <p class="lead">The most popular front-end framework for developing responsive, mobile first projects on the web.</p>
                     <p class="lead">
-                        <a href="https://github.com/RedQ/RedQ-Megamenu/archive/master.zip" class="btn btn-outline-inverse btn-lg" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download 3.1.1']);">Download Megamenu</a>
+                        <a href="https://github.com/RedQ/RedQ-Megamenu/archive/master.zip" class="btn btn-outline-inverse btn-lg">Download Megamenu</a>
                     </p>
                     <p class="version">Currently v0.0.1</p>
-                    <div id="carbonads-container">
-                        <div class="carbonad">
-                            <div id="azcarbon"></div>
-                            <script>
-                            var z = document.createElement("script");
-                            z.async = true;
-                            z.src = "http://engine.carbonads.com/z/32341/azcarbon_2_1_0_HORIZ";
-                            var s = document.getElementsByTagName("script")[0];
-                            s.parentNode.insertBefore(z, s);
-                            </script>
-                        </div>
-                    </div>
+
 
                 </div>
 
@@ -1068,6 +1036,10 @@
 
             <div class="bs-docs-featurette">
                 <div class="container">
+
+                    <div class="showcase">
+
+                    </div><!-- end .showcase -->
 
                     <h2 class="bs-docs-featurette-title">Designed for everyone, everywhere.</h2>
                     <p class="lead">A Responsive Megamenu built with bootstrap.</p>
@@ -1108,6 +1080,7 @@
         <script src="js/jquery.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
