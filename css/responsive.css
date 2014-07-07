@@ -18,27 +18,45 @@
 
   /* line 51, ../sass/responsive.scss */
   .navbar-nav {
-    float: right; }
+    float: none;
+    text-align: right; }
+    /* line 55, ../sass/responsive.scss */
+    .navbar-nav > li {
+      float: none;
+      text-align: left;
+      display: inline-block; }
 
-  /* line 59, ../sass/responsive.scss */
+  /* line 63, ../sass/responsive.scss */
+  .align-left .navbar-nav {
+    text-align: left; }
+
+  /* line 69, ../sass/responsive.scss */
+  .align-center .navbar-nav {
+    text-align: center; }
+
+  /* line 75, ../sass/responsive.scss */
+  .align-right .navbar-nav {
+    text-align: right; }
+
+  /* line 85, ../sass/responsive.scss */
   .navbar-default .navbar-collapse {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
 
-  /* line 65, ../sass/responsive.scss */
+  /* line 91, ../sass/responsive.scss */
   .navbar-default .navbar-nav > li {
     padding: 33px 15px; }
 
-  /* line 69, ../sass/responsive.scss */
+  /* line 95, ../sass/responsive.scss */
   .redq .dropdown.redq-halfwidth .dropdown-menu {
     width: 585px; }
 
-  /* line 72, ../sass/responsive.scss */
+  /* line 98, ../sass/responsive.scss */
   .shrink .navbar-default .navbar-nav > li {
     padding: 15px 15px; }
 
-  /* line 81, ../sass/responsive.scss */
+  /* line 107, ../sass/responsive.scss */
   .nav.navbar-nav > li:hover > ul.dropdown-menu, .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -46,7 +64,7 @@
     -ms-animation: fadeInUp 500ms;
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; }
-  /* line 97, ../sass/responsive.scss */
+  /* line 123, ../sass/responsive.scss */
   .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -55,19 +73,22 @@
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; } }
 @media (max-width: 767px) {
-  /* line 115, ../sass/responsive.scss */
+  /* line 140, ../sass/responsive.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     border: 0;
     box-shadow: none; }
 
-  /* line 124, ../sass/responsive.scss */
-  .navbar-nav .open .dropdown-menu {
-    border-width: 0 1px 1px;
-    border-style: solid;
-    border-color: #ebebeb; } }
+  /* line 151, ../sass/responsive.scss */
+  .navbar-nav {
+    background: white; }
+    /* line 154, ../sass/responsive.scss */
+    .navbar-nav .open .dropdown-menu {
+      border-width: 0 1px 1px;
+      border-style: solid;
+      border-color: #ebebeb; } }

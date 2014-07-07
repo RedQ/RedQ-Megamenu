@@ -25,7 +25,7 @@ a {
 	margin-top: 15px;
 }
 .navbar-collapse {
-	margin-top: 8px;
+	margin-top: 4px;
 }
 
 .header {
@@ -74,8 +74,28 @@ a {
 			> li {
 				> a {
 					text-align: center;
-					i {
+					> i {
 						display: block;
+					}
+
+					// .link-item {
+					// 	float: left;
+					// }
+				}
+			}
+		}
+	}
+
+	&.icons-no {
+		.nav {
+			> li {
+				> a {
+					 > i {
+						display: none;
+					}
+
+					.link-item {
+						float: left;
 					}
 				}
 			}
@@ -86,8 +106,14 @@ a {
 		.nav {
 			> li {
 				> a {
-					i {
+					 > i {
+					 	display: block;
 						margin-right: 5px;
+						float: left;
+					}
+
+					.link-item {
+						float: right;
 					}
 				}
 			}
@@ -96,19 +122,18 @@ a {
 
 	&.icons-right {
 		.nav {
-			li {
+			> li {
 
-
-
-				a {
-					i {
-						// float: right;
+				> a {
+					 > i {
+					 	display: block;
+						float: right;
 						margin-left: 5px;
 					}
 
 					.link-item {
 						// display: block;
-						// float: left;
+						float: left;
 						// padding: 0px;
 						// position: static;
 						// border: 0px none
@@ -160,6 +185,7 @@ a {
 		text-transform: uppercase;
 	}
 	.navbar-nav {
+
 		> li {
 			// padding: 33px 15px;
 			padding: 0px 15px;

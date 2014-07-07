@@ -49,8 +49,34 @@
 
 
 	.navbar-nav {
-		float: right;
+		float: none;
+		text-align: right;
+
+		> li {
+			float: none;
+			text-align: left;
+			display: inline-block;
+		}
 	}
+
+	.align-left {
+		.navbar-nav {
+			text-align: left;
+		}
+	}
+
+	.align-center {
+		.navbar-nav {
+			text-align: center;
+		}
+	}
+
+	.align-right {
+		.navbar-nav {
+			text-align: right;
+		}
+	}
+
 	ul.nav .dropdown:hover > .sub-menu,
 	ul.nav .dropdown:hover > .dropdown-menu {
 		// display: block;
@@ -121,9 +147,15 @@
 		border: 0;
 		box-shadow: none;
 	}
-	.navbar-nav .open .dropdown-menu {
-		border-width: 0 1px 1px;
-		border-style: solid;
-		border-color: $border-color;
+
+	.navbar-nav {
+		background: $inverse-bg;
+		.open {
+			.dropdown-menu {
+				border-width: 0 1px 1px;
+				border-style: solid;
+				border-color: $border-color;
+			}
+		}
 	}
 }

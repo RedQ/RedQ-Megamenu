@@ -21,6 +21,7 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="css/theme.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
+        <link href="css/menu-settings.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +34,7 @@
 
         <!-- HEADER -->
         <header id="header">
-            <div class="header icons-left">
+            <div id="mega-menu" class="header primary-menu icons-left">
                 <div class="container">
                     <div class="row">
                         <nav class="navbar navbar-default redq" role="navigation">
@@ -54,7 +55,7 @@
                                     <ul class="nav navbar-nav">
 
                                         <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Home</span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-list-alt"></i> <span class="link-item">Home</span></a>
                                             <ul class="sub-menu">
                                                 <li><a href="#">Home One: Landing</a></li>
                                                 <li><a href="#">Home Two: Eyegasm</a></li>
@@ -77,7 +78,7 @@
 
 
                                         <li class="dropdown redq-halfwidth">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="link-item"> Portfolio </span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-list-alt"></i> <span class="link-item"> Portfolio </span></a>
                                         <ul class="dropdown-menu">
                                             <li>
                                                 <!-- Content container to add padding -->
@@ -151,7 +152,7 @@
 
 
                                         <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Dropdown</span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list-alt"></i>  <span class="link-item"> Dropdown</span></a>
                                             <ul class="sub-menu">
                                                 <li><a href="#">Menu Item 1</a></li>
                                                 <li><a href="#">Menu Item 2</a></li>
@@ -192,7 +193,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item">Dropdown + Description</span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list-alt"></i> <span class="link-item"> Dropdown + Description</span></a>
                                             <ul class="dropdown-menu">
 
                                                <!--  <div class="redq-content"> -->
@@ -375,7 +376,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> List </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-list-alt"></i> <span class="link-item"> List </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
@@ -477,7 +478,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Grid </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list-alt"></i> <span class="link-item">  Grid </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <div class="container">
@@ -596,7 +597,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Shop </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">  <i class="fa fa-list-alt"></i> <span class="link-item"> Shop </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <div class="container">
@@ -823,7 +824,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Icon </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-list-alt"></i><span class="link-item">  Icon </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
@@ -901,7 +902,7 @@
 
 
                                         <li class="dropdown redq-fullwidth">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="link-item"> Picture </span></a>
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list-alt"></i> <span class="link-item">  Picture </span></a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <!-- Content container to add padding -->
@@ -1076,11 +1077,109 @@
         </section>
 
 
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="small_wrapp">
+                            <div class="row">
+                                <div class="col-xs-12 caption">
+                                    Icons Position
+                                </div><!-- class="row" -->
+                            </div><!-- class="row" -->
+                            <div class="radio">
+                                <label class="icons-left">
+                                    <input type="radio" name="icons_position" checked="checked" value="left"> Left
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label class="icons-top">
+                                    <input type="radio" name="icons_position" value="top"> Above
+                                </label>
+                            </div>
+                            <div class="radio parent-checked">
+                                <label class="icons-right">
+                                    <input type="radio" name="icons_position" value="right"> Right
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="settings-panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="small-wrapper">
+                            <h4>Icons Position</h4>
+                            <ul id="menu-icons">
+                                <li><a href="#" data-name="icons-no">Icons No</a></li>
+                                <li><a href="#" data-name="icons-left">Icons Left</a></li>
+                                <li><a href="#" data-name="icons-top">Icons Top</a></li>
+                                <li><a href="#" data-name="icons-right">Icons Right</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="small-wrapper">
+                            <h4>Menu Align</h4>
+                            <ul id="menu-align">
+                                <li><a href="#" data-name="align-left">Left</a></li>
+                                <li><a href="#" data-name="align-center">Center</a></li>
+                                <li><a href="#" data-name="align-right">Right</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="small-wrapper">
+                            <h4>Dropdown Effect</h4>
+                            <ul>
+                                <li><a href="#">bounceInUp</a></li>
+                                <li><a href="#">fadeInDown</a></li>
+                                <li><a href="#">fadeInUp</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- end .row -->
+            </div><!-- end .container -->
+        </section>
+
+
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/settings.js"></script>
+
+        <script>
+
+
+
+
+
+            jQuery(document).ready(function(){
+                jQuery( '[name="icons_position"]' ).change(function(){
+                    new_position = jQuery( this ).val();
+                    jQuery( '#mega-menu.primary-menu' ).removeClass( 'icons-left' ).removeClass( 'icons-right' ).removeClass( 'icons-top' ).addClass( 'icons-' + new_position );
+                    checkedParent();
+                });
+
+                function checkedParent(){
+                    jQuery( 'input' ).parent().parent().removeClass( 'parent-checked' );
+                    jQuery( 'input:checked' ).parent().parent().addClass( 'parent-checked' );
+                }
+                checkedParent();
+            });
+
+
+
+
+        </script>
     </body>
 </html>
