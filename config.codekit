@@ -388,13 +388,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/swatch.jpg": {
+	"\/images\/swatch.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 33007,
-		"inputAbbreviatedPath": "\/images\/swatch.jpg",
-		"outputAbbreviatedPath": "\/images\/swatch.jpg",
+		"inputAbbreviatedPath": "\/images\/swatch.JPG",
+		"outputAbbreviatedPath": "\/images\/swatch.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

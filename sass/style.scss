@@ -29,9 +29,12 @@ a {
 // }
 
 .header {
-	background: $inverse-bg;
-	border-bottom: 1px solid $border-color;
-	border-top: 4px solid $link-hover-color;
+	// background: $inverse-bg;
+	border-width: 4px 0 1px;
+	border-style: solid;
+	border-color: $link-hover-color transparent $border-color;
+	// border-bottom: 1px solid $border-color;
+	// border-top: 4px solid $link-hover-color;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -290,7 +293,9 @@ a {
 		padding: 0;
 		box-shadow: none;
 		border: 1px solid $border-color;
-		border-top: 2px solid $link-hover-color;
+		border-style: solid;
+		border-top-width: 2px;
+		border-top-color: $link-hover-color;
 		line-height: 24px;
 
 

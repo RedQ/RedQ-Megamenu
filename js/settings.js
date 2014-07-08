@@ -21,39 +21,28 @@ $(document).ready(function () {
 			redQ_settings.menu_color_skins();
 		},
 
-		menu_align : function() {
-			$('#menu-align').on('click', 'a', function(e) {
-				e.preventDefault();
-				var self = $(this),
-					name = self.data('name');
 
-					console.log(name);
+		menu_align : function() {
+			$('#menu-align').on('change', '[name="change-align"]', function() {
+				var name = $(this).val();
 
 				$('#mega-menu.primary-menu').removeClass('align-left align-right align-center').addClass(name);
 
 			});
 		},
 		menu_icons : function() {
-			$('#menu-icons').on('click', 'a', function(e) {
-				e.preventDefault();
-				var self = $(this),
-					name = self.data('name');
-
-					console.log(name);
+			$('#menu-icons').on('change', '[name="change-icons"]', function() {
+				var name = $(this).val();
 
 				$('#mega-menu.primary-menu').removeClass('icons-no icons-left icons-right icons-top').addClass(name);
 
 			});
 		},
 		menu_color_skins : function() {
-			$('#color-skins').on('click', 'a', function(e) {
-				e.preventDefault();
-				var self = $(this),
-					name = self.data('name');
+			$('#color-skins').on('change', '[name="change-skins"]', function() {
+				var name = $(this).val();
 
-					console.log(name);
-
-				$('#mega-menu.primary-menu').removeClass('green-sea-skin pomegranate-skin pumpkin-skin wisteria-skin orange-skin nephritis-skin belize-hole-skin').addClass(name);
+				$('#mega-menu.primary-menu').removeClass('default-skin green-sea-skin pomegranate-skin pumpkin-skin wisteria-skin orange-skin nephritis-skin belize-hole-skin').addClass(name);
 
 			});
 		},

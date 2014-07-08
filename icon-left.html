@@ -34,7 +34,7 @@
 
         <!-- HEADER -->
         <header id="header">
-            <div id="mega-menu" class="header primary-menu icons-left">
+            <div id="mega-menu" class="header primary-menu icons-left default-skin">
                 <div class="container">
                     <div class="row">
                         <nav class="navbar navbar-default redq" role="navigation">
@@ -1077,64 +1077,60 @@
         </section>
 
 
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="small_wrapp">
-                            <div class="row">
-                                <div class="col-xs-12 caption">
-                                    Icons Position
-                                </div><!-- class="row" -->
-                            </div><!-- class="row" -->
-                            <div class="radio">
-                                <label class="icons-left">
-                                    <input type="radio" name="icons_position" checked="checked" value="left"> Left
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label class="icons-top">
-                                    <input type="radio" name="icons_position" value="top"> Above
-                                </label>
-                            </div>
-                            <div class="radio parent-checked">
-                                <label class="icons-right">
-                                    <input type="radio" name="icons_position" value="right"> Right
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
         <section id="settings-panel">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="small-wrapper">
                             <h4>Icons Position</h4>
-                            <ul id="menu-icons">
-                                <li><a href="#" data-name="icons-no">Icons No</a></li>
-                                <li><a href="#" data-name="icons-left">Icons Left</a></li>
-                                <li><a href="#" data-name="icons-top">Icons Top</a></li>
-                                <li><a href="#" data-name="icons-right">Icons Right</a></li>
+                            <ul id="menu-icons" class="radio">
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-icons" checked="checked" value="icons-no"> Icons Null
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-icons" value="icons-top"> Icons Top
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-icons" value="icons-left"> Icons Left
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-icons" value="icons-right"> Icons Right
+                                    </label>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+
+                    <div class="col-lg-3">
                         <div class="small-wrapper">
                             <h4>Menu Align</h4>
-                            <ul id="menu-align">
-                                <li><a href="#" data-name="align-left">Left</a></li>
-                                <li><a href="#" data-name="align-center">Center</a></li>
-                                <li><a href="#" data-name="align-right">Right</a></li>
+                            <ul id="menu-align" class="radio">
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-align" value="align-left"> Left
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-align" value="align-center"> Center
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-align" checked="checked" value="align-right"> Right
+                                    </label>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="small-wrapper">
                             <h4>Dropdown Effect</h4>
                             <ul>
@@ -1144,17 +1140,50 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="small-wrapper">
                             <h4>Color Skin</h4>
-                            <ul id="color-skins">
-                                <li><a href="#" data-name="green-sea-skin">Green Sea</a></li>
-                                <li><a href="#" data-name="pomegranate-skin">Pomegranate</a></li>
-                                <li><a href="#" data-name="pumpkin-skin">Pumpkin</a></li>
-                                <li><a href="#" data-name="belize-hole-skin">Belize Hole</a></li>
-                                <li><a href="#" data-name="nephritis-skin">Nephritis</a></li>
-                                <li><a href="#" data-name="orange-skin">Orange</a></li>
-                                <li><a href="#" data-name="wisteria-skin">Wisteria</a></li>
+                            <ul id="color-skins" class="radio">
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-skins" checked="checked" value="default-skin"> Default Skin
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-skins" value="green-sea-skin"> Green Sea
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-skins" value="pomegranate-skin"> Pomegranate
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-skins" value="pumpkin-skin"> Pumpkin
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-skins" value="belize-hole-skin"> Belize Hole
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-skins" value="nephritis-skin"> Nephritis
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-skins" value="orange-skin"> Orange
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="radio" name="change-skins" value="wisteria-skin"> Wisteria
+                                    </label>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1171,29 +1200,5 @@
         <script src="js/scripts.js"></script>
         <script src="js/settings.js"></script>
 
-        <script>
-
-
-
-
-
-            jQuery(document).ready(function(){
-                jQuery( '[name="icons_position"]' ).change(function(){
-                    new_position = jQuery( this ).val();
-                    jQuery( '#mega-menu.primary-menu' ).removeClass( 'icons-left' ).removeClass( 'icons-right' ).removeClass( 'icons-top' ).addClass( 'icons-' + new_position );
-                    checkedParent();
-                });
-
-                function checkedParent(){
-                    jQuery( 'input' ).parent().parent().removeClass( 'parent-checked' );
-                    jQuery( 'input:checked' ).parent().parent().addClass( 'parent-checked' );
-                }
-                checkedParent();
-            });
-
-
-
-
-        </script>
     </body>
 </html>

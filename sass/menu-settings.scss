@@ -1,82 +1,146 @@
+@import "variable";
+
 .small-wrapper {
 	ul {
 		padding: 0;
 		list-style: none;
 	}
 }
-
+.default-skin {
+	&.header {
+		background: #FFF;
+		border-color: #5BAADF transparent $border-color;
+	}
+}
 .green-sea-skin {
 	&.header {
 		background: #16a085;
-		border-color: #1abc9c;
+		border-top-color: #1abc9c;
 	}
 	.navbar-default .navbar-nav > li > a,
 	.navbar > .container .navbar-brand {
 		color: #FFF;
+	}
+	.redq {
+		.dropdown-menu {
+			border-top-color: #1abc9c;
+		}
+		a:hover {
+			color: #1abc9c;
+		}
 	}
 }
 
 .pomegranate-skin {
 	&.header {
 		background: #c0392b;
-		border-color: #e74c3c;
+		border-top-color: #e74c3c;
 	}
 	.navbar-default .navbar-nav > li > a,
 	.navbar > .container .navbar-brand {
 		color: #FFF;
+	}
+	.redq {
+		.dropdown-menu {
+			border-top-color: #e74c3c;
+		}
+		a:hover {
+			color: #e74c3c;
+		}
 	}
 }
 
 .pumpkin-skin {
 	&.header {
 		background: #d35400;
-		border-color: #e67e22;
+		border-top-color: #e67e22;
 	}
 	.navbar-default .navbar-nav > li > a,
 	.navbar > .container .navbar-brand {
 		color: #FFF;
+	}
+	.redq {
+		.dropdown-menu {
+			border-top-color: #e67e22;
+		}
+		a:hover {
+			color: #e67e22;
+		}
 	}
 }
 
 .belize-hole-skin {
 	&.header {
 		background: #2980b9;
-		border-color: #3498db;
+		border-top-color: #3498db;
 	}
 	.navbar-default .navbar-nav > li > a,
 	.navbar > .container .navbar-brand {
 		color: #FFF;
+	}
+	.redq {
+		.dropdown-menu {
+			border-top-color: #3498db;
+		}
+		a:hover {
+			color: #3498db;
+		}
 	}
 }
 
 .nephritis-skin {
 	&.header {
 		background: #27ae60;
-		border-color: #2ecc71;
+		border-top-color: #2ecc71;
 	}
 	.navbar-default .navbar-nav > li > a,
 	.navbar > .container .navbar-brand {
 		color: #FFF;
+	}
+	.redq {
+		.dropdown-menu {
+			border-top-color: #2ecc71;
+		}
+		a:hover {
+			color: #2ecc71;
+		}
 	}
 }
 
 .orange-skin {
 	&.header {
 		background: #f39c12;
-		border-color: #f1c40f;
+		border-top-color: #f1c40f;
 	}
 	.navbar-default .navbar-nav > li > a,
 	.navbar > .container .navbar-brand {
 		color: #FFF;
+	}
+	.redq {
+		.dropdown-menu {
+			border-top-color: #f1c40f;
+		}
+		a:hover {
+			color: #f1c40f;
+		}
 	}
 }
 .wisteria-skin {
 	&.header {
 		background: #8e44ad;
-		border-color: #9b59b6;
+		border-top-color: #9b59b6;
 	}
 	.navbar-default .navbar-nav > li > a,
 	.navbar > .container .navbar-brand {
 		color: #FFF;
+	}
+
+	.redq {
+		.dropdown-menu {
+			border-top-color: #9b59b6;
+		}
+		a:hover {
+			color: #9b59b6;
+		}
 	}
 }
