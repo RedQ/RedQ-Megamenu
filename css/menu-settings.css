@@ -2,3 +2,66 @@
 .small-wrapper ul {
   padding: 0;
   list-style: none; }
+
+/* line 9, ../sass/menu-settings.scss */
+.green-sea-skin.header {
+  background: #16a085;
+  border-color: #1abc9c; }
+/* line 13, ../sass/menu-settings.scss */
+.green-sea-skin .navbar-default .navbar-nav > li > a,
+.green-sea-skin .navbar > .container .navbar-brand {
+  color: #FFF; }
+
+/* line 20, ../sass/menu-settings.scss */
+.pomegranate-skin.header {
+  background: #c0392b;
+  border-color: #e74c3c; }
+/* line 24, ../sass/menu-settings.scss */
+.pomegranate-skin .navbar-default .navbar-nav > li > a,
+.pomegranate-skin .navbar > .container .navbar-brand {
+  color: #FFF; }
+
+/* line 31, ../sass/menu-settings.scss */
+.pumpkin-skin.header {
+  background: #d35400;
+  border-color: #e67e22; }
+/* line 35, ../sass/menu-settings.scss */
+.pumpkin-skin .navbar-default .navbar-nav > li > a,
+.pumpkin-skin .navbar > .container .navbar-brand {
+  color: #FFF; }
+
+/* line 42, ../sass/menu-settings.scss */
+.belize-hole-skin.header {
+  background: #2980b9;
+  border-color: #3498db; }
+/* line 46, ../sass/menu-settings.scss */
+.belize-hole-skin .navbar-default .navbar-nav > li > a,
+.belize-hole-skin .navbar > .container .navbar-brand {
+  color: #FFF; }
+
+/* line 53, ../sass/menu-settings.scss */
+.nephritis-skin.header {
+  background: #27ae60;
+  border-color: #2ecc71; }
+/* line 57, ../sass/menu-settings.scss */
+.nephritis-skin .navbar-default .navbar-nav > li > a,
+.nephritis-skin .navbar > .container .navbar-brand {
+  color: #FFF; }
+
+/* line 64, ../sass/menu-settings.scss */
+.orange-skin.header {
+  background: #f39c12;
+  border-color: #f1c40f; }
+/* line 68, ../sass/menu-settings.scss */
+.orange-skin .navbar-default .navbar-nav > li > a,
+.orange-skin .navbar > .container .navbar-brand {
+  color: #FFF; }
+
+/* line 74, ../sass/menu-settings.scss */
+.wisteria-skin.header {
+  background: #8e44ad;
+  border-color: #9b59b6; }
+/* line 78, ../sass/menu-settings.scss */
+.wisteria-skin .navbar-default .navbar-nav > li > a,
+.wisteria-skin .navbar > .container .navbar-brand {
+  color: #FFF; }

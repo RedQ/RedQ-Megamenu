@@ -18,6 +18,7 @@ $(document).ready(function () {
 		redQ_settings_init : function() {
 			redQ_settings.menu_align();
 			redQ_settings.menu_icons();
+			redQ_settings.menu_color_skins();
 		},
 
 		menu_align : function() {
@@ -41,6 +42,18 @@ $(document).ready(function () {
 					console.log(name);
 
 				$('#mega-menu.primary-menu').removeClass('icons-no icons-left icons-right icons-top').addClass(name);
+
+			});
+		},
+		menu_color_skins : function() {
+			$('#color-skins').on('click', 'a', function(e) {
+				e.preventDefault();
+				var self = $(this),
+					name = self.data('name');
+
+					console.log(name);
+
+				$('#mega-menu.primary-menu').removeClass('green-sea-skin pomegranate-skin pumpkin-skin wisteria-skin orange-skin nephritis-skin belize-hole-skin').addClass(name);
 
 			});
 		},

@@ -145,7 +145,8 @@ a {
 }
 
 .navbar-default {
-	background-color: $inverse-bg;
+	// background-color: $inverse-bg;
+	background-color: transparent;
 	border: 0;
 
 	.navbar-toggle {

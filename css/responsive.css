@@ -14,7 +14,7 @@
     height: 111px; }
     /* line 42, ../sass/responsive.scss */
     .header.shrink .navbar > .container .navbar-brand {
-      margin-top: 0; }
+      margin-top: 5px; }
 
   /* line 51, ../sass/responsive.scss */
   .navbar-nav {

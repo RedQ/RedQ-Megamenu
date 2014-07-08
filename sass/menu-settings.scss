@@ -4,3 +4,79 @@
 		list-style: none;
 	}
 }
+
+.green-sea-skin {
+	&.header {
+		background: #16a085;
+		border-color: #1abc9c;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+}
+
+.pomegranate-skin {
+	&.header {
+		background: #c0392b;
+		border-color: #e74c3c;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+}
+
+.pumpkin-skin {
+	&.header {
+		background: #d35400;
+		border-color: #e67e22;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+}
+
+.belize-hole-skin {
+	&.header {
+		background: #2980b9;
+		border-color: #3498db;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+}
+
+.nephritis-skin {
+	&.header {
+		background: #27ae60;
+		border-color: #2ecc71;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+}
+
+.orange-skin {
+	&.header {
+		background: #f39c12;
+		border-color: #f1c40f;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+}
+.wisteria-skin {
+	&.header {
+		background: #8e44ad;
+		border-color: #9b59b6;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+}
