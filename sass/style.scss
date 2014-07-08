@@ -24,9 +24,9 @@ a {
 .navbar-toggle {
 	margin-top: 15px;
 }
-.navbar-collapse {
-	margin-top: 4px;
-}
+// .navbar-collapse {
+// 	margin-top: 4px;
+// }
 
 .header {
 	background: $inverse-bg;
@@ -193,7 +193,8 @@ a {
 		 	> a {
 		 			font-size: 16px;
 					// padding: 37px 15px;
-					padding: 0 0 10px;
+					// padding: 0 0 10px;
+					padding: 4px 0;
 					color: $link-color;
 					border-bottom: 2px solid transparent;
 
