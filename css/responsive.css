@@ -46,7 +46,7 @@
 
   /* line 91, ../sass/responsive.scss */
   .navbar-default .navbar-nav > li {
-    padding: 46px 15px; }
+    padding: 45px 15px; }
 
   /* line 95, ../sass/responsive.scss */
   .icons-top .navbar-default .navbar-nav > li {
@@ -55,15 +55,23 @@
   .icons-top.shrink .navbar-default .navbar-nav > li {
     padding: 12px 15px; }
 
-  /* line 104, ../sass/responsive.scss */
+  /* line 102, ../sass/responsive.scss */
+  .navbar-default .navbar-nav > li > a {
+    padding: 0; }
+
+  /* line 105, ../sass/responsive.scss */
+  .icons-top .navbar-default .navbar-nav > li > a {
+    padding: 4px 0; }
+
+  /* line 110, ../sass/responsive.scss */
   .redq .dropdown.redq-halfwidth .dropdown-menu {
     width: 585px; }
 
-  /* line 107, ../sass/responsive.scss */
+  /* line 113, ../sass/responsive.scss */
   .shrink .navbar-default .navbar-nav > li {
-    padding: 15px 15px; }
+    padding: 27px 15px; }
 
-  /* line 116, ../sass/responsive.scss */
+  /* line 122, ../sass/responsive.scss */
   .nav.navbar-nav > li:hover > ul.dropdown-menu, .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -71,7 +79,7 @@
     -ms-animation: fadeInUp 500ms;
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; }
-  /* line 132, ../sass/responsive.scss */
+  /* line 138, ../sass/responsive.scss */
   .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -80,7 +88,7 @@
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; } }
 @media (max-width: 767px) {
-  /* line 149, ../sass/responsive.scss */
+  /* line 155, ../sass/responsive.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;
@@ -91,10 +99,10 @@
     border: 0;
     box-shadow: none; }
 
-  /* line 160, ../sass/responsive.scss */
+  /* line 166, ../sass/responsive.scss */
   .navbar-nav {
     background: white; }
-    /* line 163, ../sass/responsive.scss */
+    /* line 169, ../sass/responsive.scss */
     .navbar-nav .open .dropdown-menu {
       border-width: 0 1px 1px;
       border-style: solid;

@@ -89,7 +89,7 @@
 	}
 
 	.navbar-default .navbar-nav > li {
-		padding: 46px 15px;
+		padding: 45px 15px;
 	}
 	.icons-top {
 		.navbar-default .navbar-nav > li {
@@ -99,13 +99,19 @@
 			padding: 12px 15px;
 		}
 	}
+	.navbar-default .navbar-nav > li > a {
+		padding: 0;
+	}
+	.icons-top .navbar-default .navbar-nav > li > a {
+		padding: 4px 0;
+	}
 
 
 	.redq .dropdown.redq-halfwidth .dropdown-menu {
 		width: 585px;
 	}
 	.shrink .navbar-default .navbar-nav > li {
-		padding: 15px 15px;
+		padding: 27px 15px;
 	}
 
 	.nav{
