@@ -7,6 +7,11 @@
 		margin-left: 20px;
 	}
 }
+
+ul#color-skins input[type="radio"] {
+	margin-top: 8px;
+}
+
 .default-skin {
 	&.header {
 		background: #FFF;
@@ -122,7 +127,49 @@
 		border-top-color: #2ecc71;
 	}
 }
+.orange-skin {
+	&.header {
+		background: #f39c12;
+		border-top-color: #f1c40f;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+	.redq {
+		.dropdown-menu {
+			border-top-color: #f1c40f;
+		}
+		a:hover {
+			color: #f1c40f;
+		}
+	}
+	ul.sub-menu {
+		border-top-color: #f1c40f;
+	}
+}
+.silver-skin {
+	&.header {
+		background: #bdc3c7;
+		border-top-color: #ecf0f1;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
 
+	.redq {
+		.dropdown-menu {
+			border-top-color: #ecf0f1;
+		}
+		a:hover {
+			color: #bdc3c7;
+		}
+	}
+	ul.sub-menu {
+		border-top-color: #ecf0f1;
+	}
+}
 .orange-skin {
 	&.header {
 		background: #f39c12;
@@ -508,4 +555,47 @@
 			}
 		}
 	}
+}
+
+
+
+
+.skin-block {
+	width: 60px;
+	height: 30px;
+	margin: 5px 0;
+}
+.default-bg {
+	background: #FFF;
+	border: 1px solid $border-color;
+}
+.green-sea-bg {
+	background: #16A085;
+}
+.pomegranate-bg {
+	background: #C0392B;
+}
+.silver-bg {
+	background: #bdc3c7;
+}
+.pumpkin-bg {
+	background: #d35400;
+}
+.orange-bg {
+	background: #f39c12;
+}
+.nephritis-bg {
+	background: #27ae60;
+}
+.wisteria-bg {
+	background: #8e44ad;
+}
+.asbestos-bg {
+	background: #7f8c8d;
+}
+.midnight-blue-bg {
+	background: #2c3e50;
+}
+.belize-hole-bg {
+	background: #2980b9;
 }

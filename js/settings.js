@@ -1,15 +1,3 @@
-$(document).ready(function () {
-
-	$('#menu-align li').click(function(e){
-
-		  val
-
-		e.preventDefault();
-	})
-
-});
-
-
 (function($) {
 	"use strict";
 
@@ -43,7 +31,7 @@ $(document).ready(function () {
 			$('#menu-animation').on('change', '[name="change-animation"]', function() {
 				var name = $(this).val();
 
-				$('#mega-menu.primary-menu').removeClass('fadeInUp fadeInDown bounceInUp flipInX flipInY pulse zoomIx lightSpeedIn').addClass(name);
+				$('#mega-menu.primary-menu').removeClass('fadeInUp fadeInDown bounceInUp flipInX flipInY pulse zoomIn lightSpeedIn').addClass(name);
 
 			});
 		},
@@ -51,7 +39,7 @@ $(document).ready(function () {
 			$('#color-skins').on('change', '[name="change-skins"]', function() {
 				var name = $(this).val();
 
-				$('#mega-menu.primary-menu').removeClass('default-skin green-sea-skin pomegranate-skin pumpkin-skin wisteria-skin orange-skin nephritis-skin belize-hole-skin midnight-blue-skin asbestos-skin').addClass(name);
+				$('#mega-menu.primary-menu').removeClass('default-skin green-sea-skin pomegranate-skin silver-skin pumpkin-skin wisteria-skin orange-skin nephritis-skin belize-hole-skin midnight-blue-skin asbestos-skin').addClass(name);
 
 			});
 		},
