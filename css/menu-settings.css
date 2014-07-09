@@ -1,171 +1,224 @@
 /* line 4, ../sass/menu-settings.scss */
 .small-wrapper ul {
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  margin-left: 20px; }
 
-/* line 10, ../sass/menu-settings.scss */
+/* line 11, ../sass/menu-settings.scss */
 .default-skin.header {
   background: #FFF;
   border-color: #5baadf transparent #ebebeb; }
 
-/* line 16, ../sass/menu-settings.scss */
+/* line 17, ../sass/menu-settings.scss */
 .green-sea-skin.header {
   background: #16a085;
   border-top-color: #1abc9c; }
-/* line 20, ../sass/menu-settings.scss */
+/* line 21, ../sass/menu-settings.scss */
 .green-sea-skin .navbar-default .navbar-nav > li > a,
 .green-sea-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 25, ../sass/menu-settings.scss */
+/* line 26, ../sass/menu-settings.scss */
 .green-sea-skin .redq .dropdown-menu {
   border-top-color: #1abc9c; }
-/* line 28, ../sass/menu-settings.scss */
+/* line 29, ../sass/menu-settings.scss */
 .green-sea-skin .redq a:hover {
   color: #1abc9c; }
-/* line 32, ../sass/menu-settings.scss */
+/* line 33, ../sass/menu-settings.scss */
 .green-sea-skin ul.sub-menu {
   border-top-color: #1abc9c; }
 
-/* line 38, ../sass/menu-settings.scss */
+/* line 39, ../sass/menu-settings.scss */
 .pomegranate-skin.header {
   background: #c0392b;
   border-top-color: #e74c3c; }
-/* line 42, ../sass/menu-settings.scss */
+/* line 43, ../sass/menu-settings.scss */
 .pomegranate-skin .navbar-default .navbar-nav > li > a,
 .pomegranate-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 47, ../sass/menu-settings.scss */
+/* line 48, ../sass/menu-settings.scss */
 .pomegranate-skin .redq .dropdown-menu {
   border-top-color: #e74c3c; }
-/* line 50, ../sass/menu-settings.scss */
+/* line 51, ../sass/menu-settings.scss */
 .pomegranate-skin .redq a:hover {
   color: #e74c3c; }
-/* line 54, ../sass/menu-settings.scss */
+/* line 55, ../sass/menu-settings.scss */
 .pomegranate-skin ul.sub-menu {
   border-top-color: #e74c3c; }
 
-/* line 60, ../sass/menu-settings.scss */
+/* line 61, ../sass/menu-settings.scss */
 .pumpkin-skin.header {
   background: #d35400;
   border-top-color: #e67e22; }
-/* line 64, ../sass/menu-settings.scss */
+/* line 65, ../sass/menu-settings.scss */
 .pumpkin-skin .navbar-default .navbar-nav > li > a,
 .pumpkin-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 69, ../sass/menu-settings.scss */
+/* line 70, ../sass/menu-settings.scss */
 .pumpkin-skin .redq .dropdown-menu {
   border-top-color: #e67e22; }
-/* line 72, ../sass/menu-settings.scss */
+/* line 73, ../sass/menu-settings.scss */
 .pumpkin-skin .redq a:hover {
   color: #e67e22; }
-/* line 76, ../sass/menu-settings.scss */
+/* line 77, ../sass/menu-settings.scss */
 .pumpkin-skin ul.sub-menu {
   border-top-color: #e67e22; }
 
-/* line 82, ../sass/menu-settings.scss */
+/* line 83, ../sass/menu-settings.scss */
 .belize-hole-skin.header {
   background: #2980b9;
   border-top-color: #3498db; }
-/* line 86, ../sass/menu-settings.scss */
+/* line 87, ../sass/menu-settings.scss */
 .belize-hole-skin .navbar-default .navbar-nav > li > a,
 .belize-hole-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 91, ../sass/menu-settings.scss */
+/* line 92, ../sass/menu-settings.scss */
 .belize-hole-skin .redq .dropdown-menu {
   border-top-color: #3498db; }
-/* line 94, ../sass/menu-settings.scss */
+/* line 95, ../sass/menu-settings.scss */
 .belize-hole-skin .redq a:hover {
   color: #3498db; }
-/* line 98, ../sass/menu-settings.scss */
+/* line 99, ../sass/menu-settings.scss */
 .belize-hole-skin ul.sub-menu {
   border-top-color: #3498db; }
 
-/* line 104, ../sass/menu-settings.scss */
+/* line 105, ../sass/menu-settings.scss */
 .nephritis-skin.header {
   background: #27ae60;
   border-top-color: #2ecc71; }
-/* line 108, ../sass/menu-settings.scss */
+/* line 109, ../sass/menu-settings.scss */
 .nephritis-skin .navbar-default .navbar-nav > li > a,
 .nephritis-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 113, ../sass/menu-settings.scss */
+/* line 114, ../sass/menu-settings.scss */
 .nephritis-skin .redq .dropdown-menu {
   border-top-color: #2ecc71; }
-/* line 116, ../sass/menu-settings.scss */
+/* line 117, ../sass/menu-settings.scss */
 .nephritis-skin .redq a:hover {
   color: #2ecc71; }
-/* line 120, ../sass/menu-settings.scss */
+/* line 121, ../sass/menu-settings.scss */
 .nephritis-skin ul.sub-menu {
   border-top-color: #2ecc71; }
 
-/* line 126, ../sass/menu-settings.scss */
+/* line 127, ../sass/menu-settings.scss */
 .orange-skin.header {
   background: #f39c12;
   border-top-color: #f1c40f; }
-/* line 130, ../sass/menu-settings.scss */
+/* line 131, ../sass/menu-settings.scss */
 .orange-skin .navbar-default .navbar-nav > li > a,
 .orange-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 135, ../sass/menu-settings.scss */
+/* line 136, ../sass/menu-settings.scss */
 .orange-skin .redq .dropdown-menu {
   border-top-color: #f1c40f; }
-/* line 138, ../sass/menu-settings.scss */
+/* line 139, ../sass/menu-settings.scss */
 .orange-skin .redq a:hover {
   color: #f1c40f; }
-/* line 142, ../sass/menu-settings.scss */
+/* line 143, ../sass/menu-settings.scss */
 .orange-skin ul.sub-menu {
   border-top-color: #f1c40f; }
 
-/* line 147, ../sass/menu-settings.scss */
+/* line 148, ../sass/menu-settings.scss */
 .wisteria-skin.header {
   background: #8e44ad;
   border-top-color: #9b59b6; }
-/* line 151, ../sass/menu-settings.scss */
+/* line 152, ../sass/menu-settings.scss */
 .wisteria-skin .navbar-default .navbar-nav > li > a,
 .wisteria-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 157, ../sass/menu-settings.scss */
+/* line 158, ../sass/menu-settings.scss */
 .wisteria-skin .redq .dropdown-menu {
   border-top-color: #9b59b6; }
-/* line 160, ../sass/menu-settings.scss */
+/* line 161, ../sass/menu-settings.scss */
 .wisteria-skin .redq a:hover {
   color: #9b59b6; }
-/* line 164, ../sass/menu-settings.scss */
+/* line 165, ../sass/menu-settings.scss */
 .wisteria-skin ul.sub-menu {
   border-top-color: #9b59b6; }
 
-/* line 170, ../sass/menu-settings.scss */
+/* line 171, ../sass/menu-settings.scss */
 .midnight-blue-skin.header {
   background: #2c3e50;
   border-top-color: #34495e; }
-/* line 174, ../sass/menu-settings.scss */
+/* line 175, ../sass/menu-settings.scss */
 .midnight-blue-skin .navbar-default .navbar-nav > li > a,
 .midnight-blue-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 180, ../sass/menu-settings.scss */
+/* line 181, ../sass/menu-settings.scss */
 .midnight-blue-skin .redq .dropdown-menu {
   border-top-color: #34495e; }
-/* line 183, ../sass/menu-settings.scss */
+/* line 184, ../sass/menu-settings.scss */
 .midnight-blue-skin .redq a:hover {
   color: #34495e; }
-/* line 187, ../sass/menu-settings.scss */
+/* line 188, ../sass/menu-settings.scss */
 .midnight-blue-skin ul.sub-menu {
   border-top-color: #34495e; }
 
-/* line 193, ../sass/menu-settings.scss */
+/* line 194, ../sass/menu-settings.scss */
 .asbestos-skin.header {
   background: #7f8c8d;
   border-top-color: #95a5a6; }
-/* line 197, ../sass/menu-settings.scss */
+/* line 198, ../sass/menu-settings.scss */
 .asbestos-skin .navbar-default .navbar-nav > li > a,
 .asbestos-skin .navbar > .container .navbar-brand {
   color: #FFF; }
-/* line 203, ../sass/menu-settings.scss */
+/* line 204, ../sass/menu-settings.scss */
 .asbestos-skin .redq .dropdown-menu {
   border-top-color: #95a5a6; }
-/* line 206, ../sass/menu-settings.scss */
+/* line 207, ../sass/menu-settings.scss */
 .asbestos-skin .redq a:hover {
   color: #95a5a6; }
-/* line 210, ../sass/menu-settings.scss */
+/* line 211, ../sass/menu-settings.scss */
 .asbestos-skin ul.sub-menu {
   border-top-color: #95a5a6; }
+
+@media (min-width: 768px) {
+  /* line 228, ../sass/menu-settings.scss */
+  .fadeInUp .nav.navbar-nav > li:hover > ul.dropdown-menu, .fadeInUp .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: fadeInUp 500ms;
+    -moz-animation: fadeInUp 500ms;
+    -ms-animation: fadeInUp 500ms;
+    -o-animation: fadeInUp 500ms;
+    animation: fadeInUp 500ms; }
+  /* line 244, ../sass/menu-settings.scss */
+  .fadeInUp .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: fadeInUp 500ms;
+    -moz-animation: fadeInUp 500ms;
+    -ms-animation: fadeInUp 500ms;
+    -o-animation: fadeInUp 500ms;
+    animation: fadeInUp 500ms; }
+
+  /* line 264, ../sass/menu-settings.scss */
+  .fadeInDown .nav.navbar-nav > li:hover > ul.dropdown-menu, .fadeInDown .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: fadeInDown 500ms;
+    -moz-animation: fadeInDown 500ms;
+    -ms-animation: fadeInDown 500ms;
+    -o-animation: fadeInDown 500ms;
+    animation: fadeInDown 500ms; }
+  /* line 280, ../sass/menu-settings.scss */
+  .fadeInDown .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: fadeInDown 500ms;
+    -moz-animation: fadeInDown 500ms;
+    -ms-animation: fadeInDown 500ms;
+    -o-animation: fadeInDown 500ms;
+    animation: fadeInDown 500ms; }
+
+  /* line 300, ../sass/menu-settings.scss */
+  .bounceInUp .nav.navbar-nav > li:hover > ul.dropdown-menu, .bounceInUp .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: bounceInUp 500ms;
+    -moz-animation: bounceInUp 500ms;
+    -ms-animation: bounceInUp 500ms;
+    -o-animation: bounceInUp 500ms;
+    animation: bounceInUp 500ms; }
+  /* line 316, ../sass/menu-settings.scss */
+  .bounceInUp .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: bounceInUp 500ms;
+    -moz-animation: bounceInUp 500ms;
+    -ms-animation: bounceInUp 500ms;
+    -o-animation: bounceInUp 500ms;
+    animation: bounceInUp 500ms; } }

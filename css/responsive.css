@@ -69,24 +69,7 @@
 
   /* line 113, ../sass/responsive.scss */
   .shrink .navbar-default .navbar-nav > li {
-    padding: 27px 15px; }
-
-  /* line 122, ../sass/responsive.scss */
-  .nav.navbar-nav > li:hover > ul.dropdown-menu, .nav.navbar-nav > li:hover > ul.sub-menu {
-    display: block;
-    -webkit-animation: fadeInUp 500ms;
-    -moz-animation: fadeInUp 500ms;
-    -ms-animation: fadeInUp 500ms;
-    -o-animation: fadeInUp 500ms;
-    animation: fadeInUp 500ms; }
-  /* line 138, ../sass/responsive.scss */
-  .nav .sub-menu .dropdown:hover > .sub-menu {
-    display: block;
-    -webkit-animation: fadeInUp 500ms;
-    -moz-animation: fadeInUp 500ms;
-    -ms-animation: fadeInUp 500ms;
-    -o-animation: fadeInUp 500ms;
-    animation: fadeInUp 500ms; } }
+    padding: 27px 15px; } }
 @media (max-width: 767px) {
   /* line 155, ../sass/responsive.scss */
   .nav .sub-menu,

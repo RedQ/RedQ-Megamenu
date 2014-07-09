@@ -18,6 +18,7 @@ $(document).ready(function () {
 		redQ_settings_init : function() {
 			redQ_settings.menu_align();
 			redQ_settings.menu_icons();
+			redQ_settings.menu_animation();
 			redQ_settings.menu_color_skins();
 		},
 
@@ -35,6 +36,14 @@ $(document).ready(function () {
 				var name = $(this).val();
 
 				$('#mega-menu.primary-menu').removeClass('icons-no icons-left icons-right icons-top').addClass(name);
+
+			});
+		},
+		menu_animation : function() {
+			$('#menu-animation').on('change', '[name="change-animation"]', function() {
+				var name = $(this).val();
+
+				$('#mega-menu.primary-menu').removeClass('fadeInUp fadeInDown bounceInUp').addClass(name);
 
 			});
 		},

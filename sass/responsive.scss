@@ -114,40 +114,40 @@
 		padding: 27px 15px;
 	}
 
-	.nav{
-		&.navbar-nav {
-			> li{
-				&:hover {
-					> ul {
-						&.dropdown-menu, &.sub-menu {
-						    display: block;
+	// .nav {
+	// 	&.navbar-nav {
+	// 		> li{
+	// 			&:hover {
+	// 				> ul {
+	// 					&.dropdown-menu, &.sub-menu {
+	// 					    display: block;
 
-						    -webkit-animation: fadeInUp 500ms;
-						    -moz-animation: fadeInUp 500ms;
-						    -ms-animation: fadeInUp 500ms;
-						    -o-animation: fadeInUp 500ms;
-						    animation: fadeInUp 500ms;
-						}
-					}
-				}
-			}
-		}
-		.sub-menu {
-			.dropdown {
-				&:hover {
-					> .sub-menu {
-						display: block;
+	// 					    -webkit-animation: fadeInUp 500ms;
+	// 					    -moz-animation: fadeInUp 500ms;
+	// 					    -ms-animation: fadeInUp 500ms;
+	// 					    -o-animation: fadeInUp 500ms;
+	// 					    animation: fadeInUp 500ms;
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// 	.sub-menu {
+	// 		.dropdown {
+	// 			&:hover {
+	// 				> .sub-menu {
+	// 					display: block;
 
-						-webkit-animation: fadeInUp 500ms;
-					    -moz-animation: fadeInUp 500ms;
-					    -ms-animation: fadeInUp 500ms;
-					    -o-animation: fadeInUp 500ms;
-					    animation: fadeInUp 500ms;
-					}
-				}
-			}
-		}
-	}
+	// 					-webkit-animation: fadeInUp 500ms;
+	// 				    -moz-animation: fadeInUp 500ms;
+	// 				    -ms-animation: fadeInUp 500ms;
+	// 				    -o-animation: fadeInUp 500ms;
+	// 				    animation: fadeInUp 500ms;
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
 }
 
 

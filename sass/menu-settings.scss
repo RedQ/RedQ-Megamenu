@@ -4,6 +4,7 @@
 	ul {
 		padding: 0;
 		list-style: none;
+		margin-left: 20px;
 	}
 }
 .default-skin {
@@ -209,5 +210,121 @@
 	}
 	ul.sub-menu {
 		border-top-color: #95a5a6;
+	}
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+	.fadeInUp {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+
+							    -webkit-animation: fadeInUp 500ms;
+							    -moz-animation: fadeInUp 500ms;
+							    -ms-animation: fadeInUp 500ms;
+							    -o-animation: fadeInUp 500ms;
+							    animation: fadeInUp 500ms;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+
+							-webkit-animation: fadeInUp 500ms;
+						    -moz-animation: fadeInUp 500ms;
+						    -ms-animation: fadeInUp 500ms;
+						    -o-animation: fadeInUp 500ms;
+						    animation: fadeInUp 500ms;
+						}
+					}
+				}
+			}
+		}
+	}
+	.fadeInDown {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+
+							    -webkit-animation: fadeInDown 500ms;
+							    -moz-animation: fadeInDown 500ms;
+							    -ms-animation: fadeInDown 500ms;
+							    -o-animation: fadeInDown 500ms;
+							    animation: fadeInDown 500ms;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+
+							-webkit-animation: fadeInDown 500ms;
+						    -moz-animation: fadeInDown 500ms;
+						    -ms-animation: fadeInDown 500ms;
+						    -o-animation: fadeInDown 500ms;
+						    animation: fadeInDown 500ms;
+						}
+					}
+				}
+			}
+		}
+	}
+	.bounceInUp {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+
+							    -webkit-animation: bounceInUp 500ms;
+							    -moz-animation: bounceInUp 500ms;
+							    -ms-animation: bounceInUp 500ms;
+							    -o-animation: bounceInUp 500ms;
+							    animation: bounceInUp 500ms;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+
+							-webkit-animation: bounceInUp 500ms;
+						    -moz-animation: bounceInUp 500ms;
+						    -ms-animation: bounceInUp 500ms;
+						    -o-animation: bounceInUp 500ms;
+						    animation: bounceInUp 500ms;
+						}
+					}
+				}
+			}
+		}
 	}
 }
