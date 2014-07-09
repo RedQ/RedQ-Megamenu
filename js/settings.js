@@ -43,7 +43,7 @@ $(document).ready(function () {
 			$('#menu-animation').on('change', '[name="change-animation"]', function() {
 				var name = $(this).val();
 
-				$('#mega-menu.primary-menu').removeClass('fadeInUp fadeInDown bounceInUp').addClass(name);
+				$('#mega-menu.primary-menu').removeClass('fadeInUp fadeInDown bounceInUp flipInX flipInY pulse zoomIx lightSpeedIn').addClass(name);
 
 			});
 		},

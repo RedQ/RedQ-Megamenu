@@ -298,6 +298,12 @@ a {
 		border-top-color: $link-hover-color;
 		line-height: 24px;
 
+		a {
+			i {
+				margin-right: 5px;
+			}
+		}
+
 
 		&.spacing {
 			padding: 20px 30px;

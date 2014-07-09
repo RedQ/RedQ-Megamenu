@@ -221,4 +221,89 @@
     -moz-animation: bounceInUp 500ms;
     -ms-animation: bounceInUp 500ms;
     -o-animation: bounceInUp 500ms;
-    animation: bounceInUp 500ms; } }
+    animation: bounceInUp 500ms; }
+
+  /* line 336, ../sass/menu-settings.scss */
+  .flipInX .nav.navbar-nav > li:hover > ul.dropdown-menu, .flipInX .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: flipInX 500ms;
+    -moz-animation: flipInX 500ms;
+    -ms-animation: flipInX 500ms;
+    -o-animation: flipInX 500ms;
+    animation: flipInX 500ms; }
+  /* line 352, ../sass/menu-settings.scss */
+  .flipInX .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: flipInX 500ms;
+    -moz-animation: flipInX 500ms;
+    -ms-animation: flipInX 500ms;
+    -o-animation: flipInX 500ms;
+    animation: flipInX 500ms; }
+
+  /* line 372, ../sass/menu-settings.scss */
+  .flipInY .nav.navbar-nav > li:hover > ul.dropdown-menu, .flipInY .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: flipInY 500ms;
+    -moz-animation: flipInY 500ms;
+    -ms-animation: flipInY 500ms;
+    -o-animation: flipInY 500ms;
+    animation: flipInY 500ms; }
+  /* line 388, ../sass/menu-settings.scss */
+  .flipInY .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: flipInY 500ms;
+    -moz-animation: flipInY 500ms;
+    -ms-animation: flipInY 500ms;
+    -o-animation: flipInY 500ms;
+    animation: flipInY 500ms; }
+
+  /* line 408, ../sass/menu-settings.scss */
+  .pulse .nav.navbar-nav > li:hover > ul.dropdown-menu, .pulse .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: pulse 500ms;
+    -moz-animation: pulse 500ms;
+    -ms-animation: pulse 500ms;
+    -o-animation: pulse 500ms;
+    animation: pulse 500ms; }
+  /* line 424, ../sass/menu-settings.scss */
+  .pulse .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: pulse 500ms;
+    -moz-animation: pulse 500ms;
+    -ms-animation: pulse 500ms;
+    -o-animation: pulse 500ms;
+    animation: pulse 500ms; }
+
+  /* line 444, ../sass/menu-settings.scss */
+  .zoomIn .nav.navbar-nav > li:hover > ul.dropdown-menu, .zoomIn .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: zoomIn 500ms;
+    -moz-animation: zoomIn 500ms;
+    -ms-animation: zoomIn 500ms;
+    -o-animation: zoomIn 500ms;
+    animation: zoomIn 500ms; }
+  /* line 460, ../sass/menu-settings.scss */
+  .zoomIn .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: zoomIn 500ms;
+    -moz-animation: zoomIn 500ms;
+    -ms-animation: zoomIn 500ms;
+    -o-animation: zoomIn 500ms;
+    animation: zoomIn 500ms; }
+
+  /* line 481, ../sass/menu-settings.scss */
+  .lightSpeedIn .nav.navbar-nav > li:hover > ul.dropdown-menu, .lightSpeedIn .nav.navbar-nav > li:hover > ul.sub-menu {
+    display: block;
+    -webkit-animation: lightSpeedIn 500ms;
+    -moz-animation: lightSpeedIn 500ms;
+    -ms-animation: lightSpeedIn 500ms;
+    -o-animation: lightSpeedIn 500ms;
+    animation: lightSpeedIn 500ms; }
+  /* line 497, ../sass/menu-settings.scss */
+  .lightSpeedIn .nav .sub-menu .dropdown:hover > .sub-menu {
+    display: block;
+    -webkit-animation: lightSpeedIn 500ms;
+    -moz-animation: lightSpeedIn 500ms;
+    -ms-animation: lightSpeedIn 500ms;
+    -o-animation: lightSpeedIn 500ms;
+    animation: lightSpeedIn 500ms; } }

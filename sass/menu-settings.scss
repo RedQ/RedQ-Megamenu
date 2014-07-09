@@ -327,4 +327,185 @@
 			}
 		}
 	}
+	.flipInX {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+
+							    -webkit-animation: flipInX 500ms;
+							    -moz-animation: flipInX 500ms;
+							    -ms-animation: flipInX 500ms;
+							    -o-animation: flipInX 500ms;
+							    animation: flipInX 500ms;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+
+							-webkit-animation: flipInX 500ms;
+						    -moz-animation: flipInX 500ms;
+						    -ms-animation: flipInX 500ms;
+						    -o-animation: flipInX 500ms;
+						    animation: flipInX 500ms;
+						}
+					}
+				}
+			}
+		}
+	}
+	.flipInY {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+
+							    -webkit-animation: flipInY 500ms;
+							    -moz-animation: flipInY 500ms;
+							    -ms-animation: flipInY 500ms;
+							    -o-animation: flipInY 500ms;
+							    animation: flipInY 500ms;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+
+							-webkit-animation: flipInY 500ms;
+						    -moz-animation: flipInY 500ms;
+						    -ms-animation: flipInY 500ms;
+						    -o-animation: flipInY 500ms;
+						    animation: flipInY 500ms;
+						}
+					}
+				}
+			}
+		}
+	}
+	.pulse {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+
+							    -webkit-animation: pulse 500ms;
+							    -moz-animation: pulse 500ms;
+							    -ms-animation: pulse 500ms;
+							    -o-animation: pulse 500ms;
+							    animation: pulse 500ms;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+
+							-webkit-animation: pulse 500ms;
+						    -moz-animation: pulse 500ms;
+						    -ms-animation: pulse 500ms;
+						    -o-animation: pulse 500ms;
+						    animation: pulse 500ms;
+						}
+					}
+				}
+			}
+		}
+	}
+	.zoomIn {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+
+							    -webkit-animation: zoomIn 500ms;
+							    -moz-animation: zoomIn 500ms;
+							    -ms-animation: zoomIn 500ms;
+							    -o-animation: zoomIn 500ms;
+							    animation: zoomIn 500ms;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+
+							-webkit-animation: zoomIn 500ms;
+						    -moz-animation: zoomIn 500ms;
+						    -ms-animation: zoomIn 500ms;
+						    -o-animation: zoomIn 500ms;
+						    animation: zoomIn 500ms;
+						}
+					}
+				}
+			}
+		}
+	}
+
+		.lightSpeedIn {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+
+							    -webkit-animation: lightSpeedIn 500ms;
+							    -moz-animation: lightSpeedIn 500ms;
+							    -ms-animation: lightSpeedIn 500ms;
+							    -o-animation: lightSpeedIn 500ms;
+							    animation: lightSpeedIn 500ms;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+
+							-webkit-animation: lightSpeedIn 500ms;
+						    -moz-animation: lightSpeedIn 500ms;
+						    -ms-animation: lightSpeedIn 500ms;
+						    -o-animation: lightSpeedIn 500ms;
+						    animation: lightSpeedIn 500ms;
+						}
+					}
+				}
+			}
+		}
+	}
 }
