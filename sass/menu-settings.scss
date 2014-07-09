@@ -29,6 +29,9 @@
 			color: #1abc9c;
 		}
 	}
+	ul.sub-menu {
+		border-top-color: #1abc9c;
+	}
 }
 
 .pomegranate-skin {
@@ -47,6 +50,9 @@
 		a:hover {
 			color: #e74c3c;
 		}
+	}
+	ul.sub-menu {
+		border-top-color: #e74c3c;
 	}
 }
 
@@ -67,6 +73,9 @@
 			color: #e67e22;
 		}
 	}
+	ul.sub-menu {
+		border-top-color: #e67e22;
+	}
 }
 
 .belize-hole-skin {
@@ -85,6 +94,9 @@
 		a:hover {
 			color: #3498db;
 		}
+	}
+	ul.sub-menu {
+		border-top-color: #3498db;
 	}
 }
 
@@ -105,6 +117,9 @@
 			color: #2ecc71;
 		}
 	}
+	ul.sub-menu {
+		border-top-color: #2ecc71;
+	}
 }
 
 .orange-skin {
@@ -124,6 +139,9 @@
 			color: #f1c40f;
 		}
 	}
+	ul.sub-menu {
+		border-top-color: #f1c40f;
+	}
 }
 .wisteria-skin {
 	&.header {
@@ -142,5 +160,54 @@
 		a:hover {
 			color: #9b59b6;
 		}
+	}
+	ul.sub-menu {
+		border-top-color: #9b59b6;
+	}
+}
+
+.midnight-blue-skin {
+	&.header {
+		background: #2c3e50;
+		border-top-color: #34495e;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+
+	.redq {
+		.dropdown-menu {
+			border-top-color: #34495e;
+		}
+		a:hover {
+			color: #34495e;
+		}
+	}
+	ul.sub-menu {
+		border-top-color: #34495e;
+	}
+}
+
+.asbestos-skin {
+	&.header {
+		background: #7f8c8d;
+		border-top-color: #95a5a6;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar > .container .navbar-brand {
+		color: #FFF;
+	}
+
+	.redq {
+		.dropdown-menu {
+			border-top-color: #95a5a6;
+		}
+		a:hover {
+			color: #95a5a6;
+		}
+	}
+	ul.sub-menu {
+		border-top-color: #95a5a6;
 	}
 }

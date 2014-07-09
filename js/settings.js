@@ -42,7 +42,7 @@ $(document).ready(function () {
 			$('#color-skins').on('change', '[name="change-skins"]', function() {
 				var name = $(this).val();
 
-				$('#mega-menu.primary-menu').removeClass('default-skin green-sea-skin pomegranate-skin pumpkin-skin wisteria-skin orange-skin nephritis-skin belize-hole-skin').addClass(name);
+				$('#mega-menu.primary-menu').removeClass('default-skin green-sea-skin pomegranate-skin pumpkin-skin wisteria-skin orange-skin nephritis-skin belize-hole-skin midnight-blue-skin asbestos-skin').addClass(name);
 
 			});
 		},
