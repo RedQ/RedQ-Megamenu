@@ -302,6 +302,30 @@ ul#color-skins input[type="radio"] {
 			}
 		}
 	}
+	.animate-null {
+		.nav {
+			&.navbar-nav {
+				> li{
+					&:hover {
+						> ul {
+							&.dropdown-menu, &.sub-menu {
+							    display: block;
+							}
+						}
+					}
+				}
+			}
+			.sub-menu {
+				.dropdown {
+					&:hover {
+						> .sub-menu {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
 	.fadeInDown {
 		.nav {
 			&.navbar-nav {

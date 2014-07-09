@@ -96,10 +96,6 @@ a {
 					 > i {
 						display: none;
 					}
-
-					.link-item {
-						float: left;
-					}
 				}
 			}
 		}
@@ -110,9 +106,7 @@ a {
 			> li {
 				> a {
 					 > i {
-					 	display: block;
 						margin-right: 5px;
-						float: left;
 					}
 
 					.link-item {
@@ -134,19 +128,34 @@ a {
 						margin-left: 5px;
 					}
 
-					.link-item {
-						// display: block;
-						float: left;
-						// padding: 0px;
-						// position: static;
-						// border: 0px none
-					}
+					// .link-item {
+					// 	// display: block;
+					// 	float: left;
+					// 	// padding: 0px;
+					// 	// position: static;
+					// 	// border: 0px none
+					// }
 				}
 			}
 		}
 	}
 }
-
+.navbar-nav .open > .sub-menu {
+	display: block;
+}
+.nav-caret {
+	width: 10px;
+	height: 10px;
+	background: #F00;
+	display: inline-block;
+	float: right;
+}
+// .navbar-nav .open .sub-menu {
+// 	display: block;
+// }
+// .nav-caret {
+// 	background: red;
+// }
 .navbar-default {
 	// background-color: $inverse-bg;
 	background-color: transparent;

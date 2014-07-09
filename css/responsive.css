@@ -16,62 +16,76 @@
     .header.shrink .navbar > .container .navbar-brand {
       margin-top: 5px; }
 
-  /* line 51, ../sass/responsive.scss */
+  /* line 57, ../sass/responsive.scss */
+  .header.icons-no .nav > li > a .link-item {
+    float: left; }
+  /* line 68, ../sass/responsive.scss */
+  .header.icons-left .nav > li > a > i {
+    display: block;
+    float: left; }
+  /* line 73, ../sass/responsive.scss */
+  .header.icons-left .nav > li > a .link-item {
+    float: right; }
+  /* line 85, ../sass/responsive.scss */
+  .header.icons-right .nav > li > a .link-item {
+    float: left; }
+
+  /* line 95, ../sass/responsive.scss */
   .navbar-nav {
     float: none;
     text-align: right; }
-    /* line 55, ../sass/responsive.scss */
+    /* line 99, ../sass/responsive.scss */
     .navbar-nav > li {
       float: none;
       text-align: left;
       display: inline-block; }
 
-  /* line 63, ../sass/responsive.scss */
+  /* line 107, ../sass/responsive.scss */
   .align-left .navbar-nav {
     text-align: left; }
 
-  /* line 69, ../sass/responsive.scss */
+  /* line 113, ../sass/responsive.scss */
   .align-center .navbar-nav {
     text-align: center; }
 
-  /* line 75, ../sass/responsive.scss */
+  /* line 119, ../sass/responsive.scss */
   .align-right .navbar-nav {
     text-align: right; }
 
-  /* line 85, ../sass/responsive.scss */
+  /* line 129, ../sass/responsive.scss */
   .navbar-default .navbar-collapse {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
 
-  /* line 91, ../sass/responsive.scss */
+  /* line 135, ../sass/responsive.scss */
   .navbar-default .navbar-nav > li {
     padding: 45px 15px; }
 
-  /* line 95, ../sass/responsive.scss */
+  /* line 139, ../sass/responsive.scss */
   .icons-top .navbar-default .navbar-nav > li {
     padding: 30px 15px; }
-  /* line 98, ../sass/responsive.scss */
+  /* line 142, ../sass/responsive.scss */
   .icons-top.shrink .navbar-default .navbar-nav > li {
     padding: 12px 15px; }
 
-  /* line 102, ../sass/responsive.scss */
+  /* line 146, ../sass/responsive.scss */
   .navbar-default .navbar-nav > li > a {
     padding: 0; }
 
-  /* line 105, ../sass/responsive.scss */
+  /* line 149, ../sass/responsive.scss */
   .icons-top .navbar-default .navbar-nav > li > a {
     padding: 4px 0; }
 
-  /* line 110, ../sass/responsive.scss */
+  /* line 154, ../sass/responsive.scss */
   .redq .dropdown.redq-halfwidth .dropdown-menu {
     width: 585px; }
 
-  /* line 113, ../sass/responsive.scss */
+  /* line 157, ../sass/responsive.scss */
   .shrink .navbar-default .navbar-nav > li {
     padding: 27px 15px; } }
 @media (max-width: 767px) {
-  /* line 155, ../sass/responsive.scss */
+  /* line 199, ../sass/responsive.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;
@@ -82,10 +96,10 @@
     border: 0;
     box-shadow: none; }
 
-  /* line 166, ../sass/responsive.scss */
+  /* line 210, ../sass/responsive.scss */
   .navbar-nav {
     background: white; }
-    /* line 169, ../sass/responsive.scss */
+    /* line 213, ../sass/responsive.scss */
     .navbar-nav .open .dropdown-menu {
       border-width: 0 1px 1px;
       border-style: solid;

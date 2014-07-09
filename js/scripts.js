@@ -34,7 +34,8 @@
 	var RedQ = {
 
 		redQ_init : function() {
-			RedQ.redQ_nav_hover();
+			// RedQ.redQ_nav_hover();
+			RedQ.redQ_small_submenu();
 		},
 
 		// redQ_nav_hover : function() {
@@ -50,6 +51,17 @@
 		// 		self.find('.dropdown-menu').stop().slideUp(300, easing);
 		// 	});
 		// },
+		redQ_small_submenu: function() {
+			var sel = $('li.dropdown ul.sub-menu li.dropdown');
+			sel.addClass('has-caret');
+			sel.children('a').append('<span class="nav-caret"></span>');
+
+			var caret = $('.has-caret').on('click', function(e) {
+				e.preventDefault();
+				console.log('work');
+				$(this).find('.sub-menu').css('display', 'block');
+			});
+		}
 
 
 	};

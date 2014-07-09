@@ -48,6 +48,51 @@
 	}
 
 
+	.header {
+		&.icons-no {
+			.nav {
+				> li {
+					> a {
+
+						.link-item {
+							float: left;
+						}
+					}
+				}
+			}
+		}
+		&.icons-left {
+			.nav {
+				> li {
+					> a {
+						> i {
+							display: block;
+							float: left;
+						}
+
+						.link-item {
+							float: right;
+						}
+					}
+				}
+			}
+		}
+		&.icons-right {
+		.nav {
+			> li {
+
+				> a {
+
+					.link-item {
+						float: left;
+					}
+				}
+			}
+		}
+	}
+	}
+
+
 	.navbar-nav {
 		float: none;
 		text-align: right;

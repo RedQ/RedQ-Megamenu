@@ -31,7 +31,7 @@
 			$('#menu-animation').on('change', '[name="change-animation"]', function() {
 				var name = $(this).val();
 
-				$('#mega-menu.primary-menu').removeClass('fadeInUp fadeInDown bounceInUp flipInX flipInY pulse zoomIn lightSpeedIn').addClass(name);
+				$('#mega-menu.primary-menu').removeClass('animate-null fadeInUp fadeInDown bounceInUp flipInX flipInY pulse zoomIn lightSpeedIn').addClass(name);
 
 			});
 		},
