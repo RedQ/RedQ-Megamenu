@@ -80,7 +80,7 @@ a:hover {
 /* line 146, ../sass/style.scss */
 .nav-caret {
   position: absolute;
-  right: 15px;
+  right: 5px;
   top: 39%; }
 
 /* line 157, ../sass/style.scss */
@@ -187,7 +187,6 @@ a:hover {
   border: 1px solid #ebebeb;
   border-style: solid;
   border-top-width: 2px;
-  border-top-color: #5baadf;
   line-height: 24px; }
   /* line 309, ../sass/style.scss */
   .redq .dropdown-menu a i {
@@ -300,30 +299,31 @@ ul.sub-menu {
   display: none;
   background: white;
   border: 1px solid #ebebeb;
-  border-top: 2px solid #5baadf; }
-  /* line 491, ../sass/style.scss */
+  border-style: solid;
+  border-top-width: 2px; }
+  /* line 493, ../sass/style.scss */
   ul.sub-menu li {
     border-bottom: 1px solid #e4e4e4; }
-  /* line 495, ../sass/style.scss */
+  /* line 497, ../sass/style.scss */
   ul.sub-menu a {
     padding: 10px 15px;
     display: block; }
-    /* line 499, ../sass/style.scss */
+    /* line 501, ../sass/style.scss */
     ul.sub-menu a:hover {
       background: #f7f7f7;
       text-decoration: none; }
 
-/* line 505, ../sass/style.scss */
+/* line 507, ../sass/style.scss */
 ul.sub-menu ul.sub-menu {
   left: 100%;
   top: 0; }
 
-/* line 510, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 ul.sub-menu > li.menu-item > ul.sub-menu {
   display: none;
   left: 100%; }
 
-/* line 516, ../sass/style.scss */
+/* line 518, ../sass/style.scss */
 .desc {
   display: block;
   font-weight: 300;

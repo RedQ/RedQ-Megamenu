@@ -145,7 +145,7 @@ a {
 }
 .nav-caret {
 	position: absolute;
-	right: 15px;
+	right: 5px;
 	top: 39%;
 }
 // .navbar-nav .open .sub-menu {
@@ -302,7 +302,7 @@ a {
 		border: 1px solid $border-color;
 		border-style: solid;
 		border-top-width: 2px;
-		border-top-color: $link-hover-color;
+		// border-top-color: $link-hover-color;
 		line-height: 24px;
 
 		a {
@@ -486,7 +486,9 @@ ul.sub-menu {
 	display: none;
 	background: $inverse-bg;
 	border: 1px solid $border-color;
-	border-top: 2px solid $link-hover-color;
+	border-style: solid;
+	border-top-width: 2px;
+	// border-top-color: $link-hover-color;
 
 	li {
 		border-bottom: 1px solid $border-color-alt;
