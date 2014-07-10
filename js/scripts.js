@@ -54,7 +54,7 @@
 		redQ_small_submenu: function() {
 			var sel = $('li.dropdown ul.sub-menu li.dropdown');
 			sel.addClass('has-caret');
-			sel.children('a').append('<span class="nav-caret"></span>');
+			sel.children('a').append('<span class="nav-caret fa fa-caret-right"></span>');
 
 			var caret = $('.has-caret').on('click', function(e) {
 				e.preventDefault();

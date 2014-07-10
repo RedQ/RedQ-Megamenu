@@ -144,11 +144,9 @@ a {
 	display: block;
 }
 .nav-caret {
-	width: 10px;
-	height: 10px;
-	background: #F00;
-	display: inline-block;
-	float: right;
+	position: absolute;
+	right: 15px;
+	top: 39%;
 }
 // .navbar-nav .open .sub-menu {
 // 	display: block;
