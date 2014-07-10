@@ -35,7 +35,7 @@
 
 		redQ_init : function() {
 			// RedQ.redQ_nav_hover();
-			// RedQ.redQ_small_submenu();
+			RedQ.redQ_small_submenu();
 			RedQ.redQ_navbar_toggle();
 		},
 
@@ -55,13 +55,13 @@
 		redQ_small_submenu: function() {
 			var sel = $('li.dropdown ul.sub-menu li.dropdown');
 			sel.addClass('has-caret');
-			sel.append('<span class="nav-caret fa fa-caret-right"></span>');
+			sel.append('<span class="sub-caret fa fa-caret-right"></span>');
 
-			var caret = $('.has-caret').on('click', function(e) {
-				e.preventDefault();
-				console.log('work');
-				$(this).find('.sub-menu').css('display', 'block');
-			});
+			// var caret = $('.has-caret').on('click', function(e) {
+			// 	e.preventDefault();
+			// 	console.log('work');
+			// 	$(this).find('.sub-menu').css('display', 'block');
+			// });
 		},
 		redQ_navbar_toggle: function() {
 			$('.navbar-toggle').on('click', function() {

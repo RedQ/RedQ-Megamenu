@@ -197,6 +197,14 @@
 	// 		}
 	// 	}
 	// }
+	.nav-caret {
+		display: none;
+	}
+	.sub-caret {
+		position: absolute;
+		top: 39%;
+		right: 15px;
+	}
 }
 
 
@@ -224,6 +232,16 @@
 	}
 	.navbar-default .navbar-nav > li {
 		padding: 0px 60px 0 15px;
+	}
+	.nav-caret {
+		display: block;
+		position: absolute;
+		top: -10px;
+		right: 15px;
+		cursor: pointer;
+	}
+	.sub-caret {
+		display: none;
 	}
 	// .navbar-default .navbar-nav > li > a {
 	// 	float: left;

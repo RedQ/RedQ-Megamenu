@@ -87,9 +87,19 @@
 
   /* line 162, ../sass/responsive.scss */
   .shrink .navbar-default .navbar-nav > li {
-    padding: 27px 15px; } }
+    padding: 27px 15px; }
+
+  /* line 200, ../sass/responsive.scss */
+  .nav-caret {
+    display: none; }
+
+  /* line 203, ../sass/responsive.scss */
+  .sub-caret {
+    position: absolute;
+    top: 39%;
+    right: 15px; } }
 @media (max-width: 767px) {
-  /* line 204, ../sass/responsive.scss */
+  /* line 212, ../sass/responsive.scss */
   .nav .sub-menu,
   .nav .dropdown-menu {
     position: static;
@@ -100,15 +110,27 @@
     border: 0;
     box-shadow: none; }
 
-  /* line 215, ../sass/responsive.scss */
+  /* line 223, ../sass/responsive.scss */
   .navbar-nav {
     background: white; }
-    /* line 218, ../sass/responsive.scss */
+    /* line 226, ../sass/responsive.scss */
     .navbar-nav .open .dropdown-menu {
       border-width: 0 1px 1px;
       border-style: solid;
       border-color: #ebebeb; }
 
-  /* line 225, ../sass/responsive.scss */
+  /* line 233, ../sass/responsive.scss */
   .navbar-default .navbar-nav > li {
-    padding: 0px 60px 0 15px; } }
+    padding: 0px 60px 0 15px; }
+
+  /* line 236, ../sass/responsive.scss */
+  .nav-caret {
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    cursor: pointer; }
+
+  /* line 243, ../sass/responsive.scss */
+  .sub-caret {
+    display: none; } }

@@ -143,20 +143,18 @@ a {
 .navbar-nav .open > .sub-menu {
 	display: block;
 }
-
-.nav-caret {
-	position: absolute;
-	top: 0;
-	right: 15px;
-	cursor: pointer;
-}
-
+// .navbar-nav .open > .sub-menu > .open > .sub-menu {
+// 	display: block;
+// }
+// .navbar-nav .open > .sub-menu > .open > .sub-menu > .open > .sub-menu {
+// 	display: block;
+// }
 
 // .navbar-nav .open .sub-menu {
 // 	display: block;
 // }
 // .nav-caret {
-// 	background: red;
+// 	display: none;
 // }
 .navbar-default {
 	// background-color: $inverse-bg;
