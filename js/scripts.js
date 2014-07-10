@@ -35,7 +35,8 @@
 
 		redQ_init : function() {
 			// RedQ.redQ_nav_hover();
-			RedQ.redQ_small_submenu();
+			// RedQ.redQ_small_submenu();
+			RedQ.redQ_navbar_toggle();
 		},
 
 		// redQ_nav_hover : function() {
@@ -54,18 +55,45 @@
 		redQ_small_submenu: function() {
 			var sel = $('li.dropdown ul.sub-menu li.dropdown');
 			sel.addClass('has-caret');
-			sel.children('a').append('<span class="nav-caret fa fa-caret-right"></span>');
+			sel.append('<span class="nav-caret fa fa-caret-right"></span>');
 
 			var caret = $('.has-caret').on('click', function(e) {
 				e.preventDefault();
 				console.log('work');
 				$(this).find('.sub-menu').css('display', 'block');
 			});
-		}
+		},
+		redQ_navbar_toggle: function() {
+			$('.navbar-toggle').on('click', function() {
+				console.log('hello');
+				$('.collapse.navbar-collapse').toggleClass('in');
+			});
+		},
 
 
 	};
 
 	RedQ.redQ_init();
+
+})(jQuery);
+
+
+(function($) {
+
+    // DOM ready
+    $(function() {
+    	$('.dropdown').has('ul').prepend('<span class="nav-caret"><i class="fa fa-plus-square"></i></span>');
+
+    	$('.nav-list').on('click', '.nav-caret', function() {
+
+    		$(this).parent('.dropdown').toggleClass('open');
+
+    		$(this).children('.fa-plus-square').toggleClass('fa-minus-square');
+            // Toggle the nested nav
+            // $(this).siblings('.sub-menu').toggle();
+            // $(this).siblings('.dropdown-menu').toggle();
+
+        });
+   	});
 
 })(jQuery);

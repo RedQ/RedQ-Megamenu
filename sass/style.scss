@@ -143,11 +143,15 @@ a {
 .navbar-nav .open > .sub-menu {
 	display: block;
 }
+
 .nav-caret {
 	position: absolute;
-	right: 5px;
-	top: 39%;
+	top: 0;
+	right: 15px;
+	cursor: pointer;
 }
+
+
 // .navbar-nav .open .sub-menu {
 // 	display: block;
 // }
@@ -322,7 +326,7 @@ a {
 	.dropdown {
 
 		&.redq-fullwidth {
-			position: static;
+			// position: static;
 
 			.dropdown-menu {
 				width: 100%;
