@@ -160,7 +160,7 @@
 		width: 585px;
 	}
 	.shrink .navbar-default .navbar-nav > li {
-		padding: 27px 15px;
+		padding: 28px 15px;
 	}
 
 	// .nav {
@@ -218,6 +218,10 @@
 		background-color: rgba(0, 0, 0, 0);
 		border: 0;
 		box-shadow: none;
+	}
+
+	.default-skin .nav .open > a, .default-skin .nav .open > a:hover, .default-skin .nav .open > a:focus {
+		padding: 10px;
 	}
 
 	.navbar-nav {

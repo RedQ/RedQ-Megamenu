@@ -25,8 +25,8 @@ a:hover {
 .header {
   border-width: 4px 0 1px;
   border-style: solid;
-  border-color: #5baadf transparent #ebebeb;
   position: fixed;
+  border-color: #5baadf transparent #ebebeb;
   top: 0;
   left: 0;
   width: 100%;
@@ -319,3 +319,7 @@ ul.sub-menu > li.menu-item > ul.sub-menu {
   display: block;
   font-weight: 300;
   font-size: 11px; }
+
+/* line 526, ../sass/style.scss */
+.widget-video {
+  padding-left: 15px; }

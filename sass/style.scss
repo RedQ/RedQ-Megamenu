@@ -32,10 +32,10 @@ a {
 	// background: $inverse-bg;
 	border-width: 4px 0 1px;
 	border-style: solid;
+	position: fixed;
 	border-color: $link-hover-color transparent $border-color;
 	// border-bottom: 1px solid $border-color;
 	// border-top: 4px solid $link-hover-color;
-	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -523,3 +523,6 @@ ul.sub-menu {
 	font-size: 11px;
 }
 
+.widget-video {
+	padding-left: 15px;
+}

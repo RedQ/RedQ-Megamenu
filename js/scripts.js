@@ -1,13 +1,16 @@
 (function($) {
 	"use strict";
 
+
     var shrinkHeader = 300;
 
 
     // $('#header').next().html('<div style="height: 103px"></div>');
-    var shrink = $('#header').next();
 
-    	shrink.css('margin-top', 103);
+
+	var shrink = $('#header').next();
+
+	shrink.css('margin-top', 103);
 
     // $('.shrinkHeader').css('margin-top', 103);
 
@@ -97,3 +100,7 @@
    	});
 
 })(jQuery);
+
+ $(document).ready(function(){
+    $(".video-embed").fitVids();
+  });
