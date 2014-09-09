@@ -43,7 +43,7 @@
                             <div class="container">
                                 <!-- Brand and toggle get grouped for better mobile display -->
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse">
                                         <span class="sr-only">Toggle navigation</span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
@@ -54,7 +54,7 @@
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
-                                <div class="collapse navbar-collapse" >
+                                <div class="collapse navbar-collapse">
                                     <a class="navbar-brand mobile pull-left" href="#"><i class="fa fa-send"></i> Red<span class="logo-style">Q</span></a>
                                     <a class="mobile-menu-close"><i class="fa fa-random"></i></a>
 
@@ -1218,22 +1218,27 @@
             $(document).ready(function() {
                 $('.navbar-toggle').click(function(){
                     $('body').addClass('mobile-menu-open');
+                    $('.collapse.navbar-collapse').prop('id', 'mobile-menu-wrap');
                 });
 
                 $('.mobile-menu-close').click(function(){
                     $('body').removeClass('mobile-menu-open');
+                    $('.collapse.navbar-collapse').prop('id', '');
+                    $('.collapse.navbar-collapse').removeClass('in');
 
                 });
 
-                var width = $(window).width();
+                // var width = $(window).width();
 
-                if ((width>=768)) {
-                    $('.collapse.navbar-collapse').prop('id', '');
-                }
-                else {
-                    $('.collapse.navbar-collapse').prop('id', 'mobile-menu-wrap');
+                // if ((width<=768)) {
                     
-                }
+                //     $('.collapse.navbar-collapse').prop('id', 'mobile-menu-wrap');
+                // }
+                // else {
+                //     $('#bs-example-navbar-collapse-1').removeClass('mobile-menu-wrap');
+                //     $('.collapse.navbar-collapse').prop('id', '');
+                    
+                // }
             });
         </script>
 

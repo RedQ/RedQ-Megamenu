@@ -44,9 +44,11 @@ a.mobile-menu-close {
 }
 
 
-
-	.collapse {
+	.collapse.in {
 		display: block;
+	}
+	.collapse {
+		display: none;
 	}
 
 	#mobile-menu-wrap .navbar-nav {

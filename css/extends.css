@@ -42,15 +42,19 @@ a.mobile-menu-close {
     border-top: 1px solid #ebebeb;
     border-bottom: 0; }
 
-  /* line 48, ../sass/extends.scss */
-  .collapse {
+  /* line 47, ../sass/extends.scss */
+  .collapse.in {
     display: block; }
 
-  /* line 52, ../sass/extends.scss */
+  /* line 50, ../sass/extends.scss */
+  .collapse {
+    display: none; }
+
+  /* line 54, ../sass/extends.scss */
   #mobile-menu-wrap .navbar-nav {
     margin: 109px -15px; }
 
-  /* line 55, ../sass/extends.scss */
+  /* line 57, ../sass/extends.scss */
   #mobile-menu {
     max-height: 100%;
     position: relative;
@@ -58,7 +62,7 @@ a.mobile-menu-close {
     -webkit-overflow-scrolling: touch;
     padding-bottom: 60px; }
 
-  /* line 62, ../sass/extends.scss */
+  /* line 64, ../sass/extends.scss */
   #mobile-menu-wrap {
     position: fixed;
     top: 0;
@@ -75,7 +79,7 @@ a.mobile-menu-close {
     border-left: 1px solid #e4e4e4;
     box-shadow: 0 -2px 8px 1px rgba(0, 0, 0, 0.06); }
 
-  /* line 78, ../sass/extends.scss */
+  /* line 80, ../sass/extends.scss */
   .mobile-menu-open #mobile-menu-wrap {
     visibility: visible;
     -webkit-transition: -webkit-transform 0.5s;
@@ -83,7 +87,7 @@ a.mobile-menu-close {
     -webkit-transform: translate3d(-320px, 0, 0);
     transform: translate3d(-320px, 0, 0); }
 
-  /* line 85, ../sass/extends.scss */
+  /* line 87, ../sass/extends.scss */
   #container {
     position: relative;
     z-index: 99;
@@ -95,7 +99,7 @@ a.mobile-menu-close {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d; }
 
-  /* line 96, ../sass/extends.scss */
+  /* line 98, ../sass/extends.scss */
   .header .navbar .navbar-brand.large {
     position: relative;
     z-index: 99;
@@ -106,21 +110,21 @@ a.mobile-menu-close {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d; }
 
-  /* line 107, ../sass/extends.scss */
+  /* line 109, ../sass/extends.scss */
   .mobile-menu-open .header .navbar .navbar-brand.large {
     -webkit-transform: translate3d(-320px, 0, 0);
     transform: translate3d(-320px, 0, 0); }
 
-  /* line 111, ../sass/extends.scss */
+  /* line 113, ../sass/extends.scss */
   .mobile-menu-open .header .navbar .navbar-brand.mobile {
     display: block; }
 
-  /* line 114, ../sass/extends.scss */
+  /* line 116, ../sass/extends.scss */
   .mobile-menu-open #container {
     -webkit-transform: translate3d(-320px, 0, 0);
     transform: translate3d(-320px, 0, 0); }
 
-  /* line 118, ../sass/extends.scss */
+  /* line 120, ../sass/extends.scss */
   a.mobile-menu-close {
     position: fixed;
     top: 0;
@@ -133,7 +137,7 @@ a.mobile-menu-close {
     width: 46px;
     text-align: center; }
 
-  /* line 130, ../sass/extends.scss */
+  /* line 132, ../sass/extends.scss */
   .nav .sub-menu, .nav .dropdown-menu {
     position: static;
     float: none;
