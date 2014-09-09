@@ -32,7 +32,7 @@
 (function($) {
 	"use strict";
 
-	var easing = 'jswing';
+	// var easing = 'jswing';
 
 	var RedQ = {
 
@@ -80,26 +80,6 @@
 
 })(jQuery);
 
-
-(function($) {
-
-    // DOM ready
-    $(function() {
-    	$('.dropdown').has('ul').prepend('<span class="nav-caret"><i class="fa fa-plus-square"></i></span>');
-
-    	$('.nav-list').on('click', '.nav-caret', function() {
-
-    		$(this).parent('.dropdown').toggleClass('open');
-
-    		$(this).children('.fa-plus-square').toggleClass('fa-minus-square');
-            // Toggle the nested nav
-            // $(this).siblings('.sub-menu').toggle();
-            // $(this).siblings('.dropdown-menu').toggle();
-
-        });
-   	});
-
-})(jQuery);
 
  $(document).ready(function(){
     $(".video-embed").fitVids();

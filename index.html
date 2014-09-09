@@ -22,6 +22,8 @@
         <link href="css/theme.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
         <link href="css/menu-settings.css" rel="stylesheet">
+        <link href="css/jquery.mmenu.all.css" rel="stylesheet">
+        <link href="css/extends.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,11 +49,15 @@
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                    <a class="navbar-brand" href="#"><i class="fa fa-send"></i> Red<span class="logo-style">Q</span></a>
+                                    <a class="navbar-brand large" href="#"><i class="fa fa-send"></i> Red<span class="logo-style">Q</span></a>
                                 </div>
 
                                 <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
+                                <div class="collapse navbar-collapse" >
+                                    <a class="navbar-brand mobile pull-left" href="#"><i class="fa fa-send"></i> Red<span class="logo-style">Q</span></a>
+                                    <a class="mobile-menu-close"><i class="fa fa-random"></i></a>
+
                                     <ul class="nav navbar-nav nav-list">
 
                                         <li class="dropdown">
@@ -909,7 +915,7 @@
         </header>
 
 
-        <section>
+        <section id="container">
             <main class="bs-docs-masthead" id="content" role="main">
                 <div class="container">
 
@@ -1165,7 +1171,6 @@
         </section>
 
 
-
         <footer>
             <div class="container">
                 <div class="row">
@@ -1201,12 +1206,36 @@
 
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
+        <script src="js/jquery.mmenu.min.all.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <!-- <script src="js/bootstrap.js"></script> -->
         <script src="js/jquery.easing.1.3.js"></script>
         <script src="js/jquery.fitvids.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/settings.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.navbar-toggle').click(function(){
+                    $('body').addClass('mobile-menu-open');
+                });
+
+                $('.mobile-menu-close').click(function(){
+                    $('body').removeClass('mobile-menu-open');
+
+                });
+
+                var width = $(window).width();
+
+                if ((width<=768)) {
+                    //  The menu
+                    $('.collapse.navbar-collapse').prop('id', 'mobile-menu-wrap')
+                }
+                else {
+                    $('.collapse.navbar-collapse').prop('id', '')
+                }
+            });
+        </script>
 
     </body>
 </html>

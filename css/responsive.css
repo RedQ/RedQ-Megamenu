@@ -114,18 +114,11 @@
   .default-skin .nav .open > a, .default-skin .nav .open > a:hover, .default-skin .nav .open > a:focus {
     padding: 10px; }
 
-  /* line 227, ../sass/responsive.scss */
-  .navbar-nav {
-    background: white; }
-    /* line 230, ../sass/responsive.scss */
-    .navbar-nav .open .dropdown-menu {
-      border-width: 0 1px 1px;
-      border-style: solid;
-      border-color: #ebebeb; }
-
-  /* line 237, ../sass/responsive.scss */
-  .navbar-default .navbar-nav > li {
-    padding: 0px 60px 0 15px; }
+  /* line 230, ../sass/responsive.scss */
+  .navbar-nav .open .dropdown-menu {
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: #ebebeb; }
 
   /* line 240, ../sass/responsive.scss */
   .nav-caret {
