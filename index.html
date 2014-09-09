@@ -1227,12 +1227,12 @@
 
                 var width = $(window).width();
 
-                if ((width<=768)) {
-                    //  The menu
-                    $('.collapse.navbar-collapse').prop('id', 'mobile-menu-wrap')
+                if ((width>=768)) {
+                    $('.collapse.navbar-collapse').prop('id', '');
                 }
                 else {
-                    $('.collapse.navbar-collapse').prop('id', '')
+                    $('.collapse.navbar-collapse').prop('id', 'mobile-menu-wrap');
+                    
                 }
             });
         </script>
