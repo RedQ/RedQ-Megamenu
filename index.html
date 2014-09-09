@@ -1254,12 +1254,37 @@
                     
                 });
 
-                
+                    // var width = $(window).width();
+                    // console.log('window width: ' + width);
+
+                    // var totalWidth = $('ul.nav').width();
+                    // var listWidth = [];
+                    // var totalListWidth = 0;
+
+                    // $('ul.nav > li').each(function(){
+                    //     totalListWidth = totalListWidth + $(this).outerWidth();
+                    //     listWidth.push($(this).outerWidth());
+                    // });
+
+                    // console.log('Total list width: ' + totalListWidth);
+                    // console.log('list width: ' + listWidth);
+
+                    // console.log('Total width: ' + totalWidth);
+
+                    // if( (totalWidth ) >= width) {
+                    //     $('body').removeClass('mobile-menu-open');
+                    //     $('.collapse.navbar-collapse.in').removeAttr('id');
+                    //     $('.collapse.navbar-collapse.in').removeClass('in');
+                    // } else {
+                    //     $('style').text('@media (min-width:' + width + 'px) {div{ color:red !important; }}');
+                    // }
+
+
                 $( window ).resize(function() {
                     var width = $(window).width();
-                    console.log(width);
 
                     if ((width>=768)) {
+                        $('body').removeClass('mobile-menu-open');
                         $('.collapse.navbar-collapse.in').removeAttr('id');
                         $('.collapse.navbar-collapse.in').removeClass('in');
                         
