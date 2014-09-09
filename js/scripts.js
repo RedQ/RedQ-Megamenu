@@ -39,7 +39,7 @@
 		redQ_init : function() {
 			// RedQ.redQ_nav_hover();
 			RedQ.redQ_small_submenu();
-			RedQ.redQ_navbar_toggle();
+			// RedQ.redQ_navbar_toggle();
 		},
 
 		// redQ_nav_hover : function() {
@@ -67,10 +67,10 @@
 			// });
 		},
 		redQ_navbar_toggle: function() {
-			$('.navbar-toggle').on('click', function() {
-				console.log('hello');
-				$('.collapse.navbar-collapse').toggleClass('in');
-			});
+			// $('.navbar-toggle').on('click', function() {
+			// 	console.log('hello');
+			// 	$('.collapse.navbar-collapse').toggleClass('in');
+			// });
 		},
 
 

@@ -1216,15 +1216,23 @@
 
         <script type="text/javascript">
             $(document).ready(function() {
-                $('.navbar-toggle').click(function(){
+                $('.navbar-toggle').click(function(e){
+                    
+                    e.preventDefault();
+                    $('.collapse.navbar-collapse').addClass('in');
+
                     $('body').addClass('mobile-menu-open');
-                    $('.collapse.navbar-collapse').prop('id', 'mobile-menu-wrap');
+                    $('.collapse.navbar-collapse').show().prop('id', 'mobile-menu-wrap');
+                    
                 });
 
-                $('.mobile-menu-close').click(function(){
+                $('.mobile-menu-close').click(function(e){
+                    e.preventDefault();
+                    // $('.collapse.navbar-collapse').removeClass('in');
                     $('body').removeClass('mobile-menu-open');
-                    $('.collapse.navbar-collapse').prop('id', '');
-                    $('.collapse.navbar-collapse').removeClass('in');
+
+                    // $('.collapse.navbar-collapse').removeClass('in').hide();
+                    
                 });
 
                 // var width = $(window).width();
