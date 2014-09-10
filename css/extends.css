@@ -41,9 +41,10 @@ a.mobile-menu-close {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   -webkit-transform: translate3d(-320px, 0, 0);
-  transform: translate3d(-320px, 0, 0); }
+  transform: translate3d(-320px, 0, 0);
+  overflow-x: hidden; }
 
-/* line 43, ../sass/extends.scss */
+/* line 44, ../sass/extends.scss */
 #container {
   position: relative;
   z-index: 99;
@@ -55,7 +56,7 @@ a.mobile-menu-close {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d; }
 
-/* line 54, ../sass/extends.scss */
+/* line 55, ../sass/extends.scss */
 .mobile-menu-open #container {
   -webkit-transform: translate3d(-320px, 0, 0);
   transform: translate3d(-320px, 0, 0); }
@@ -64,7 +65,7 @@ a.mobile-menu-close {
   /*	.collapse {
   		display: none;
   	}*/
-  /* line 64, ../sass/extends.scss */
+  /* line 65, ../sass/extends.scss */
   .mobile-menu-open {
     /*.navbar-default .navbar-nav > li > a {
     	font-size: 16px;
@@ -80,20 +81,20 @@ a.mobile-menu-close {
     	border-top: 1px solid #ebebeb;
     	border-bottom: 0;
     }*/ }
-    /* line 72, ../sass/extends.scss */
+    /* line 73, ../sass/extends.scss */
     .mobile-menu-open .navbar-collapse {
       padding: 0; }
-    /* line 79, ../sass/extends.scss */
+    /* line 80, ../sass/extends.scss */
     .mobile-menu-open ul.sub-menu li a {
       padding-left: 25px; }
-    /* line 82, ../sass/extends.scss */
+    /* line 83, ../sass/extends.scss */
     .mobile-menu-open ul.sub-menu ul li a {
       padding-left: 35px; }
-    /* line 85, ../sass/extends.scss */
+    /* line 86, ../sass/extends.scss */
     .mobile-menu-open ul.sub-menu ul ul li a {
       padding-left: 45px; }
 
-  /* line 93, ../sass/extends.scss */
+  /* line 94, ../sass/extends.scss */
   .header .navbar .navbar-brand.large {
     position: relative;
     z-index: 99;
@@ -104,16 +105,16 @@ a.mobile-menu-close {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d; }
 
-  /* line 104, ../sass/extends.scss */
+  /* line 105, ../sass/extends.scss */
   .mobile-menu-open .header .navbar .navbar-brand.large {
     -webkit-transform: translate3d(-320px, 0, 0);
     transform: translate3d(-320px, 0, 0); }
 
-  /* line 108, ../sass/extends.scss */
+  /* line 109, ../sass/extends.scss */
   .mobile-menu-open .header .navbar .navbar-brand.mobile {
     display: block; }
 
-  /* line 112, ../sass/extends.scss */
+  /* line 113, ../sass/extends.scss */
   a.mobile-menu-close {
     position: fixed;
     top: 0;
@@ -126,7 +127,7 @@ a.mobile-menu-close {
     width: 46px;
     text-align: center; }
 
-  /* line 124, ../sass/extends.scss */
+  /* line 125, ../sass/extends.scss */
   .nav .sub-menu, .nav .dropdown-menu {
     position: static;
     float: none;

@@ -2,27 +2,34 @@
 	"use strict";
 
 
-    var shrinkHeader = 300;
+    
 
 
     // $('#header').next().html('<div style="height: 103px"></div>');
 
 
-	var shrink = $('#header').next();
+    var width = $(window).width();
+    var shrinkHeader = 300;
+
+    var shrink = $('#header').next();
 
 	shrink.css('margin-top', 103);
 
-    // $('.shrinkHeader').css('margin-top', 103);
+    if ((width>=768)) {
+    	
 
-    $(window).scroll(function() {
-        var scroll = getCurrentScroll();
-        if (scroll >= shrinkHeader) {
-            $('.header').addClass('shrink');
-        } else {
-            $('.header').removeClass('shrink');
+	    // $('.shrinkHeader').css('margin-top', 103);
 
-        }
-    });
+	    $(window).scroll(function() {
+	        var scroll = getCurrentScroll();
+	        if (scroll >= shrinkHeader) {
+	            $('.header').addClass('shrink');
+	        } else {
+	            $('.header').removeClass('shrink');
+
+	        }
+	    });
+    }
 
     function getCurrentScroll() {
         return window.pageYOffset || document.documentElement.scrollTop;

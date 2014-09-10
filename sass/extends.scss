@@ -39,6 +39,7 @@ a.mobile-menu-close {
 	transition: transform 0.5s;
 	-webkit-transform: translate3d(-320px, 0, 0);
 	transform: translate3d(-320px, 0, 0);
+	overflow-x: hidden;
 }
 #container {
 	position: relative;
