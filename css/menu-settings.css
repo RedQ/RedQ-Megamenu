@@ -14,382 +14,713 @@ ul#color-skins input[type="radio"] {
   margin-top: 8px; }
 
 @media (max-width: 767px) {
-  /* line 27, ../sass/menu-settings.scss */
+  /* line 25, ../sass/menu-settings.scss */
+  .navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    padding: 15px;
+    /*color: #575757;
+    border-top: 1px solid #ebebeb;*/ }
+
+  /* line 33, ../sass/menu-settings.scss */
   .default-skin.header {
     background: #FFF;
     border-color: #5baadf transparent #ebebeb; }
-  /* line 31, ../sass/menu-settings.scss */
+  /* line 37, ../sass/menu-settings.scss */
   .default-skin .navbar-default .navbar-toggle .icon-bar {
     background: #5BAADF; }
-  /* line 34, ../sass/menu-settings.scss */
+  /* line 40, ../sass/menu-settings.scss */
   .default-skin .nav .open > a, .default-skin .nav .open > a:hover, .default-skin .nav .open > a:focus {
     border-color: #5BAADF; }
+  /* line 43, ../sass/menu-settings.scss */
+  .default-skin ul.sub-menu li {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 0; }
+  /* line 47, ../sass/menu-settings.scss */
+  .default-skin .mobile-menu-open .navbar-default .navbar-nav > li > a {
+    color: #575757; }
+  /* line 50, ../sass/menu-settings.scss */
+  .default-skin .redq .columns ul li {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 0; }
 
-  /* line 40, ../sass/menu-settings.scss */
+  /* line 57, ../sass/menu-settings.scss */
   .green-sea-skin.header {
     background: #16a085;
     border-top-color: #1abc9c; }
-  /* line 45, ../sass/menu-settings.scss */
+  /* line 61, ../sass/menu-settings.scss */
+  .green-sea-skin #mobile-menu-wrap {
+    background: #16a085;
+    border-top-color: #1abc9c;
+    border-width: 4px 0 1px; }
+  /* line 66, ../sass/menu-settings.scss */
+  .green-sea-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #1abc9c; }
+  /* line 71, ../sass/menu-settings.scss */
   .green-sea-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 48, ../sass/menu-settings.scss */
+  /* line 74, ../sass/menu-settings.scss */
   .green-sea-skin .navbar-default .navbar-toggle .icon-bar {
     background: #16a085; }
-  /* line 51, ../sass/menu-settings.scss */
+  /* line 77, ../sass/menu-settings.scss */
+  .green-sea-skin ul.sub-menu li {
+    border-top: 1px solid #1abc9c;
+    border-bottom: 0; }
+  /* line 81, ../sass/menu-settings.scss */
+  .green-sea-skin .redq .columns ul li {
+    border-top: 1px solid #1abc9c;
+    border-bottom: 0; }
+  /* line 85, ../sass/menu-settings.scss */
+  .green-sea-skin .navbar-default span.redq-item-description {
+    color: #fff; }
+  /* line 88, ../sass/menu-settings.scss */
+  .green-sea-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #1abc9c;
+    border-right: 0; }
+  /* line 93, ../sass/menu-settings.scss */
   .green-sea-skin .navbar-default .navbar-nav li a:hover, .green-sea-skin .navbar-default .navbar-nav li a:focus {
-    color: #1abc9c; }
-  /* line 54, ../sass/menu-settings.scss */
+    color: #fff;
+    background: #1abc9c; }
+  /* line 97, ../sass/menu-settings.scss */
   .green-sea-skin .nav .open > a, .green-sea-skin .nav .open > a:hover, .green-sea-skin .nav .open > a:focus {
     border-color: #1abc9c; }
+  /* line 100, ../sass/menu-settings.scss */
+  .green-sea-skin .redq a,
+  .green-sea-skin .navbar-default .redq-menu-title,
+  .green-sea-skin span.amount {
+    color: #fff; }
 
-  /* line 59, ../sass/menu-settings.scss */
+  /* line 107, ../sass/menu-settings.scss */
   .pomegranate-skin.header {
     background: #c0392b;
     border-top-color: #e74c3c; }
-  /* line 63, ../sass/menu-settings.scss */
+  /* line 111, ../sass/menu-settings.scss */
+  .pomegranate-skin #mobile-menu-wrap {
+    background: #c0392b;
+    border-top-color: #e74c3c;
+    border-width: 4px 0 0; }
+  /* line 116, ../sass/menu-settings.scss */
+  .pomegranate-skin .navbar-default span.redq-item-description {
+    color: #fff; }
+  /* line 119, ../sass/menu-settings.scss */
+  .pomegranate-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #e74c3c; }
+  /* line 123, ../sass/menu-settings.scss */
+  .pomegranate-skin ul.sub-menu li {
+    border-top: 1px solid #e74c3c;
+    border-bottom: 0; }
+  /* line 127, ../sass/menu-settings.scss */
   .pomegranate-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 66, ../sass/menu-settings.scss */
+  /* line 130, ../sass/menu-settings.scss */
+  .pomegranate-skin .redq .columns ul li {
+    border-top: 1px solid #e74c3c;
+    border-bottom: 0; }
+  /* line 134, ../sass/menu-settings.scss */
   .pomegranate-skin .navbar-default .navbar-toggle .icon-bar {
     background: #c0392b; }
-  /* line 69, ../sass/menu-settings.scss */
+  /* line 137, ../sass/menu-settings.scss */
   .pomegranate-skin .navbar-default .navbar-nav li a:hover, .pomegranate-skin .navbar-default .navbar-nav li a:focus {
-    color: #e74c3c; }
-  /* line 72, ../sass/menu-settings.scss */
-  .pomegranate-skin .nav .open > a, .pomegranate-skin .nav .open > a:hover, .pomegranate-skin .nav .open > a:focus {
-    border-color: #e74c3c; }
+    color: #fff;
+    background: #e74c3c; }
+  /* line 141, ../sass/menu-settings.scss */
+  .pomegranate-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #e74c3c;
+    border-right: 0; }
+  /* line 146, ../sass/menu-settings.scss */
+  .pomegranate-skin .redq a,
+  .pomegranate-skin span.amount,
+  .pomegranate-skin .navbar-default .redq-menu-title {
+    color: #fff; }
 
-  /* line 78, ../sass/menu-settings.scss */
+  /* line 154, ../sass/menu-settings.scss */
   .pumpkin-skin.header {
     background: #d35400;
     border-top-color: #e67e22; }
-  /* line 82, ../sass/menu-settings.scss */
+  /* line 158, ../sass/menu-settings.scss */
+  .pumpkin-skin #mobile-menu-wrap {
+    background: #d35400;
+    border-top-color: #e67e22;
+    border-width: 4px 0 0; }
+  /* line 163, ../sass/menu-settings.scss */
+  .pumpkin-skin .navbar-default span.redq-item-description {
+    color: #fff; }
+  /* line 166, ../sass/menu-settings.scss */
+  .pumpkin-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #e67e22; }
+  /* line 170, ../sass/menu-settings.scss */
+  .pumpkin-skin .navbar-default .navbar-nav li a:hover, .pumpkin-skin .navbar-default .navbar-nav li a:focus {
+    color: #fff;
+    background: #e67e22; }
+  /* line 174, ../sass/menu-settings.scss */
+  .pumpkin-skin ul.sub-menu li {
+    border-top: 1px solid #e67e22;
+    border-bottom: 0; }
+  /* line 178, ../sass/menu-settings.scss */
   .pumpkin-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 85, ../sass/menu-settings.scss */
+  /* line 181, ../sass/menu-settings.scss */
+  .pumpkin-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #e67e22;
+    border-right: 0; }
+  /* line 186, ../sass/menu-settings.scss */
+  .pumpkin-skin .redq .columns ul li {
+    border-top: 1px solid #e67e22;
+    border-bottom: 0; }
+  /* line 190, ../sass/menu-settings.scss */
   .pumpkin-skin .navbar-default .navbar-toggle .icon-bar {
     background: #d35400; }
-  /* line 88, ../sass/menu-settings.scss */
-  .pumpkin-skin .navbar-default .navbar-nav li a:hover, .pumpkin-skin .navbar-default .navbar-nav li a:focus {
-    color: #e67e22; }
-  /* line 91, ../sass/menu-settings.scss */
+  /* line 193, ../sass/menu-settings.scss */
   .pumpkin-skin .nav .open > a, .pumpkin-skin .nav .open > a:hover, .pumpkin-skin .nav .open > a:focus {
     border-color: #e67e22; }
+  /* line 196, ../sass/menu-settings.scss */
+  .pumpkin-skin .redq a,
+  .pumpkin-skin span.amount,
+  .pumpkin-skin .navbar-default .redq-menu-title {
+    color: #fff; }
 
-  /* line 97, ../sass/menu-settings.scss */
+  /* line 204, ../sass/menu-settings.scss */
   .belize-hole-skin.header {
     background: #2980b9;
     border-top-color: #3498db; }
-  /* line 101, ../sass/menu-settings.scss */
+  /* line 208, ../sass/menu-settings.scss */
+  .belize-hole-skin #mobile-menu-wrap {
+    background: #2980b9;
+    border-top-color: #3498db;
+    border-width: 4px 0 0; }
+  /* line 213, ../sass/menu-settings.scss */
+  .belize-hole-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #3498db; }
+  /* line 217, ../sass/menu-settings.scss */
+  .belize-hole-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #3498db;
+    border-right: 0; }
+  /* line 222, ../sass/menu-settings.scss */
+  .belize-hole-skin .navbar-default span.redq-item-description {
+    color: #fff; }
+  /* line 225, ../sass/menu-settings.scss */
+  .belize-hole-skin ul.sub-menu li {
+    border-top: 1px solid #3498db;
+    border-bottom: 0; }
+  /* line 229, ../sass/menu-settings.scss */
+  .belize-hole-skin .navbar-default .navbar-nav li a:hover, .belize-hole-skin .navbar-default .navbar-nav li a:focus {
+    color: #fff;
+    background: #3498db; }
+  /* line 233, ../sass/menu-settings.scss */
   .belize-hole-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 104, ../sass/menu-settings.scss */
+  /* line 236, ../sass/menu-settings.scss */
   .belize-hole-skin .navbar-default .navbar-toggle .icon-bar {
     background: #2980b9; }
-  /* line 107, ../sass/menu-settings.scss */
-  .belize-hole-skin .navbar-default .navbar-nav li a:hover, .belize-hole-skin .navbar-default .navbar-nav li a:focus {
-    color: #3498db; }
-  /* line 110, ../sass/menu-settings.scss */
+  /* line 239, ../sass/menu-settings.scss */
   .belize-hole-skin .nav .open > a, .belize-hole-skin .nav .open > a:hover, .belize-hole-skin .nav .open > a:focus {
     border-color: #3498db; }
+  /* line 242, ../sass/menu-settings.scss */
+  .belize-hole-skin .redq .columns ul li {
+    border-top: 1px solid #3498db;
+    border-bottom: 0; }
+  /* line 246, ../sass/menu-settings.scss */
+  .belize-hole-skin .redq a,
+  .belize-hole-skin span.amount,
+  .belize-hole-skin .navbar-default .redq-menu-title {
+    color: #fff; }
 
-  /* line 115, ../sass/menu-settings.scss */
+  /* line 253, ../sass/menu-settings.scss */
   .nephritis-skin.header {
     background: #27ae60;
     border-top-color: #2ecc71; }
-  /* line 119, ../sass/menu-settings.scss */
-  .nephritis-skin .navbar > .container .navbar-brand {
+  /* line 257, ../sass/menu-settings.scss */
+  .nephritis-skin #mobile-menu-wrap {
+    background: #27ae60;
+    border-top-color: #2ecc71;
+    border-width: 4px 0 0; }
+  /* line 262, ../sass/menu-settings.scss */
+  .nephritis-skin ul.sub-menu li {
+    border-top: 1px solid #2ecc71;
+    border-bottom: 0; }
+  /* line 266, ../sass/menu-settings.scss */
+  .nephritis-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #2ecc71;
+    border-right: 0; }
+  /* line 271, ../sass/menu-settings.scss */
+  .nephritis-skin .navbar-default .navbar-nav li a:hover, .nephritis-skin .navbar-default .navbar-nav li a:focus {
+    color: #fff;
+    background: #2ecc71; }
+  /* line 275, ../sass/menu-settings.scss */
+  .nephritis-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #2ecc71; }
+  /* line 279, ../sass/menu-settings.scss */
+  .nephritis-skin .navbar-default span.redq-item-description {
+    color: #fff; }
+  /* line 282, ../sass/menu-settings.scss */
+  .nephritis-skin .navbar > .container .navbar-brand,
+  .nephritis-skin .navbar-default .redq-menu-title {
     color: #FFF; }
-  /* line 122, ../sass/menu-settings.scss */
+  /* line 286, ../sass/menu-settings.scss */
   .nephritis-skin .navbar-default .navbar-toggle .icon-bar {
     background: #27ae60; }
-  /* line 125, ../sass/menu-settings.scss */
-  .nephritis-skin .navbar-default .navbar-nav li a:hover, .nephritis-skin .navbar-default .navbar-nav li a:focus {
-    color: #2ecc71; }
-  /* line 128, ../sass/menu-settings.scss */
+  /* line 289, ../sass/menu-settings.scss */
+  .nephritis-skin .redq .columns ul li {
+    border-top: 1px solid #2ecc71;
+    border-bottom: 0; }
+  /* line 293, ../sass/menu-settings.scss */
   .nephritis-skin .nav .open > a, .nephritis-skin .nav .open > a:hover, .nephritis-skin .nav .open > a:focus {
     border-color: #2ecc71; }
+  /* line 296, ../sass/menu-settings.scss */
+  .nephritis-skin .redq a,
+  .nephritis-skin span.amount {
+    color: #fff; }
 
-  /* line 133, ../sass/menu-settings.scss */
+  /* line 302, ../sass/menu-settings.scss */
   .orange-skin.header {
     background: #f39c12;
     border-top-color: #f1c40f; }
-  /* line 137, ../sass/menu-settings.scss */
+  /* line 306, ../sass/menu-settings.scss */
+  .orange-skin #mobile-menu-wrap {
+    background: #f39c12;
+    border-top-color: #f1c40f;
+    border-width: 4px 0 0; }
+  /* line 311, ../sass/menu-settings.scss */
+  .orange-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #f1c40f; }
+  /* line 315, ../sass/menu-settings.scss */
+  .orange-skin .navbar-default .navbar-nav li a:hover, .orange-skin .navbar-default .navbar-nav li a:focus {
+    color: #fff;
+    background: #f1c40f; }
+  /* line 319, ../sass/menu-settings.scss */
+  .orange-skin ul.sub-menu li {
+    border-top: 1px solid #f1c40f;
+    border-bottom: 0; }
+  /* line 323, ../sass/menu-settings.scss */
   .orange-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 140, ../sass/menu-settings.scss */
-  .orange-skin .navbar-default .navbar-nav li a:hover, .orange-skin .navbar-default .navbar-nav li a:focus {
-    color: #f1c40f; }
-  /* line 143, ../sass/menu-settings.scss */
+  /* line 326, ../sass/menu-settings.scss */
   .orange-skin .navbar-default .navbar-toggle .icon-bar {
     background: #f39c12; }
-  /* line 146, ../sass/menu-settings.scss */
+  /* line 329, ../sass/menu-settings.scss */
+  .orange-skin .navbar-default span.redq-item-description,
+  .orange-skin .navbar-default .redq-menu-title {
+    color: #fff; }
+  /* line 333, ../sass/menu-settings.scss */
   .orange-skin .nav .open > a, .orange-skin .nav .open > a:hover, .orange-skin .nav .open > a:focus {
     border-color: #f1c40f; }
+  /* line 336, ../sass/menu-settings.scss */
+  .orange-skin .redq .columns ul li {
+    border-top: 1px solid #f1c40f;
+    border-bottom: 0; }
+  /* line 340, ../sass/menu-settings.scss */
+  .orange-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #f1c40f;
+    border-right: 0; }
+  /* line 345, ../sass/menu-settings.scss */
+  .orange-skin .redq a,
+  .orange-skin span.amount {
+    color: #fff; }
 
-  /* line 151, ../sass/menu-settings.scss */
+  /* line 351, ../sass/menu-settings.scss */
   .silver-skin.header {
     background: #bdc3c7;
     border-top-color: #ecf0f1; }
-  /* line 155, ../sass/menu-settings.scss */
-  .silver-skin .navbar > .container .navbar-brand {
-    color: #FFF; }
-  /* line 158, ../sass/menu-settings.scss */
+  /* line 355, ../sass/menu-settings.scss */
+  .silver-skin #mobile-menu-wrap {
+    background: #bdc3c7;
+    border-top-color: #ecf0f1;
+    border-width: 4px 0 0; }
+  /* line 360, ../sass/menu-settings.scss */
+  .silver-skin ul.sub-menu li {
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 0; }
+  /* line 364, ../sass/menu-settings.scss */
+  .silver-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #ecf0f1; }
+  /* line 368, ../sass/menu-settings.scss */
+  .silver-skin .navbar-default .navbar-nav li a:hover {
+    color: #575757; }
+  /* line 371, ../sass/menu-settings.scss */
+  .silver-skin .navbar-default span.redq-item-description {
+    color: #fff; }
+  /* line 374, ../sass/menu-settings.scss */
   .silver-skin .navbar-default .navbar-nav li a:hover, .silver-skin .navbar-default .navbar-nav li a:focus {
-    color: #000; }
-  /* line 161, ../sass/menu-settings.scss */
+    color: #575757;
+    background: #ecf0f1; }
+  /* line 378, ../sass/menu-settings.scss */
+  .silver-skin .navbar > .container .navbar-brand,
+  .silver-skin .navbar-default .redq-menu-title {
+    color: #FFF; }
+  /* line 382, ../sass/menu-settings.scss */
   .silver-skin .navbar-default .navbar-toggle .icon-bar {
     background: #bdc3c7; }
-  /* line 164, ../sass/menu-settings.scss */
+  /* line 385, ../sass/menu-settings.scss */
   .silver-skin .nav .open > a, .silver-skin .nav .open > a:hover, .silver-skin .nav .open > a:focus {
     border-color: #ecf0f1; }
+  /* line 388, ../sass/menu-settings.scss */
+  .silver-skin .redq a,
+  .silver-skin span.amount {
+    color: #fff; }
+  /* line 392, ../sass/menu-settings.scss */
+  .silver-skin .redq a:hover {
+    color: #575757; }
+  /* line 395, ../sass/menu-settings.scss */
+  .silver-skin .redq .columns ul li {
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 0; }
+  /* line 399, ../sass/menu-settings.scss */
+  .silver-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #ecf0f1;
+    border-right: 0; }
 
-  /* line 169, ../sass/menu-settings.scss */
+  /* line 407, ../sass/menu-settings.scss */
   .wisteria-skin.header {
     background: #8e44ad;
     border-top-color: #9b59b6; }
-  /* line 173, ../sass/menu-settings.scss */
+  /* line 411, ../sass/menu-settings.scss */
+  .wisteria-skin #mobile-menu-wrap {
+    background: #8e44ad;
+    border-top-color: #9b59b6;
+    border-width: 4px 0 0; }
+  /* line 416, ../sass/menu-settings.scss */
+  .wisteria-skin ul.sub-menu li {
+    border-top: 1px solid #9b59b6;
+    border-bottom: 0; }
+  /* line 420, ../sass/menu-settings.scss */
+  .wisteria-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #9b59b6; }
+  /* line 424, ../sass/menu-settings.scss */
+  .wisteria-skin .navbar-default .navbar-nav li a:hover, .wisteria-skin .navbar-default .navbar-nav li a:focus {
+    color: #fff;
+    background: #9b59b6; }
+  /* line 428, ../sass/menu-settings.scss */
+  .wisteria-skin .redq .columns ul li {
+    border-top: 1px solid #9b59b6;
+    border-bottom: 0; }
+  /* line 432, ../sass/menu-settings.scss */
   .wisteria-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 176, ../sass/menu-settings.scss */
-  .wisteria-skin .navbar-default .navbar-nav li a:hover, .wisteria-skin .navbar-default .navbar-nav li a:focus {
-    color: #9b59b6; }
-  /* line 179, ../sass/menu-settings.scss */
+  /* line 435, ../sass/menu-settings.scss */
+  .wisteria-skin .navbar-default span.redq-item-description,
+  .wisteria-skin .navbar-default .redq-menu-title {
+    color: #fff; }
+  /* line 439, ../sass/menu-settings.scss */
   .wisteria-skin .navbar-default .navbar-toggle .icon-bar {
     background: #8e44ad; }
-  /* line 182, ../sass/menu-settings.scss */
+  /* line 442, ../sass/menu-settings.scss */
   .wisteria-skin .nav .open > a, .wisteria-skin .nav .open > a:hover, .wisteria-skin .nav .open > a:focus {
     border-color: #9b59b6; }
+  /* line 445, ../sass/menu-settings.scss */
+  .wisteria-skin .redq a,
+  .wisteria-skin span.amount {
+    color: #fff; }
+  /* line 449, ../sass/menu-settings.scss */
+  .wisteria-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #9b59b6;
+    border-right: 0; }
 
-  /* line 188, ../sass/menu-settings.scss */
+  /* line 457, ../sass/menu-settings.scss */
   .midnight-blue-skin.header {
     background: #2c3e50;
     border-top-color: #34495e; }
-  /* line 192, ../sass/menu-settings.scss */
+  /* line 461, ../sass/menu-settings.scss */
+  .midnight-blue-skin #mobile-menu-wrap {
+    background: #2c3e50;
+    border-top-color: #34495e;
+    border-width: 4px 0 0; }
+  /* line 466, ../sass/menu-settings.scss */
+  .midnight-blue-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #34495e; }
+  /* line 470, ../sass/menu-settings.scss */
+  .midnight-blue-skin ul.sub-menu li {
+    border-top: 1px solid #34495e;
+    border-bottom: 0; }
+  /* line 474, ../sass/menu-settings.scss */
+  .midnight-blue-skin .navbar-default .navbar-nav li a:hover, .midnight-blue-skin .navbar-default .navbar-nav li a:focus {
+    color: #fff;
+    background: #34495e; }
+  /* line 478, ../sass/menu-settings.scss */
   .midnight-blue-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 195, ../sass/menu-settings.scss */
-  .midnight-blue-skin .navbar-default .navbar-nav li a:hover, .midnight-blue-skin .navbar-default .navbar-nav li a:focus {
-    color: #34495e; }
-  /* line 198, ../sass/menu-settings.scss */
+  /* line 481, ../sass/menu-settings.scss */
   .midnight-blue-skin .navbar-default .navbar-toggle .icon-bar {
     background: #2c3e50; }
-  /* line 201, ../sass/menu-settings.scss */
+  /* line 484, ../sass/menu-settings.scss */
+  .midnight-blue-skin .navbar-default span.redq-item-description,
+  .midnight-blue-skin .navbar-default .redq-menu-title {
+    color: #fff; }
+  /* line 488, ../sass/menu-settings.scss */
   .midnight-blue-skin .nav .open > a, .midnight-blue-skin .nav .open > a:hover, .midnight-blue-skin .nav .open > a:focus {
     border-color: #34495e; }
+  /* line 491, ../sass/menu-settings.scss */
+  .midnight-blue-skin .redq a,
+  .midnight-blue-skin span.amount {
+    color: #fff; }
+  /* line 495, ../sass/menu-settings.scss */
+  .midnight-blue-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #34495e;
+    border-right: 0; }
+  /* line 500, ../sass/menu-settings.scss */
+  .midnight-blue-skin .redq .columns ul li {
+    border-top: 1px solid #34495e;
+    border-bottom: 0; }
 
-  /* line 207, ../sass/menu-settings.scss */
+  /* line 507, ../sass/menu-settings.scss */
   .asbestos-skin.header {
     background: #7f8c8d;
     border-top-color: #95a5a6; }
-  /* line 211, ../sass/menu-settings.scss */
+  /* line 511, ../sass/menu-settings.scss */
+  .asbestos-skin #mobile-menu-wrap {
+    background: #7f8c8d;
+    border-top-color: #95a5a6;
+    border-width: 4px 0 0; }
+  /* line 516, ../sass/menu-settings.scss */
+  .asbestos-skin .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    border-top: 1px solid #95a5a6; }
+  /* line 520, ../sass/menu-settings.scss */
+  .asbestos-skin .navbar-default .navbar-nav li a:hover, .asbestos-skin .navbar-default .navbar-nav li a:focus {
+    color: #fff;
+    background: #95a5a6; }
+  /* line 524, ../sass/menu-settings.scss */
+  .asbestos-skin ul.sub-menu li {
+    border-top: 1px solid #95a5a6;
+    border-bottom: 0; }
+  /* line 528, ../sass/menu-settings.scss */
   .asbestos-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 214, ../sass/menu-settings.scss */
-  .asbestos-skin .navbar-default .navbar-nav li a:hover, .asbestos-skin .navbar-default .navbar-nav li a:focus {
-    color: #95a5a6; }
-  /* line 217, ../sass/menu-settings.scss */
+  /* line 531, ../sass/menu-settings.scss */
+  .asbestos-skin .show-grid [class^=col-] {
+    color: #fff;
+    border-bottom: 1px solid #95a5a6;
+    border-right: 0; }
+  /* line 536, ../sass/menu-settings.scss */
   .asbestos-skin .navbar-default .navbar-toggle .icon-bar {
     background: #7f8c8d; }
-  /* line 220, ../sass/menu-settings.scss */
+  /* line 539, ../sass/menu-settings.scss */
   .asbestos-skin .nav .open > a, .asbestos-skin .nav .open > a:hover, .asbestos-skin .nav .open > a:focus {
-    border-color: #95a5a6; } }
+    border-color: #95a5a6; }
+  /* line 542, ../sass/menu-settings.scss */
+  .asbestos-skin .redq a,
+  .asbestos-skin span.amount {
+    color: #fff; }
+  /* line 546, ../sass/menu-settings.scss */
+  .asbestos-skin .redq .columns ul li {
+    border-top: 1px solid #95a5a6;
+    border-bottom: 0; }
+  /* line 550, ../sass/menu-settings.scss */
+  .asbestos-skin .navbar-default span.redq-item-description,
+  .asbestos-skin .navbar-default .redq-menu-title {
+    color: #fff; } }
 @media (min-width: 768px) {
-  /* line 228, ../sass/menu-settings.scss */
+  /* line 559, ../sass/menu-settings.scss */
   .default-skin.header {
     background: #FFF;
     border-color: #5baadf transparent #ebebeb; }
-  /* line 233, ../sass/menu-settings.scss */
+  /* line 564, ../sass/menu-settings.scss */
   .default-skin .redq .dropdown-menu {
     border-top-color: #5baadf; }
-  /* line 236, ../sass/menu-settings.scss */
+  /* line 567, ../sass/menu-settings.scss */
   .default-skin .redq a:hover {
     color: #5BAADF; }
-  /* line 240, ../sass/menu-settings.scss */
+  /* line 571, ../sass/menu-settings.scss */
   .default-skin ul.sub-menu {
     border-top-color: #5BAADF; }
 
-  /* line 245, ../sass/menu-settings.scss */
+  /* line 576, ../sass/menu-settings.scss */
   .green-sea-skin.header {
     background: #16a085;
     border-top-color: #1abc9c; }
-  /* line 249, ../sass/menu-settings.scss */
+  /* line 580, ../sass/menu-settings.scss */
   .green-sea-skin .navbar-default .navbar-nav > li > a,
   .green-sea-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 254, ../sass/menu-settings.scss */
+  /* line 585, ../sass/menu-settings.scss */
   .green-sea-skin .redq .dropdown-menu {
     border-top-color: #1abc9c; }
-  /* line 257, ../sass/menu-settings.scss */
+  /* line 588, ../sass/menu-settings.scss */
   .green-sea-skin .redq a:hover {
     color: #1abc9c; }
-  /* line 261, ../sass/menu-settings.scss */
+  /* line 592, ../sass/menu-settings.scss */
   .green-sea-skin ul.sub-menu {
     border-top-color: #1abc9c; }
 
-  /* line 267, ../sass/menu-settings.scss */
+  /* line 598, ../sass/menu-settings.scss */
   .pomegranate-skin.header {
     background: #c0392b;
     border-top-color: #e74c3c; }
-  /* line 271, ../sass/menu-settings.scss */
+  /* line 602, ../sass/menu-settings.scss */
   .pomegranate-skin .navbar-default .navbar-nav > li > a,
   .pomegranate-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 276, ../sass/menu-settings.scss */
+  /* line 607, ../sass/menu-settings.scss */
   .pomegranate-skin .redq .dropdown-menu {
     border-top-color: #e74c3c; }
-  /* line 279, ../sass/menu-settings.scss */
+  /* line 610, ../sass/menu-settings.scss */
   .pomegranate-skin .redq a:hover {
     color: #e74c3c; }
-  /* line 283, ../sass/menu-settings.scss */
+  /* line 614, ../sass/menu-settings.scss */
   .pomegranate-skin ul.sub-menu {
     border-top-color: #e74c3c; }
 
-  /* line 289, ../sass/menu-settings.scss */
+  /* line 620, ../sass/menu-settings.scss */
   .pumpkin-skin.header {
     background: #d35400;
     border-top-color: #e67e22; }
-  /* line 293, ../sass/menu-settings.scss */
+  /* line 624, ../sass/menu-settings.scss */
   .pumpkin-skin .navbar-default .navbar-nav > li > a,
   .pumpkin-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 298, ../sass/menu-settings.scss */
+  /* line 629, ../sass/menu-settings.scss */
   .pumpkin-skin .redq .dropdown-menu {
     border-top-color: #e67e22; }
-  /* line 301, ../sass/menu-settings.scss */
+  /* line 632, ../sass/menu-settings.scss */
   .pumpkin-skin .redq a:hover {
     color: #e67e22; }
-  /* line 305, ../sass/menu-settings.scss */
+  /* line 636, ../sass/menu-settings.scss */
   .pumpkin-skin ul.sub-menu {
     border-top-color: #e67e22; }
 
-  /* line 311, ../sass/menu-settings.scss */
+  /* line 642, ../sass/menu-settings.scss */
   .belize-hole-skin.header {
     background: #2980b9;
     border-top-color: #3498db; }
-  /* line 315, ../sass/menu-settings.scss */
+  /* line 646, ../sass/menu-settings.scss */
   .belize-hole-skin .navbar-default .navbar-nav > li > a,
   .belize-hole-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 320, ../sass/menu-settings.scss */
+  /* line 651, ../sass/menu-settings.scss */
   .belize-hole-skin .redq .dropdown-menu {
     border-top-color: #3498db; }
-  /* line 323, ../sass/menu-settings.scss */
+  /* line 654, ../sass/menu-settings.scss */
   .belize-hole-skin .redq a:hover {
     color: #3498db; }
-  /* line 327, ../sass/menu-settings.scss */
+  /* line 658, ../sass/menu-settings.scss */
   .belize-hole-skin ul.sub-menu {
     border-top-color: #3498db; }
 
-  /* line 333, ../sass/menu-settings.scss */
+  /* line 664, ../sass/menu-settings.scss */
   .nephritis-skin.header {
     background: #27ae60;
     border-top-color: #2ecc71; }
-  /* line 337, ../sass/menu-settings.scss */
+  /* line 668, ../sass/menu-settings.scss */
   .nephritis-skin .navbar-default .navbar-nav > li > a,
   .nephritis-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 342, ../sass/menu-settings.scss */
+  /* line 673, ../sass/menu-settings.scss */
   .nephritis-skin .redq .dropdown-menu {
     border-top-color: #2ecc71; }
-  /* line 345, ../sass/menu-settings.scss */
+  /* line 676, ../sass/menu-settings.scss */
   .nephritis-skin .redq a:hover {
     color: #2ecc71; }
-  /* line 349, ../sass/menu-settings.scss */
+  /* line 680, ../sass/menu-settings.scss */
   .nephritis-skin ul.sub-menu {
     border-top-color: #2ecc71; }
 
-  /* line 375, ../sass/menu-settings.scss */
+  /* line 706, ../sass/menu-settings.scss */
   .silver-skin.header {
     background: #bdc3c7;
     border-top-color: #ecf0f1; }
-  /* line 379, ../sass/menu-settings.scss */
+  /* line 710, ../sass/menu-settings.scss */
   .silver-skin .navbar-default .navbar-nav > li > a,
   .silver-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 385, ../sass/menu-settings.scss */
+  /* line 716, ../sass/menu-settings.scss */
   .silver-skin .redq .dropdown-menu {
     border-top-color: #ecf0f1; }
-  /* line 388, ../sass/menu-settings.scss */
+  /* line 719, ../sass/menu-settings.scss */
   .silver-skin .redq a:hover {
     color: #bdc3c7; }
-  /* line 392, ../sass/menu-settings.scss */
+  /* line 723, ../sass/menu-settings.scss */
   .silver-skin ul.sub-menu {
     border-top-color: #ecf0f1; }
 
-  /* line 397, ../sass/menu-settings.scss */
+  /* line 728, ../sass/menu-settings.scss */
   .orange-skin.header {
     background: #f39c12;
     border-top-color: #f1c40f; }
-  /* line 401, ../sass/menu-settings.scss */
+  /* line 732, ../sass/menu-settings.scss */
   .orange-skin .navbar-default .navbar-nav > li > a,
   .orange-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 406, ../sass/menu-settings.scss */
+  /* line 737, ../sass/menu-settings.scss */
   .orange-skin .redq .dropdown-menu {
     border-top-color: #f1c40f; }
-  /* line 409, ../sass/menu-settings.scss */
+  /* line 740, ../sass/menu-settings.scss */
   .orange-skin .redq a:hover {
     color: #f1c40f; }
-  /* line 413, ../sass/menu-settings.scss */
+  /* line 744, ../sass/menu-settings.scss */
   .orange-skin ul.sub-menu {
     border-top-color: #f1c40f; }
 
-  /* line 418, ../sass/menu-settings.scss */
+  /* line 749, ../sass/menu-settings.scss */
   .wisteria-skin.header {
     background: #8e44ad;
     border-top-color: #9b59b6; }
-  /* line 422, ../sass/menu-settings.scss */
+  /* line 753, ../sass/menu-settings.scss */
   .wisteria-skin .navbar-default .navbar-nav > li > a,
   .wisteria-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 428, ../sass/menu-settings.scss */
+  /* line 759, ../sass/menu-settings.scss */
   .wisteria-skin .redq .dropdown-menu {
     border-top-color: #9b59b6; }
-  /* line 431, ../sass/menu-settings.scss */
+  /* line 762, ../sass/menu-settings.scss */
   .wisteria-skin .redq a:hover {
     color: #9b59b6; }
-  /* line 435, ../sass/menu-settings.scss */
+  /* line 766, ../sass/menu-settings.scss */
   .wisteria-skin ul.sub-menu {
     border-top-color: #9b59b6; }
 
-  /* line 441, ../sass/menu-settings.scss */
+  /* line 772, ../sass/menu-settings.scss */
   .midnight-blue-skin.header {
     background: #2c3e50;
     border-top-color: #34495e; }
-  /* line 445, ../sass/menu-settings.scss */
+  /* line 776, ../sass/menu-settings.scss */
   .midnight-blue-skin .navbar-default .navbar-nav > li > a,
   .midnight-blue-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 451, ../sass/menu-settings.scss */
+  /* line 782, ../sass/menu-settings.scss */
   .midnight-blue-skin .redq .dropdown-menu {
     border-top-color: #34495e; }
-  /* line 454, ../sass/menu-settings.scss */
+  /* line 785, ../sass/menu-settings.scss */
   .midnight-blue-skin .redq a:hover {
     color: #34495e; }
-  /* line 458, ../sass/menu-settings.scss */
+  /* line 789, ../sass/menu-settings.scss */
   .midnight-blue-skin ul.sub-menu {
     border-top-color: #34495e; }
 
-  /* line 464, ../sass/menu-settings.scss */
+  /* line 795, ../sass/menu-settings.scss */
   .asbestos-skin.header {
     background: #7f8c8d;
     border-top-color: #95a5a6; }
-  /* line 468, ../sass/menu-settings.scss */
+  /* line 799, ../sass/menu-settings.scss */
   .asbestos-skin .navbar-default .navbar-nav > li > a,
   .asbestos-skin .navbar > .container .navbar-brand {
     color: #FFF; }
-  /* line 474, ../sass/menu-settings.scss */
+  /* line 805, ../sass/menu-settings.scss */
   .asbestos-skin .redq .dropdown-menu {
     border-top-color: #95a5a6; }
-  /* line 477, ../sass/menu-settings.scss */
+  /* line 808, ../sass/menu-settings.scss */
   .asbestos-skin .redq a:hover {
     color: #95a5a6; }
-  /* line 481, ../sass/menu-settings.scss */
+  /* line 812, ../sass/menu-settings.scss */
   .asbestos-skin ul.sub-menu {
     border-top-color: #95a5a6; }
 
-  /* line 494, ../sass/menu-settings.scss */
+  /* line 825, ../sass/menu-settings.scss */
   .fadeInUp .nav.navbar-nav > li:hover > ul.dropdown-menu, .fadeInUp .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -397,7 +728,7 @@ ul#color-skins input[type="radio"] {
     -ms-animation: fadeInUp 500ms;
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; }
-  /* line 510, ../sass/menu-settings.scss */
+  /* line 841, ../sass/menu-settings.scss */
   .fadeInUp .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: fadeInUp 500ms;
@@ -406,14 +737,14 @@ ul#color-skins input[type="radio"] {
     -o-animation: fadeInUp 500ms;
     animation: fadeInUp 500ms; }
 
-  /* line 530, ../sass/menu-settings.scss */
+  /* line 861, ../sass/menu-settings.scss */
   .animate-null .nav.navbar-nav > li:hover > ul.dropdown-menu, .animate-null .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block; }
-  /* line 540, ../sass/menu-settings.scss */
+  /* line 871, ../sass/menu-settings.scss */
   .animate-null .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block; }
 
-  /* line 554, ../sass/menu-settings.scss */
+  /* line 885, ../sass/menu-settings.scss */
   .fadeInDown .nav.navbar-nav > li:hover > ul.dropdown-menu, .fadeInDown .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: fadeInDown 500ms;
@@ -421,7 +752,7 @@ ul#color-skins input[type="radio"] {
     -ms-animation: fadeInDown 500ms;
     -o-animation: fadeInDown 500ms;
     animation: fadeInDown 500ms; }
-  /* line 570, ../sass/menu-settings.scss */
+  /* line 901, ../sass/menu-settings.scss */
   .fadeInDown .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: fadeInDown 500ms;
@@ -430,7 +761,7 @@ ul#color-skins input[type="radio"] {
     -o-animation: fadeInDown 500ms;
     animation: fadeInDown 500ms; }
 
-  /* line 590, ../sass/menu-settings.scss */
+  /* line 921, ../sass/menu-settings.scss */
   .bounceInUp .nav.navbar-nav > li:hover > ul.dropdown-menu, .bounceInUp .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: bounceInUp 500ms;
@@ -438,7 +769,7 @@ ul#color-skins input[type="radio"] {
     -ms-animation: bounceInUp 500ms;
     -o-animation: bounceInUp 500ms;
     animation: bounceInUp 500ms; }
-  /* line 606, ../sass/menu-settings.scss */
+  /* line 937, ../sass/menu-settings.scss */
   .bounceInUp .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: bounceInUp 500ms;
@@ -447,7 +778,7 @@ ul#color-skins input[type="radio"] {
     -o-animation: bounceInUp 500ms;
     animation: bounceInUp 500ms; }
 
-  /* line 626, ../sass/menu-settings.scss */
+  /* line 957, ../sass/menu-settings.scss */
   .flipInX .nav.navbar-nav > li:hover > ul.dropdown-menu, .flipInX .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: flipInX 500ms;
@@ -455,7 +786,7 @@ ul#color-skins input[type="radio"] {
     -ms-animation: flipInX 500ms;
     -o-animation: flipInX 500ms;
     animation: flipInX 500ms; }
-  /* line 642, ../sass/menu-settings.scss */
+  /* line 973, ../sass/menu-settings.scss */
   .flipInX .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: flipInX 500ms;
@@ -464,7 +795,7 @@ ul#color-skins input[type="radio"] {
     -o-animation: flipInX 500ms;
     animation: flipInX 500ms; }
 
-  /* line 662, ../sass/menu-settings.scss */
+  /* line 993, ../sass/menu-settings.scss */
   .flipInY .nav.navbar-nav > li:hover > ul.dropdown-menu, .flipInY .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: flipInY 500ms;
@@ -472,7 +803,7 @@ ul#color-skins input[type="radio"] {
     -ms-animation: flipInY 500ms;
     -o-animation: flipInY 500ms;
     animation: flipInY 500ms; }
-  /* line 678, ../sass/menu-settings.scss */
+  /* line 1009, ../sass/menu-settings.scss */
   .flipInY .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: flipInY 500ms;
@@ -481,7 +812,7 @@ ul#color-skins input[type="radio"] {
     -o-animation: flipInY 500ms;
     animation: flipInY 500ms; }
 
-  /* line 698, ../sass/menu-settings.scss */
+  /* line 1029, ../sass/menu-settings.scss */
   .pulse .nav.navbar-nav > li:hover > ul.dropdown-menu, .pulse .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: pulse 500ms;
@@ -489,7 +820,7 @@ ul#color-skins input[type="radio"] {
     -ms-animation: pulse 500ms;
     -o-animation: pulse 500ms;
     animation: pulse 500ms; }
-  /* line 714, ../sass/menu-settings.scss */
+  /* line 1045, ../sass/menu-settings.scss */
   .pulse .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: pulse 500ms;
@@ -498,7 +829,7 @@ ul#color-skins input[type="radio"] {
     -o-animation: pulse 500ms;
     animation: pulse 500ms; }
 
-  /* line 734, ../sass/menu-settings.scss */
+  /* line 1065, ../sass/menu-settings.scss */
   .zoomIn .nav.navbar-nav > li:hover > ul.dropdown-menu, .zoomIn .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: zoomIn 500ms;
@@ -506,7 +837,7 @@ ul#color-skins input[type="radio"] {
     -ms-animation: zoomIn 500ms;
     -o-animation: zoomIn 500ms;
     animation: zoomIn 500ms; }
-  /* line 750, ../sass/menu-settings.scss */
+  /* line 1081, ../sass/menu-settings.scss */
   .zoomIn .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: zoomIn 500ms;
@@ -515,7 +846,7 @@ ul#color-skins input[type="radio"] {
     -o-animation: zoomIn 500ms;
     animation: zoomIn 500ms; }
 
-  /* line 771, ../sass/menu-settings.scss */
+  /* line 1102, ../sass/menu-settings.scss */
   .lightSpeedIn .nav.navbar-nav > li:hover > ul.dropdown-menu, .lightSpeedIn .nav.navbar-nav > li:hover > ul.sub-menu {
     display: block;
     -webkit-animation: lightSpeedIn 500ms;
@@ -523,7 +854,7 @@ ul#color-skins input[type="radio"] {
     -ms-animation: lightSpeedIn 500ms;
     -o-animation: lightSpeedIn 500ms;
     animation: lightSpeedIn 500ms; }
-  /* line 787, ../sass/menu-settings.scss */
+  /* line 1118, ../sass/menu-settings.scss */
   .lightSpeedIn .nav .sub-menu .dropdown:hover > .sub-menu {
     display: block;
     -webkit-animation: lightSpeedIn 500ms;
@@ -531,53 +862,53 @@ ul#color-skins input[type="radio"] {
     -ms-animation: lightSpeedIn 500ms;
     -o-animation: lightSpeedIn 500ms;
     animation: lightSpeedIn 500ms; } }
-/* line 806, ../sass/menu-settings.scss */
+/* line 1137, ../sass/menu-settings.scss */
 .skin-block {
   width: 60px;
   height: 30px;
   margin: 5px 0; }
 
-/* line 811, ../sass/menu-settings.scss */
+/* line 1142, ../sass/menu-settings.scss */
 .default-bg {
   background: #FFF;
   border: 1px solid #ebebeb; }
 
-/* line 815, ../sass/menu-settings.scss */
+/* line 1146, ../sass/menu-settings.scss */
 .green-sea-bg {
   background: #16A085; }
 
-/* line 818, ../sass/menu-settings.scss */
+/* line 1149, ../sass/menu-settings.scss */
 .pomegranate-bg {
   background: #C0392B; }
 
-/* line 821, ../sass/menu-settings.scss */
+/* line 1152, ../sass/menu-settings.scss */
 .silver-bg {
   background: #bdc3c7; }
 
-/* line 824, ../sass/menu-settings.scss */
+/* line 1155, ../sass/menu-settings.scss */
 .pumpkin-bg {
   background: #d35400; }
 
-/* line 827, ../sass/menu-settings.scss */
+/* line 1158, ../sass/menu-settings.scss */
 .orange-bg {
   background: #f39c12; }
 
-/* line 830, ../sass/menu-settings.scss */
+/* line 1161, ../sass/menu-settings.scss */
 .nephritis-bg {
   background: #27ae60; }
 
-/* line 833, ../sass/menu-settings.scss */
+/* line 1164, ../sass/menu-settings.scss */
 .wisteria-bg {
   background: #8e44ad; }
 
-/* line 836, ../sass/menu-settings.scss */
+/* line 1167, ../sass/menu-settings.scss */
 .asbestos-bg {
   background: #7f8c8d; }
 
-/* line 839, ../sass/menu-settings.scss */
+/* line 1170, ../sass/menu-settings.scss */
 .midnight-blue-bg {
   background: #2c3e50; }
 
-/* line 842, ../sass/menu-settings.scss */
+/* line 1173, ../sass/menu-settings.scss */
 .belize-hole-bg {
   background: #2980b9; }

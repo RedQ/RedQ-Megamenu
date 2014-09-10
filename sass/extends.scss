@@ -63,19 +63,19 @@ a.mobile-menu-close {
 
 	.mobile-menu-open {
 		
-		.navbar-default .navbar-nav > li > a {
+		/*.navbar-default .navbar-nav > li > a {
 			font-size: 16px;
 			padding: 15px;
 			color: #575757;
 			border-top: 1px solid #ebebeb;
-		}
+		}*/
 		.navbar-collapse {
 			padding: 0;
 		}
-		ul.sub-menu li {
+		/*ul.sub-menu li {
 			border-top: 1px solid #ebebeb;
 			border-bottom: 0;
-		}
+		}*/
 		ul.sub-menu li a {
 			padding-left: 25px;
 		}
@@ -85,10 +85,10 @@ a.mobile-menu-close {
 		ul.sub-menu ul ul li a {
 			padding-left: 45px;
 		}
-		.redq .columns ul li {
+		/*.redq .columns ul li {
 			border-top: 1px solid #ebebeb;
 			border-bottom: 0;
-		}
+		}*/
 	}
 	.header .navbar .navbar-brand.large {
 		position: relative;

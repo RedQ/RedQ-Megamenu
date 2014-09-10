@@ -81,17 +81,21 @@ a:hover {
   /* line 116, ../sass/style.scss */
   .header.icons-no .nav > li > a > i {
     display: none; }
-  /* line 128, ../sass/style.scss */
-  .header.icons-left .nav > li > a > i {
-    margin-right: 5px; }
-  /* line 132, ../sass/style.scss */
-  .header.icons-left .nav > li > a .link-item {
-    float: right; }
-  /* line 145, ../sass/style.scss */
-  .header.icons-right .nav > li > a > i {
-    display: block;
-    float: right;
-    margin-left: 5px; }
+  /* line 127, ../sass/style.scss */
+  .header.icons-left .nav > li > a {
+    /*.link-item {
+    	float: right;
+    }*/ }
+    /* line 128, ../sass/style.scss */
+    .header.icons-left .nav > li > a > i {
+      margin-right: 5px; }
+  /* line 144, ../sass/style.scss */
+  .header.icons-right .nav > li > a {
+   /*> i {
+   	display: block;
+  	float: right;
+  	margin-left: 5px;
+  }*/ }
 
 /* line 163, ../sass/style.scss */
 .navbar-nav .open > .sub-menu {
