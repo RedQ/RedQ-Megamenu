@@ -89,13 +89,11 @@ a:hover {
     /* line 128, ../sass/style.scss */
     .header.icons-left .nav > li > a > i {
       margin-right: 5px; }
-  /* line 144, ../sass/style.scss */
-  .header.icons-right .nav > li > a {
-   /*> i {
-   	display: block;
-  	float: right;
-  	margin-left: 5px;
-  }*/ }
+  /* line 145, ../sass/style.scss */
+  .header.icons-right .nav > li > a > i {
+    display: block;
+    float: right;
+    margin-left: 5px; }
 
 /* line 163, ../sass/style.scss */
 .navbar-nav .open > .sub-menu {
