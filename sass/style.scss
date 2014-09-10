@@ -546,3 +546,22 @@ ul.sub-menu {
 .widget-video {
 	padding-left: 15px;
 }
+.menu-ribbon {
+	position: absolute;
+	padding: 3px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	/* width: 16px; */
+	background: #5baadf;
+	color: #fff;
+	right: -16px;
+	top: -19px;
+	text-align: center;
+	z-index: 1;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 11px;
+}
