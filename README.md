@@ -2,7 +2,7 @@
 
 ##work in progress . 
 
-  Demo : http://yellowstring.net/mega-menu/
+  Demo : http://faysalhaque.github.io/redq-megamenu/ 
 
 
 
